@@ -9,7 +9,7 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
-    "enabled": False,
+    "enabled": True,
     "repo": "snipersteve/Blog@gh-pages"
 }
 
@@ -22,6 +22,13 @@ email = "sfl05@163.com"
 author_homepage = "https://www.google.com"
 description = "欢迎收看我的激光枪表演。"
 language = 'zh-CN'
+external_links = [
+    {
+        "name": "关于法学",
+        "url": "https://law.snipersetve.fun",
+        "brief": "学法心得"
+    }
+]
 nav = [
     {
         "name": "首页",
