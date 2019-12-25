@@ -27,6 +27,6 @@ Netflix虽好，但上面还是有很多片子是没有的，所以有时还是�
 ![剧集](./images/tv-show.jpg)
 
 这是我当年很喜欢的美剧《冰血暴》，存在NAS上，偶尔看看介绍也是蛮好的。
-![冰雪暴](./images/fargo.jpg)
+![Fargo](./images/fargo.jpg)
 
 折腾了那么多，看剧的时间是越来越少了，忧伤。
