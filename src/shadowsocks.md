@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 科学上网
-slug: about
+slug: ss
 date: 2019/12/25 14:26:00
 author: ste
 ---
