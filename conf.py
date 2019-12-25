@@ -9,24 +9,24 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
-    "enabled": False,
+    "enabled": True,
     "repo": "snipersteve/Blog@gh-pages"
 }
 
 # 站点设置
-site_name = "开始表演"
+site_name = "人生如戏"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-25T10:50+08:00"
 author = "伪装兽"
 email = "sfl05@163.com"
-author_homepage = "https://www.google.com"
-description = "欢迎收看我的激光枪表演。"
+author_homepage = "https://861204.xyz"
+description = "欢迎收看我的激光枪表演"
 language = 'zh-CN'
 external_links = [
     {
         "name": "关于法学",
         "url": "https://law.snipersteve.fun",
-        "brief": "学法心得"
+        "brief": "关于法律的学习心得"
     }
 ]
 nav = [

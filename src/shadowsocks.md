@@ -44,7 +44,7 @@ lean版的openwrt固件非常完善，功能齐备，十分稳定。我也渐渐
 ![openwrt](./images/openwrt.png)
 
 Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。总体能用，成熟后可以部署到主路由上。
-![luci clash](./images/luci clash.jpg)
+![luci-clash](./images/luci clash.jpg)
 
 535期间没事干，翻出早年买的一个小黄路由——GL MT300N V2，在吃灰多年后，经更新固件终于可以支持华为4G网卡，插上即可上网。其固件本质为openwrt，套了个一定制的界面。进ssh刷上ssr plus，可用，但性能较弱。并没有想到可用场景，就当玩玩吧。
 ![随身路由](./images/mt300n.jpg)
