@@ -20,21 +20,10 @@ site_build_date = "2019-12-18T16:51+08:00"
 author = "伪装兽"
 email = "xxx"
 author_homepage = "https://www.google.com"
-description = "只坚持一种正义。我的正义。"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+description = "欢迎收看我的激光枪表演。"
+key_words = []
 language = 'zh-CN'
-external_links = [
-    {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
-    },
-    {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
-    }
-]
+external_links = []
 nav = [
     {
         "name": "首页",
