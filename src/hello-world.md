@@ -6,6 +6,6 @@ date: 2019-12-25 11:50
 author: ste
 ---
 
-暂时不知道说些什么。
+暂时不知道要写什么。
 
 ![hello](./images/hello-world.jpg)
