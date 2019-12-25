@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/Blog-With-GitHub-Boilerplate/"
+site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -21,9 +21,7 @@ author = "伪装兽"
 email = "xxx"
 author_homepage = "https://www.google.com"
 description = "欢迎收看我的激光枪表演。"
-key_words = []
 language = 'zh-CN'
-external_links = []
 nav = [
     {
         "name": "首页",
