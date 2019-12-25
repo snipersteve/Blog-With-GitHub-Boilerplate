@@ -1,12 +1,10 @@
 ---
 layout: page
-title: 关于
+title: 30岁三部曲
 slug: about
 date: 2019/12/25 10:26:00
 author: ste
 ---
-
-# 30岁三部曲
 
 ## 时间管理
 
