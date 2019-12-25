@@ -8,4 +8,4 @@ author: ste
 
 暂时不知道说些什么。
 
-![hello](./images/hello.jpg)
+![hello](./images/hello-world.jpg)
