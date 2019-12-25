@@ -15,7 +15,8 @@ enable_jsdelivr = {
 
 # 站点设置
 site_name = "开始表演"
-site_build_date = "2019-12-25 T10:50+08:00"
+site_logo = "${static_prefix}logo.png"
+site_build_date = "2019-12-25T10:50+08:00"
 author = "伪装兽"
 email = "sfl05@163.com"
 author_homepage = "https://www.google.com"
