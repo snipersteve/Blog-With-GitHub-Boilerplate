@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>人生如戏</title><link>/</link><description>欢迎收看我的激光枪表演</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>人生如戏</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2019 12:18:21 +0806</lastBuildDate><pubDate>Wed, 25 Dec 2019 12:18:21 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道说些什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>人生如戏</title><link>/</link><description>欢迎收看我的激光枪表演</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>人生如戏</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2019 13:11:02 +0806</lastBuildDate><pubDate>Wed, 25 Dec 2019 13:11:02 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道说些什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -43,20 +43,24 @@
 &lt;p&gt;赶上黑五又买了Firestick 4K，接房间的小米电视，十分小巧，正面完全看不出来。这货可以用Alexa来控制，实测效果一般，聊胜于无。放房间其实也很少看，心理感觉好一些罢了。&lt;/p&gt;
 &lt;p&gt;不过Netflix上还是有很多片子是没有的，所以有时还是需要本地片源，原先用的小米路由器硬盘版还是太弱，便上了群晖。群晖上cloudsync堪称下载神器，可以以同步的方案下载百度盘、Google Drive上的资源，这是目前最主流的资源分享渠道了。对于种子或是磁力，也可以通过其自带的Download Station来下载，速度一般。&lt;/p&gt;
 &lt;p&gt;然后为更流畅地看本地4K片源，又买了一个N1，刷coreelec（kodi变体），效果很棒。&lt;/p&gt;
-&lt;p&gt;后来偶然了解到还有Plex这样的神器（待续）。&lt;/p&gt;
+&lt;p&gt;不过老婆嫌NAS太吵，家里太小没办法只能搬去单位，SMB方式变得不可行。后来偶然了解到还有Plex这样的神器，可以远程流媒体传输。群晖上有现成的套件就直接跑了一个，也很简单。不过这货要实时转码，很吃CPU，于是又改而跑在另一个强一的点服务器上。我最喜欢Plex之处在于任意设备直接播放，并且保存播放记录多设备同步。此外，其自带的刮削器也很强，片子的信息基本都能正确地抓到，效果如图：&lt;/p&gt;
+&lt;p&gt;&lt;figure class="pswp-item" style="flex: 89.0125173852573" data-width="1280" data-height="719"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/5408edcfb3afc7f653beb687bde3b4d9.jpg" alt="电影" /&gt;&lt;figcaption&gt;电影&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="pswp-item" style="flex: 89.0125173852573" data-width="1280" data-height="719"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cb3dda4050240c0899872679b38556d6.jpg" alt="剧集" /&gt;&lt;figcaption&gt;剧集&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这是我当年很喜欢的美剧《冰雪暴》，存在NAS上，偶尔看看介绍也是蛮好的。
+&lt;figure class="pswp-item" style="flex: 57.091882247992864" data-width="1280" data-height="1121"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/c889715cf601bbc35cd9a143be5ee4e7.jpg" alt="冰雪暴" /&gt;&lt;figcaption&gt;冰雪暴&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/movie/</guid><pubDate>Wed, 25 Dec 2019 15:26:00 +0806</pubDate></item><item><title>阅读清单</title><link>/archives/reading-list/</link><description>&lt;p&gt;长期不看书是不行的，打算从小说类读物开始重新培养阅读习惯，慢慢向非小说类读物引导。&lt;/p&gt;
 &lt;h2&gt;国语推行员&lt;/h2&gt;
-&lt;p&gt;痞子蔡2019新作，照例读一下。这么多年了，痞子蔡还在写青春文学，真是可以。&lt;/p&gt;
+&lt;p&gt;痞子蔡2019新作，照例读一下。这么多年了，痞子蔡还在写青春文学，真是可以。在高铁上读了几页，以为要喜欢班花，结果他喜欢的是国语推行员，但似乎并没有在一起。&lt;/p&gt;
 &lt;h2&gt;白鹿原&lt;/h2&gt;
-&lt;p&gt;2019.11.12 因为在油管上一电影解说，觉得这部作品非常宏大，于是在飞机上看起来。没想到前面讲的全是娶老婆的事情，描写十分有趣。大约是开卷乐呵呵，看完mmp的节奏。&lt;/p&gt;
+&lt;p&gt;因为在油管上一电影解说，觉得这部作品非常宏大，于是在飞机上看起来。没想到前面讲的全是娶老婆的事情，描写十分有趣。大约是开卷乐呵呵，看完mmp的节奏。&lt;/p&gt;
 &lt;h2&gt;上海堡垒&lt;/h2&gt;
-&lt;p&gt;2019.09.25 因为出差到上海，后又要去浦东坐飞机，顺路坐了磁悬浮。突然想起上海堡垒这本小说里提到“80元往返，50单程；买了往返然后45卖了黄牛票”的描述，才发现十年过去这个价格一直没有变过。&lt;/p&gt;
+&lt;p&gt;出差到上海，后又要去浦东坐飞机，顺路坐了磁悬浮。突然想起上海堡垒这本小说里提到“80元往返，50单程；买了往返然后45卖了黄牛票”的描述，才发现十年过去这个价格一直没有变过。&lt;/p&gt;
 &lt;p&gt;这个小说我其实很喜欢，有科幻剧情，也有爱情桥段，最后牺牲的描写也很壮烈。在有限的篇幅下，非常难得了。电影拍得太垃圾，看了一眼就不想看了。&lt;/p&gt;
 &lt;h2&gt;流浪地球&lt;/h2&gt;
-&lt;p&gt;2019.03.02 短篇，分分钟读完，故事本身没有特别精彩，但剧情还是要比电影强的。不知为什选这部来拍电影，我感觉随便选个大刘作品都比这个强。&lt;/p&gt;
+&lt;p&gt;短篇，分分钟读完，故事本身没有特别精彩，但剧情还是要比电影强的。不知为什选这部来拍电影，我感觉随便选个大刘作品都比这个强。&lt;/p&gt;
 &lt;h2&gt;大江东去&lt;/h2&gt;
-&lt;p&gt;2019.01.10 在出差期间看了大约 10%，感觉主角是 bug，学什么会什么，几乎没任何阻碍。还是雷东宝的人设更合理，在高人指点下，靠极强的执行力获得成功。很喜欢一开始土地承包那部分，也是因为在电视上看到这个剧情才开始看原著的。
-2019.03.09 为了看这本书还专门买了KO2，再次证明三分钟热度。买来之后再未看过，对这部作品也失去了兴趣，太长了，不看了。&lt;/p&gt;
+&lt;p&gt;在出差期间看了大约 10%，感觉主角是 bug，学什么会什么，几乎没任何阻碍。还是雷东宝的人设更合理，在高人指点下，靠极强的执行力获得成功。很喜欢一开始土地承包那部分，也是因为在电视上看到这个剧情才开始看原著的。&lt;/p&gt;
+&lt;p&gt;为了看这本书还专门买了KO2，再次证明三分钟热度。买来之后再未看过，对这部作品也失去了兴趣，太长了，不看了。&lt;/p&gt;
 &lt;h2&gt;待读&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;雪球岛系列投资书&lt;/li&gt;
