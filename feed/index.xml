@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>人生如戏</title><link>/</link><description>欢迎收看我的激光枪表演</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.png</url><title>人生如戏</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2019 11:41:33 +0806</lastBuildDate><pubDate>Wed, 25 Dec 2019 11:41:33 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道说些什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>人生如戏</title><link>/</link><description>欢迎收看我的激光枪表演</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.png</url><title>人生如戏</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2019 11:58:59 +0806</lastBuildDate><pubDate>Wed, 25 Dec 2019 11:58:59 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道说些什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 88.88888888888889" data-width="1920" data-height="1080"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/5c97729349e8938c72ac170e36ff8036.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -40,9 +40,10 @@
 &lt;p&gt;研究生阶段主要看冰与火、纸牌屋为主，追剧真蛋疼，主要通过人人影视等渠道去下载，下载好了和室友一起看。&lt;/p&gt;
 &lt;p&gt;毕业后买了一个小米电视盒子，以及一台小米路由硬盘版。这个路由可以自动追剧，喜欢的剧会自己下载下来，非常方便。然后用盒子可以直接SMB访问路由看，自动匹配字幕。非常给力。主要看了疑犯追踪，追到后面实在有些累。&lt;/p&gt;
 &lt;p&gt;后来买了Netflix会员及线路，在电视上用Xbox看，效果非常好。不过渐渐失去了耐心，只能看短剧，比如碳变、爱死机以及黑镜。其它一些牛剧，我基本只看三集就不想继续看了。这大约是一种病。&lt;/p&gt;
-&lt;p&gt;赶上黑五又买了Firestick 4K，接房间的小米电视，十分小巧，正面完全看不出来。这货可以用alexa来控制，实测效果一般，聊胜于无。放房间其实也很少看，心理感觉好一些罢了。&lt;/p&gt;
-&lt;p&gt;不过Netflix上还是有很多片子是没有的。&lt;/p&gt;
-&lt;p&gt;后来偶然了解到还有Plex这样的神器&lt;/p&gt;
+&lt;p&gt;赶上黑五又买了Firestick 4K，接房间的小米电视，十分小巧，正面完全看不出来。这货可以用Alexa来控制，实测效果一般，聊胜于无。放房间其实也很少看，心理感觉好一些罢了。&lt;/p&gt;
+&lt;p&gt;不过Netflix上还是有很多片子是没有的，所以有时还是需要本地片源，原先用的小米路由器硬盘版还是太弱，便上了群晖。群晖上cloudsync堪称下载神器，可以以同步的方案下载百度盘、Google Drive上的资源，这是目前最主流的资源分享渠道了。对于种子或是磁力，也可以通过其自带的Download Station来下载，速度一般。&lt;/p&gt;
+&lt;p&gt;然后为更流畅地看本地4K片源，又买了一个N1，刷coreelec（kodi变体），效果很棒。&lt;/p&gt;
+&lt;p&gt;后来偶然了解到还有Plex这样的神器（待续）。&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/movie/</guid><pubDate>Wed, 25 Dec 2019 15:26:00 +0806</pubDate></item><item><title>阅读清单</title><link>/archives/reading-list/</link><description>&lt;p&gt;长期不看书是不行的，打算从小说类读物开始重新培养阅读习惯，慢慢向非小说类读物引导。&lt;/p&gt;
 &lt;h2&gt;国语推行员&lt;/h2&gt;
 &lt;p&gt;痞子蔡2019新作，照例读一下。这么多年了，痞子蔡还在写青春文学，真是可以。&lt;/p&gt;
