@@ -44,3 +44,5 @@ author: ste
 - 海伯利安
 - 基地系列
 - 在耶鲁精进
+
+![Kindle Oasis 2](./images/KO2.jpg)
