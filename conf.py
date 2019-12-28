@@ -27,6 +27,11 @@ external_links = [
         "name": "关于法学",
         "url": "https://law.snipersteve.fun",
         "brief": "关于法律的学习心得"
+    },
+    {
+        "name": "毛总的博客",
+        "url": "https://leo.red",
+        "brief": "人是万物的尺度"
     }
 ]
 nav = [
