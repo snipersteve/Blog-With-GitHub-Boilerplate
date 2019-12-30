@@ -62,4 +62,4 @@ Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处�
 这一感觉和网友[@cxiaoji](https://twitter.com/i/web/status/1126165698978271232)说的很像：
 >我对数据结构有非常美好的回忆。我真正开始理解编程就是在贵系蹭的数据结构课。老师没打开过教材，上课就一个编辑器，从头写一个类，一边讲一边往里面添方法。讲完编译，测试，通过，正好下课。我期末要熬图根本没工夫复习的，但是这门课学的东西一点都没忘。
 
-今天碰巧看到关于shadowsocks发展史的一篇[文章](https://github.com/JadaGates/ShadowsocksBio)，让人唏嘘不已。其中ss和ssr的故事再一次重演，发生在clash和clashr上。Dreamacro写的clash为开源项目，但不支持ssr协议；因很多机场只提供ssr节点，广大小白用户希望支持ssr协议的呼声很高；lvguangfa在clash核心上加了ssr支持，闭源，向机场主收费，被人肉，被迫开源。历史总是惊人相似。
+今天碰巧看到关于shadowsocks发展史的一篇[文章](https://github.com/JadaGates/ShadowsocksBio)，让人唏嘘不已。其中ss和ssr的故事再一次重演，发生在clash和clashr上。Dreamacro写的clash为开源项目，但不支持ssr协议；因很多机场只提供ssr节点，广大小白用户希望支持ssr协议的呼声很高；lvguangfa在clash核心上加了ssr支持，闭源，向机场主收费，被人肉，被迫开源。历史总是惊人的相似。
