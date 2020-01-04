@@ -14,13 +14,13 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "人生如戏"
+site_name = "科学生活"
 site_logo = "${static_prefix}icon.png"
 site_build_date = "2019-12-25T10:50+08:00"
 author = "伪装兽"
 email = "sfl05@163.com"
 author_homepage = "https://861204.xyz"
-description = "欢迎收看我的激光枪表演"
+description = "做什么都得走点技术流"
 language = 'zh-CN'
 external_links = [
     {
