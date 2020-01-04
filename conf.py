@@ -25,7 +25,7 @@ language = 'zh-CN'
 external_links = [
     {
         "name": "关于法学",
-        "url": "https://law.snipersteve.fun",
+        "url": "https://law.861204.xyz",
         "brief": "关于法律的学习心得"
     },
     {
