@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 科学RSS
+title: 科学订阅
 slug: rss
 date: 2020/1/4 20:26:00
 author: ste
@@ -11,22 +11,30 @@ author: ste
 通过Google找到了Feed43，原理蛮简单，就是定时去读取网站内容，然后用类似正则的方式去匹配内容信息。试了一下就会了，制作了国家发改委、能源局等网站的RSS。
 ![Feed43](./images/feed43.png)
 
-下一步就是要找个RSS阅读器了，这类app现在做的人也不多了，iOS上尚有不少优秀app，安卓上都找不到合适。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，没几天就告诉我因服务器问题下线了。所以还是得自己动手。
+下一步就是要找个RSS阅读器了，现在RSS式微，iOS上尚有不少优秀app，安卓上都找不到合适。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了。所以还是得自己动手。
 
-辗转找到了一个go语言写的开源机器人flowerss-bot，我一看有Docker版，第一时间想到就是用群晖跑，然而一直没弄清config要放在哪个文件夹下，没跑成功。
+找到了一个go语言写的开源机器人flowerss-bot，我一看有Docker版，第一时间想到就是用群晖跑，然而一直没弄清config要放在哪个位置，没跑成功。
 
-回家就想起那个吃灰的N1，原本刷了coreelec看片用，后来换Plex就用不上了。于是拿出来刷成Armbian并写入emmc，因为有前人经验，所以这一步很顺利。
+想起那个吃灰的N1，原本刷了coreelec看片用，后来换Plex就用不上了。于是拿出来刷成armbian并写入emmc。因为有前人经验，dtb什么的都搞好了，所以这一步很顺利。
 ![armbian](./images/armbian.jpg)
 
-然后继续装上Docker，并弄好图形界面，这一步也挺顺利。
+然后继续装上Docker，并弄好图形界面，这一步也挺顺利。这个可视化界面没有群晖的直观，不过多摸索一下大致也清楚了，功能上更强大。
 ![Portainer](./images/portainer.jpg)
 
-然而再进一步要运行flowerss的Docker时才发现，这个docker并不支持arm框架，等于白搞了。事实上，这些现成的docker普遍都不支持arm。本来用docker是想简单些，却反而弄复杂了，还不如直接编译。于是装了go，然后直接编译了一个。
+然而再进一步要运行flowerss的Docker时才发现，这个docker并不支持arm框架，等于白搞了。事实上，这些现成的docker普遍都不支持arm。于是索性直接编译，先装了go，然后go build。
 ![flowerss](./images/flowerss.jpg)
 
-终于跑起来了，还是为了配置文件的位置折腾了一下，不过最终搞定了，效果如下：
+终于跑起来了，还是为了配置数据库的原因折腾了一下，最后发现不配置就可以运行。效果如下：
 ![Telegram](./images/telegram.jpg)
 
-这样就可以在第一时间了解到这些网站的最新政策动向了，对于工作有很大的帮助（maybe）。
+然而还是想要Docker那种可以可视化操作，于是继续打包为Docker镜像，"docker build ."，我因为少打了一个"."，折腾了很久。
+
+这毕竟是我第一次打包Docker镜像，试了好多次，终于成功了。
+![Docker build](./images/docker-build.png)
+
+然后在Portaner里新建一个容器，成功跑起来了。这样就可以方便地查看日志以及远程访问了。
+![Docker run](./images/docker-run.png)
+
+折腾了半天只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。
 
 完结撒花。
