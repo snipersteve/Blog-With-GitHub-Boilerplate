@@ -17,21 +17,21 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/9e14ef7e2993315082b03b69492a8dbe.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/0fff5e998a4baf892bf7a25fe6c3465e.json"
         }
     </script>
     
-<title>科学RSS - 科学生活</title>
+<title>科学订阅 - 科学生活</title>
 <meta name="author" content="ste" />
 <meta name="description" content="十年前是RSS盛行的年代，十年后已变成了微信公众号的天下。微信公众号给出了一种比较简便的内容发布方案，但是不够开放，算是进步和退步吧。2019年8、9月份的时候，因为需要跟踪上海发改委网站上关于奉贤海上风电项目竞价的情况，每天打开网站看一遍，真是太蛋疼了。于是想到了自己去烧制一个RSS。" />
-<meta property="og:title" content="科学RSS - 科学生活" />
+<meta property="og:title" content="科学订阅 - 科学生活" />
 <meta property="og:description" content="十年前是RSS盛行的年代，十年后已变成了微信公众号的天下。微信公众号给出了一种比较简便的内容发布方案，但是不够开放，算是进步和退步吧。2019年8、9月份的时候，因为需要跟踪上海发改委网站上关于奉贤海上风电项目竞价的情况，每天打开网站看一遍，真是太蛋疼了。于是想到了自己去烧制一个RSS。" />
 <meta property="og:site_name" content="科学生活" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/archives/rss/" />
 <meta property="og:image" content="" />
 <meta property="article:published_time" content="2020-01-04T20:26:00-00.00" />
-<meta name="twitter:title" content="科学RSS - 科学生活" />
+<meta name="twitter:title" content="科学订阅 - 科学生活" />
 <meta name="twitter:description" content="十年前是RSS盛行的年代，十年后已变成了微信公众号的天下。微信公众号给出了一种比较简便的内容发布方案，但是不够开放，算是进步和退步吧。2019年8、9月份的时候，因为需要跟踪上海发改委网站上关于奉贤海上风电项目竞价的情况，每天打开网站看一遍，真是太蛋疼了。于是想到了自己去烧制一个RSS。" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
@@ -72,7 +72,7 @@
 <main>    
     <section class="ga-section ga-content">
         <article class="yue">
-            <h1 class="ga-post_title">科学RSS</h1>
+            <h1 class="ga-post_title">科学订阅</h1>
             <span class="ga-post_meta ga-mono">
                 <span>ste</span>
                 <time>
@@ -85,17 +85,22 @@
                 <p>十年前是RSS盛行的年代，十年后已变成了微信公众号的天下。微信公众号给出了一种比较简便的内容发布方案，但是不够开放，算是进步和退步吧。2019年8、9月份的时候，因为需要跟踪上海发改委网站上关于奉贤海上风电项目竞价的情况，每天打开网站看一遍，真是太蛋疼了。于是想到了自己去烧制一个RSS。</p>
 <p>通过Google找到了Feed43，原理蛮简单，就是定时去读取网站内容，然后用类似正则的方式去匹配内容信息。试了一下就会了，制作了国家发改委、能源局等网站的RSS。
 <figure class="pswp-item" style="flex: 77.50533049040511" data-width="727" data-height="469"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/08a8289311e92cf80d9ed7bd1b4aac23.png" alt="Feed43" /><figcaption>Feed43</figcaption></figure></p>
-<p>下一步就是要找个RSS阅读器了，这类app现在做的人也不多了，iOS上尚有不少优秀app，安卓上都找不到合适。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，没几天就告诉我因服务器问题下线了。所以还是得自己动手。</p>
-<p>辗转找到了一个go语言写的开源机器人flowerss-bot，我一看有Docker版，第一时间想到就是用群晖跑，然而一直没弄清config要放在哪个文件夹下，没跑成功。</p>
-<p>回家就想起那个吃灰的N1，原本刷了coreelec看片用，后来换Plex就用不上了。于是拿出来刷成Armbian并写入emmc，因为有前人经验，所以这一步很顺利。
+<p>下一步就是要找个RSS阅读器了，现在RSS式微，iOS上尚有不少优秀app，安卓上都找不到合适。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了。所以还是得自己动手。</p>
+<p>找到了一个go语言写的开源机器人flowerss-bot，我一看有Docker版，第一时间想到就是用群晖跑，然而一直没弄清config要放在哪个位置，没跑成功。</p>
+<p>想起那个吃灰的N1，原本刷了coreelec看片用，后来换Plex就用不上了。于是拿出来刷成armbian并写入emmc。因为有前人经验，dtb什么的都搞好了，所以这一步很顺利。
 <figure class="pswp-item" style="flex: 60.0" data-width="840" data-height="700"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d39d45d456ce8f1e35cb565b4c975510.jpg" alt="armbian" /><figcaption>armbian</figcaption></figure></p>
-<p>然后继续装上Docker，并弄好图形界面，这一步也挺顺利。
+<p>然后继续装上Docker，并弄好图形界面，这一步也挺顺利。这个可视化界面没有群晖的直观，不过多摸索一下大致也清楚了，功能上更强大。
 <figure class="pswp-item" style="flex: 109.93377483443709" data-width="996" data-height="453"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/09f523119662ab07e2f6f8048150b710.jpg" alt="Portainer" /><figcaption>Portainer</figcaption></figure></p>
-<p>然而再进一步要运行flowerss的Docker时才发现，这个docker并不支持arm框架，等于白搞了。事实上，这些现成的docker普遍都不支持arm。本来用docker是想简单些，却反而弄复杂了，还不如直接编译。于是装了go，然后直接编译了一个。
+<p>然而再进一步要运行flowerss的Docker时才发现，这个docker并不支持arm框架，等于白搞了。事实上，这些现成的docker普遍都不支持arm。于是索性直接编译，先装了go，然后go build。
 <figure class="pswp-item" style="flex: 59.857142857142854" data-width="838" data-height="700"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6203067fe124d3800c874248ca9d2dea.jpg" alt="flowerss" /><figcaption>flowerss</figcaption></figure></p>
-<p>终于跑起来了，还是为了配置文件的位置折腾了一下，不过最终搞定了，效果如下：
+<p>终于跑起来了，还是为了配置数据库的原因折腾了一下，最后发现不配置就可以运行。效果如下：
 <figure class="pswp-item" style="flex: 23.984375" data-width="614" data-height="1280"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1acb09eac4c94b668fe0f6040940cc41.jpg" alt="Telegram" /><figcaption>Telegram</figcaption></figure></p>
-<p>这样就可以在第一时间了解到这些网站的最新政策动向了，对于工作有很大的帮助（maybe）。</p>
+<p>然而还是想要Docker那种可以可视化操作，于是继续打包为Docker镜像，"docker build ."，我因为少打了一个"."，折腾了很久。</p>
+<p>这毕竟是我第一次打包Docker镜像，试了好多次，终于成功了。
+<figure class="pswp-item" style="flex: 60.0" data-width="840" data-height="700"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/632e687213fa9d18d59efdaf6a275b59.png" alt="Docker build" /><figcaption>Docker build</figcaption></figure></p>
+<p>然后在Portaner里新建一个容器，成功跑起来了。这样就可以方便地查看日志以及远程访问了。
+<figure class="pswp-item" style="flex: 139.16666666666666" data-width="668" data-height="240"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/446525792d52f2949a04aff776f8b0e7.png" alt="Docker run" /><figcaption>Docker run</figcaption></figure></p>
+<p>折腾了半天只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。</p>
 <p>完结撒花。</p>
 
             </div>
