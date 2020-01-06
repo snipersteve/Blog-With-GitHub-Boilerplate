@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 05 Jan 2020 13:21:17 +0806</lastBuildDate><pubDate>Sun, 05 Jan 2020 13:21:17 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 06 Jan 2020 13:44:23 +0806</lastBuildDate><pubDate>Mon, 06 Jan 2020 13:44:23 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -80,7 +80,9 @@
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/reading-list/</guid><pubDate>Wed, 25 Dec 2019 18:26:00 +0806</pubDate></item><item><title>科学订阅</title><link>/archives/rss/</link><description>&lt;p&gt;十年前是RSS盛行的年代，十年后已变成了微信公众号的天下。微信公众号给出了一种比较简便的内容发布方案，但是不够开放，算是进步和退步吧。2019年8、9月份的时候，因为需要跟踪上海发改委网站上关于奉贤海上风电项目竞价的情况，每天打开网站看一遍，真是太蛋疼了。于是想到了自己去烧制一个RSS。&lt;/p&gt;
 &lt;p&gt;通过Google找到了Feed43，原理蛮简单，就是定时去读取网站内容，然后用类似正则的方式去匹配内容信息。试了一下就会了，制作了国家发改委、能源局等网站的RSS。
 &lt;figure class="pswp-item" style="flex: 77.50533049040511" data-width="727" data-height="469"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/08a8289311e92cf80d9ed7bd1b4aac23.png" alt="Feed43" /&gt;&lt;figcaption&gt;Feed43&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;下一步就是要找个RSS阅读器了，现在RSS式微，iOS上尚有不少优秀app，安卓上都找不到合适。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了。所以还是得自己动手。&lt;/p&gt;
+&lt;p&gt;然后把这个feed丢到任何一个RSS阅读器即完成订阅。完工。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;不过折腾总是不会这么快结束，还想要在手机上也能方便得收到实时推送。然而现在RSS式微，iOS上尚有不少优秀app，安卓上都找不到合适的。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了。所以还是得自己动手。&lt;/p&gt;
 &lt;p&gt;找到了一个go语言写的开源机器人flowerss-bot，我一看有Docker版，第一时间想到就是用群晖跑，然而一直没弄清config要放在哪个位置，没跑成功。&lt;/p&gt;
 &lt;p&gt;想起那个吃灰的N1，原本刷了coreelec看片用，后来换Plex就用不上了。于是拿出来刷成armbian并写入emmc。因为有前人经验，dtb什么的都搞好了，所以这一步很顺利。
 &lt;figure class="pswp-item" style="flex: 60.0" data-width="840" data-height="700"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d39d45d456ce8f1e35cb565b4c975510.jpg" alt="armbian" /&gt;&lt;figcaption&gt;armbian&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -95,6 +97,12 @@
 &lt;figure class="pswp-item" style="flex: 60.0" data-width="840" data-height="700"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/632e687213fa9d18d59efdaf6a275b59.png" alt="Docker build" /&gt;&lt;figcaption&gt;Docker build&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;然后在Portaner里新建一个容器，成功跑起来了。这样就可以方便地查看日志以及远程访问了。
 &lt;figure class="pswp-item" style="flex: 139.16666666666666" data-width="668" data-height="240"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/446525792d52f2949a04aff776f8b0e7.png" alt="Docker run" /&gt;&lt;figcaption&gt;Docker run&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然而在看日志的时候发现，Feed43的源可能因为稳定性问题经常抓不到，而且其本身限制6小时抓一次，也不够及时。于是转而又找到一个叫RssHub的项目，也可以Docker运行，跑在自己的服务器上更放心。不过这个工具就没有那简便的可视化规则编辑界面了，需要用js语言自己写“路由”。我本想找一个路由规则抄抄，但由于完全不懂js，始终不成功。最后还是要感谢毛总（见友链）帮我写了规则，我在旁边看得一脸蒙蔽。
+&lt;figure class="pswp-item" style="flex: 47.72393538913363" data-width="650" data-height="681"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6573176ea9b6f38db1ea6e15af59fbac.png" alt="路由规则" /&gt;&lt;figcaption&gt;路由规则&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;最终毛总用一个中午的时间帮我实现了国家发改委网站的抓取，并在调试后优化。抓取的内容如图：
+&lt;figure class="pswp-item" style="flex: 76.27986348122867" data-width="894" data-height="586"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/15e6b77b93fc121614250b380ef564e4.png" alt="feed" /&gt;&lt;figcaption&gt;feed&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;把这几个容器都跑在N1这台小机器上，性能还是可以的。
+&lt;figure class="pswp-item" style="flex: 134.6153846153846" data-width="1015" data-height="377"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6a85d5bb7ce7ca960d602a653945790b.png" alt="容器" /&gt;&lt;figcaption&gt;容器&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;折腾了半天只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。&lt;/p&gt;
 &lt;p&gt;完结撒花。&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/rss/</guid><pubDate>Sat, 04 Jan 2020 20:26:00 +0806</pubDate></item></channel></rss>
