@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/148d65d8a069d4e739af79c8173611fd.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/007155308dd8b7301fb5ea9fc29354ec.json"
         }
     </script>
     
@@ -102,12 +102,15 @@
 <figure class="pswp-item" style="flex: 60.0" data-width="840" data-height="700"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/632e687213fa9d18d59efdaf6a275b59.png" alt="Docker build" /><figcaption>Docker build</figcaption></figure></p>
 <p>然后在Portaner里新建一个容器，成功跑起来了。这样就可以方便地查看日志以及远程访问了。
 <figure class="pswp-item" style="flex: 139.16666666666666" data-width="668" data-height="240"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/446525792d52f2949a04aff776f8b0e7.png" alt="Docker run" /><figcaption>Docker run</figcaption></figure></p>
-<p>然而在看日志的时候发现，Feed43的源可能因为稳定性问题经常抓不到，而且其本身限制6小时抓一次，也不够及时。于是转而又找到一个叫RssHub的项目，也可以Docker运行，跑在自己的服务器上更放心。不过这个工具就没有那简便的可视化规则编辑界面了，需要用js语言自己写“路由”。我本想找一个路由规则抄抄，但由于完全不懂js，始终不成功。最后还是要感谢毛总（见友链）帮我写了规则，我在旁边看得一脸蒙蔽。
+<hr>
+<p>然而在看日志的时候发现，Feed43的源可能因为稳定性问题经常抓不到，而且其本身限制6小时抓一次，也不够及时。于是转而又找到一个叫RssHub的项目，也可以Docker运行，跑在自己的服务器上更放心。不过这个工具就没有那简便的可视化规则编辑界面了，需要用js语言自己写“路由”。我本想找一个路由规则抄抄，但由于完全不懂js，始终不成功。最后还是要感谢毛总帮我写了规则，我在旁边看得一脸蒙蔽。
 <figure class="pswp-item" style="flex: 47.72393538913363" data-width="650" data-height="681"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6573176ea9b6f38db1ea6e15af59fbac.png" alt="路由规则" /><figcaption>路由规则</figcaption></figure></p>
 <p>最终毛总用一个中午的时间帮我实现了国家发改委网站的抓取，并在调试后优化。抓取的内容如图：
 <figure class="pswp-item" style="flex: 76.27986348122867" data-width="894" data-height="586"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/15e6b77b93fc121614250b380ef564e4.png" alt="feed" /><figcaption>feed</figcaption></figure></p>
-<p>把这几个容器都跑在N1这台小机器上，性能还是可以的。
-<figure class="pswp-item" style="flex: 134.6153846153846" data-width="1015" data-height="377"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6a85d5bb7ce7ca960d602a653945790b.png" alt="容器" /><figcaption>容器</figcaption></figure></p>
+<p>不过脱离毛总支持后，我尝试自己写路由，还是不成功。这个工具门槛还是偏高，是我学习js和git的一条进路。</p>
+<hr>
+<p>转而找到另一个工具huginn，直接跑Docker就行，有可视化界面，编写规则和测试都简单很多。</p>
+<hr>
 <p>折腾了半天只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。</p>
 <p>完结撒花。</p>
 
