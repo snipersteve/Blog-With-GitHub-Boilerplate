@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 08 Jan 2020 02:41:17 +0806</lastBuildDate><pubDate>Wed, 08 Jan 2020 02:41:17 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 08 Jan 2020 07:54:51 +0806</lastBuildDate><pubDate>Wed, 08 Jan 2020 07:54:51 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -98,14 +98,21 @@
 &lt;p&gt;然后在Portaner里新建一个容器，成功跑起来了。这样就可以方便地查看日志以及远程访问了。
 &lt;figure class="pswp-item" style="flex: 139.16666666666666" data-width="668" data-height="240"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/446525792d52f2949a04aff776f8b0e7.png" alt="Docker run" /&gt;&lt;figcaption&gt;Docker run&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;然而在看日志的时候发现，Feed43的源可能因为稳定性问题经常抓不到，而且其本身限制6小时抓一次，也不够及时。于是转而又找到一个叫RssHub的项目，也可以Docker运行，跑在自己的服务器上更放心。不过这个工具就没有那简便的可视化规则编辑界面了，需要用js语言自己写“路由”。我本想找一个路由规则抄抄，但由于完全不懂js，始终不成功。最后还是要感谢毛总帮我写了规则，我在旁边看得一脸蒙蔽。
+&lt;p&gt;然而在看日志的时候发现，Feed43的源可能因为稳定性问题经常抓不到xml，而且其本身限制6小时抓一次，也不够及时。于是转而又找到一个叫RssHub的项目，也可以Docker运行，跑在自己的服务器上更放心。不过这个工具就没有那简便的可视化规则编辑界面了，需要用js语言自己写“路由”。我本想找一个路由规则抄抄，但由于完全不懂js，始终不成功。最后还是要感谢毛总帮我写了规则，我在旁边看得一脸蒙蔽。
 &lt;figure class="pswp-item" style="flex: 47.72393538913363" data-width="650" data-height="681"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6573176ea9b6f38db1ea6e15af59fbac.png" alt="路由规则" /&gt;&lt;figcaption&gt;路由规则&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;最终毛总用一个中午的时间帮我实现了国家发改委网站的抓取，并在调试后优化。抓取的内容如图：
 &lt;figure class="pswp-item" style="flex: 76.27986348122867" data-width="894" data-height="586"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/15e6b77b93fc121614250b380ef564e4.png" alt="feed" /&gt;&lt;figcaption&gt;feed&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;不过脱离毛总支持后，我尝试自己写路由，还是不成功。这个工具门槛还是偏高，是我学习js和git的一条进路。&lt;/p&gt;
+&lt;p&gt;我尝试在脱离毛总支持的情况下自己写路由，一直不成功。这个工具的门槛还是偏高，我暂时驾驭不了，或许是我学习js和git的一条进路。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;转而找到另一个工具huginn，直接跑Docker就行，有可视化界面，通过指定xpath路径实现内容抓取，编写规则和测试都简单很多。不过实际用下来，还是会遇到各种奇怪情况，比如链接的拼接，我一直没搞定，还是得找毛总帮忙。&lt;/p&gt;
+&lt;p&gt;转而找到另一个工具huginn，直接跑Docker就行，有可视化界面，通过指定xpath路径实现内容抓取，编写规则和测试都简单很多。我试着写了规则，很快就抓到内容了。
+&lt;figure class="pswp-item" style="flex: 74.32885906040268" data-width="1329" data-height="894"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/00238f3763824949fb4ca1554a0a606d.png" alt="huginn" /&gt;&lt;figcaption&gt;huginn&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然而，这里抓取的链接并不完整，还需要拼接上网址前缀；但又偏偏多了一个点，很难处理。于是还是得靠毛总帮忙：
+&lt;figure class="pswp-item" style="flex: 72.77960526315789" data-width="885" data-height="608"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/fb0dd868d8a2e90b243d0230f38a8d33.png" alt="agent rule" /&gt;&lt;figcaption&gt;agent rule&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;这只是抓取的agent，还需要再另建一个rss的agent，把抓到的数据进行输出，太累。&lt;/h2&gt;
+&lt;p&gt;折腾了半天可能还是Feed43最适合我，时效性和稳定性上会略差一点，但是影响不大（又不是不能用）。&lt;/p&gt;
+&lt;p&gt;为了能让别人也能看到这些订阅结果，又另新建一个频道，并把bot加进去，由bot来推送信息。
+&lt;figure class="pswp-item" style="flex: 23.984375" data-width="614" data-height="1280"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d445ed812b93120c0a9e33bdfbc20874.jpg" alt="频道" /&gt;&lt;figcaption&gt;频道&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;折腾了半天可能还是Feed43最适合我，时效性和稳定性上会略差一点，但是影响不大。搞了这么多东西，只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。&lt;/p&gt;
+&lt;p&gt;搞了这么多东西，只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。&lt;/p&gt;
 &lt;p&gt;完结撒花。&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/rss/</guid><pubDate>Sat, 04 Jan 2020 20:26:00 +0806</pubDate></item></channel></rss>
