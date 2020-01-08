@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 08 Jan 2020 07:54:51 +0806</lastBuildDate><pubDate>Wed, 08 Jan 2020 07:54:51 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 08 Jan 2020 07:59:13 +0806</lastBuildDate><pubDate>Wed, 08 Jan 2020 07:59:13 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -106,10 +106,11 @@
 &lt;hr&gt;
 &lt;p&gt;转而找到另一个工具huginn，直接跑Docker就行，有可视化界面，通过指定xpath路径实现内容抓取，编写规则和测试都简单很多。我试着写了规则，很快就抓到内容了。
 &lt;figure class="pswp-item" style="flex: 74.32885906040268" data-width="1329" data-height="894"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/00238f3763824949fb4ca1554a0a606d.png" alt="huginn" /&gt;&lt;figcaption&gt;huginn&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;然而，这里抓取的链接并不完整，还需要拼接上网址前缀；但又偏偏多了一个点，很难处理。于是还是得靠毛总帮忙：
+&lt;p&gt;然而，这里抓取的链接并不完整，还需要拼接上网址前缀；但又偏偏多了一个点，很难处理。于是还是得靠毛总帮忙，终于把那个点去掉了。
 &lt;figure class="pswp-item" style="flex: 72.77960526315789" data-width="885" data-height="608"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/fb0dd868d8a2e90b243d0230f38a8d33.png" alt="agent rule" /&gt;&lt;figcaption&gt;agent rule&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h2&gt;这只是抓取的agent，还需要再另建一个rss的agent，把抓到的数据进行输出，太累。&lt;/h2&gt;
-&lt;p&gt;折腾了半天可能还是Feed43最适合我，时效性和稳定性上会略差一点，但是影响不大（又不是不能用）。&lt;/p&gt;
+&lt;p&gt;这还只是抓取的agent，还需要再另建一个生成rss的agent，把抓到的数据进行输出，有点麻烦。&lt;/p&gt;
+&lt;p&gt;折腾了半天可能还是Feed43最适合我，时效性和稳定性上虽然会略差一点，但是影响不大（又不是不能用）。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;为了能让别人也能看到这些订阅结果，又另新建一个频道，并把bot加进去，由bot来推送信息。
 &lt;figure class="pswp-item" style="flex: 23.984375" data-width="614" data-height="1280"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d445ed812b93120c0a9e33bdfbc20874.jpg" alt="频道" /&gt;&lt;figcaption&gt;频道&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
