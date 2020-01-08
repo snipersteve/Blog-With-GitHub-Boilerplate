@@ -30,7 +30,7 @@ external_links = [
     },
     {
         "name": "毛总的博客",
-        "url": "https://leo.red",
+        "url": "https://blog.leo.red/",
         "brief": "人是万物的尺度"
     }
 ]
