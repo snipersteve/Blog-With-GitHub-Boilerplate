@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/8ac9356b2b16fdd440383088c0c2355c.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/5da969ca67a57c76ac7d9dabee88eda6.json"
         }
     </script>
     
@@ -87,11 +87,10 @@
 <figure class="pswp-item" style="flex: 77.50533049040511" data-width="727" data-height="469"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/08a8289311e92cf80d9ed7bd1b4aac23.png" alt="Feed43" /><figcaption>Feed43</figcaption></figure></p>
 <p>然后把这个feed丢到任何一个RSS阅读器即完成订阅。完工。</p>
 <hr>
-<p>不过折腾总是不会这么快结束，还想要在手机上也能方便得收到实时推送。然而现在RSS式微，iOS上尚有不少优秀app，安卓上都找不到合适的。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了。所以还是得自己动手。</p>
-<p>找到了一个go语言写的开源机器人flowerss-bot，我一看有Docker版，第一时间想到就是用群晖跑，然而由于官方镜像有点问题，没跑成功。</p>
-<p>想起家里还有个吃灰的N1，原本刷了coreelec看片用，后来换Plex就用不上了。于是拿出来刷成armbian并写入emmc。因为有前人经验，dtb什么的都搞好了，所以这一步很顺利。
+<p>不过折腾总是不会这么快结束，还想要在手机上也能方便得收到实时推送。然而现在RSS式微，iOS上尚有不少优秀app，安卓上都找不到合适的。转而想到Telegram，果然有人提供rss bot可以直接用。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了，所以还是得自己动手。顺着这个bot找到了源码，是一个go语言写的开源机器人：flowerss-bot。</p>
+<p>为了跑这个服务，把家里吃灰的N1拿出来刷成了armbian。这台N1原本是刷了coreelec看片用，后来换Plex就用不上了。U盘刷完armbian后引导启动成功，再写入emmc。因为有前人经验，dtb什么的都搞好了，所以这一步很顺利。
 <figure class="pswp-item" style="flex: 60.0" data-width="840" data-height="700"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d39d45d456ce8f1e35cb565b4c975510.jpg" alt="armbian" /><figcaption>armbian</figcaption></figure></p>
-<p>然后继续装上Docker，并弄好图形界面，这一步也挺顺利。这个可视化界面没有群晖的直观，不过多摸索一下大致也清楚了，功能上更强大。
+<p>然后继续装上Docker，并弄好图形界面，这一步也挺顺利。
 <figure class="pswp-item" style="flex: 109.93377483443709" data-width="996" data-height="453"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/09f523119662ab07e2f6f8048150b710.jpg" alt="Portainer" /><figcaption>Portainer</figcaption></figure></p>
 <p>然而再进一步要运行flowerss的Docker时才发现，这个docker并不支持arm框架，等于白搞了。事实上，这些现成的docker普遍都不支持arm。于是索性直接编译，先装了go，然后go build。
 <figure class="pswp-item" style="flex: 59.857142857142854" data-width="838" data-height="700"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6203067fe124d3800c874248ca9d2dea.jpg" alt="flowerss" /><figcaption>flowerss</figcaption></figure></p>
@@ -117,8 +116,10 @@
 <p>这还只是抓取的agent，还需要再另建一个生成rss的agent，把抓到的数据进行输出，有点麻烦。这东西看起来简单，但实际实现起来还是不易，可能还不如RssHub。折腾了半天可能还是Feed43最适合我，时效性和稳定性上虽然会略差一点，但是影响不大（又不是不能用）。</p>
 <hr>
 <p>为了能让别人也能看到这些订阅结果，又另新建一个频道，并把bot加进去，由bot来推送信息。
-<figure class="pswp-item" style="flex: 23.984375" data-width="614" data-height="1280"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d445ed812b93120c0a9e33bdfbc20874.jpg" alt="频道" /><figcaption>频道</figcaption></figure></p>
-<hr>
+<figure class="pswp-item" style="flex: 23.984375" data-width="614" data-height="1280"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3a3e92aca4b13c38b5d57cd11d58d5ea.png" alt="频道" /><figcaption>频道</figcaption></figure></p>
+<p>这个rssbot实在是太好用，非常喜欢，于是决定拿群晖再跑一个公开用。然而由于官方镜像有点问题，没跑成功，于是用dockerhub在线编译了一个。
+<figure class="pswp-item" style="flex: 106.08465608465609" data-width="1604" data-height="756"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3548a891017192275a0ad47b952a5247.png" alt="dockerhub" /><figcaption>dockerhub</figcaption></figure></p>
+<h2>可以拿这个镜像自己跑，也可以直接用<a href="https://t.me/new_rss_bot">这个</a>，不保证长期可用性。</h2>
 <p>搞了这么多东西，只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。这次折腾的附带体会是，Docker真好用，很多原本商业化的服务，现在也可以很简单地在自己的服务器上跑了；服务器也未必一定是个大家伙，像N1这样的小盒子，甚至是更小的pi，都是很不错的轻量服务器；portainer这个容器管理界面我也很喜欢，比群晖那个更灵活，配置更丰富，远程访问也更为方便。
 <figure class="pswp-item" style="flex: 107.74410774410775" data-width="1280" data-height="594"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/9152dd75e3941cfc6ba159a58cd249dd.jpg" alt="容器" /><figcaption>容器</figcaption></figure></p>
 <p>完结撒花。</p>
