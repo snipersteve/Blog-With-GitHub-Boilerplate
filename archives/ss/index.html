@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/612bcdcef548967bc53a2b7f428b6832.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/2d13754370cc0a74a7e965b043b8e6f6.json"
         }
     </script>
     
@@ -107,7 +107,7 @@
 <figure class="pswp-item" style="flex: 50.0" data-width="2160" data-height="2160"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/fdf62ce91800bd0fee5a12e9a7b4aab2.jpg" alt="luci-clash" /><figcaption>luci-clash</figcaption></figure></p>
 <p>535期间没事干，翻出早年买的一个小黄路由——GL MT300N V2，在吃灰多年后，经更新固件终于可以支持华为4G网卡，插上即可上网。其固件本质为openwrt，套了个一定制的界面。进ssh刷上ssr plus，可用，但性能较弱。并没有想到可用场景，就当玩玩吧。
 <figure class="pswp-item" style="flex: 70.91503267973856" data-width="1302" data-height="918"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3b2b2494f147d31f0ce0f2892e551c15.jpg" alt="随身路由" /><figcaption>随身路由</figcaption></figure></p>
-<p>为了能远程看到家里的网络情况，打电话给电信改了桥接，然后用主路由PPPOE拨号，并在阿里云买了一个域名，用于ddns，并搞了证书。</p>
+<p>为了能远程看到家里的网络情况，打电话给电信改了桥接，然后用主路由PPPOE拨号，并在阿里云买了一个域名，用于ddns；搞了证书，可以远程https访问到路由器管理页面（并没有什么卵用）。</p>
 <p>实现远程访问后，自然要搞一下NAS，搞了一台415+，4盘4T跑raid5，约10T的可用容量。装了cloudsync来下载百度盘和Google Drive上的资源。装了docker跑一个同步到Google photos的容器。其它似乎也没啥好玩的，有点过于简单，没得折腾。
 <figure class="pswp-item" style="flex: 73.719165085389" data-width="1554" data-height="1054"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3d1ceb4c84cd4dd24b2d452243960310.png" alt="synology" /><figcaption>synology</figcaption></figure></p>
 <p>所里的群晖，一度没有好好利用起来，速度不理想。直到所里请了一位高手，优化了所里的网络架构，内外网访问都不成问题。速度上来后，Drive、Webdav等功能终于可以利用起来，有望成为提升工作效率的强力工具。另，利用docker也跑了个clash在上面，可以作为旁路用。
