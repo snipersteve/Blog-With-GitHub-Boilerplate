@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 21 Jan 2020 03:45:59 +0806</lastBuildDate><pubDate>Tue, 21 Jan 2020 03:45:59 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 22 Jan 2020 05:55:27 +0806</lastBuildDate><pubDate>Wed, 22 Jan 2020 05:55:27 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -50,11 +50,11 @@
 &lt;p&gt;这是我当年很喜欢的美剧《冰血暴》，存在NAS上，偶尔看看介绍也是蛮好的。
 &lt;figure class="pswp-item" style="flex: 57.091882247992864" data-width="1280" data-height="1121"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/c889715cf601bbc35cd9a143be5ee4e7.jpg" alt="Fargo" /&gt;&lt;figcaption&gt;Fargo&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;不过慢慢发现Plex实时转码是很吃CPU的，群晖那点弱鸡CPU性能根本吃不住。于是又改而跑在另一个强一的点服务器上，也比较勉强。解决方法两种，要么硬解，用GPU转码；要么改为串流，终端解码。考虑到我基本不会用网页观看，家里的电视机性能也都不错，就选了第二种。&lt;/p&gt;
-&lt;p&gt;第二种方案就是装Kodi，然后再装Plex插件，但实际操作时要先进Kodi再启动Plex插件，体验不佳。进一步了解到Jellyfin（姐夫），与Kodi结合更深，将影片信息直接同步到Kodi里，操作更方便。
+&lt;p&gt;第二种方案就是装Kodi，然后再装Plex插件，但实际操作时要先进入Kodi再从插件中启动Plex插件，类似app套娃，体验不佳。进一步了解到Jellyfin插件，与Kodi结合更深，将影片信息直接同步到Kodi里，打开Kodi就是影片墙了。
 &lt;figure class="pswp-item" style="flex: 81.84143222506394" data-width="1280" data-height="782"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/858a3bd6c4c329686b0b9307f9904bb3.jpg" alt="电视上的效果" /&gt;&lt;figcaption&gt;电视上的效果&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;试着放了一下4k的片子，确实更流畅，而且群晖CPU并没有显著变化。
 &lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/ecd01f17a2abf1208186995698b00e2f.jpg" alt="4K硬解" /&gt;&lt;figcaption&gt;4K硬解&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Jellyfin作为开源免费软件，功能上并不输Plex，我喜欢JF的一点是不依赖第三方服务器，直接远程连接到自己服务器即可，更为可靠。一些细节设置也更为人性化。&lt;/p&gt;
+&lt;p&gt;Jellyfin作为开源免费软件，功能上并不输Plex，我更喜欢Jellyfin的一点是它不需要像Plex那样要过Plex服务器认证后才能连接，直接远程连接到自己服务器即可，更为自主可靠。另外，一些细节设置也更为人性化，比如在手动识别媒体信息时能直接显示匹配的片名及图片，选择起来更直观。&lt;/p&gt;
 &lt;p&gt;Jellyfin+Kodi的方案，相当于就是把Jellyfin作为影片管理器来用了，其刮削器匹配的影片信息，准确度也很高。此外，通过插件下载字幕，也十分方便。
 &lt;figure class="pswp-item" style="flex: 67.5054704595186" data-width="1234" data-height="914"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/799fc13089c728359082ede0d495a3b0.png" alt="字幕" /&gt;&lt;figcaption&gt;字幕&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;折腾了那么多，看剧的时间是越来越少了，有点忧伤。考虑下次再去买几个N1刷CE后配置好Jellyfin给朋友用，也算是不枉费这一番折腾。&lt;/p&gt;
