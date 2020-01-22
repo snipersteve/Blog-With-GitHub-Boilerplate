@@ -21,7 +21,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     </url>
 
     <url>
-        <loc>/archives/reading-list/</loc>
+        <loc>/archives/reading/</loc>
         <lastmod>2019-12-25</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
