@@ -42,4 +42,9 @@ Jellyfin作为开源免费软件，功能上并不输Plex，我更喜欢Jellyfin
 Jellyfin+Kodi的方案，相当于就是把Jellyfin作为影片管理器来用了，其刮削器匹配的影片信息，准确度也很高。此外，通过插件下载字幕，也十分方便。
 ![字幕](./images/subtitle.png)
 
-折腾了那么多，看剧的时间是越来越少了，有点忧伤。考虑下次再去买几个N1刷CE后配置好Jellyfin给朋友用，也算是不枉费这一番折腾。
+不过如果特别有钱的话，Plex+Infuse Pro体验会更好些，同样是Plex作为影片管理器，Infuse作为播放器，UI很舒服，操作也很人性化。通过Apple TV来播放，应该是最佳方案了。
+![Infuse on iPad Pro](./images/infuse.jpg)
+
+不过我还是继续用平民方案，直接在电视机上装Kodi，少去外接的麻烦。如果电视机性能不够的话，可以选择N1刷CoreElec后装Jellyfin看，是非常实惠的方案。
+
+折腾了那么多，看剧的时间是越来越少了，有点忧伤。
