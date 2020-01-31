@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 31 Jan 2020 07:28:36 +0806</lastBuildDate><pubDate>Fri, 31 Jan 2020 07:28:36 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 31 Jan 2020 11:23:55 +0806</lastBuildDate><pubDate>Fri, 31 Jan 2020 11:23:55 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -132,8 +132,10 @@
 &lt;p&gt;TTRSS另提供了一个模仿Fever服务的插件，可以让一些支持Fever的第三方RSS阅读器变相支持TTRSS，思路很奇特。不过我选了一个原生支持TTRSS的客户端FeedMe，效果挺不错，这样就可以在手机上刷刷刷了。
 &lt;figure class="pswp-item" style="flex: 23.984375" data-width="614" data-height="1280"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/674eeff8e3b735a05b182fb53e22df74.jpg" alt="FeedMe" /&gt;&lt;figcaption&gt;FeedMe&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;搞了这么多东西，只是为了在第一时间可以了解到这些网站的最新政策动向，希望对工作会有帮助。这次折腾的附带体会是，Docker真是便利，很多原本商业化的服务，现在也可以很简单地在自己的服务器上跑了；服务器也未必一定是个大家伙，像N1这样的小盒子，甚至是更小的pi，都可以当很不错的轻量服务器；未来的趋势是服务端私人化，自己搞定大部分服务的部署。目前这套订阅方案中，RSS抓取这一环还是依靠Feed43这个外部服务，并且这个服务并不怎么靠谱，更好的解决方案是Rsshub，&lt;/p&gt;
-&lt;p&gt;暂时完结撒花。&lt;/p&gt;
+&lt;p&gt;目前这套订阅方案中，RSS抓取这一环还是依靠Feed43这个外部服务，但这个服务并不怎么靠谱，其服务器经常无法访问。但是Feed43的操作方法非常简单直观，远比RssHub方便，如果能自己部署一个Feed43服务就好了。在Github上搜索，还真的找到有人写了一个仿Feed43的&lt;a href="https://github.com/t812206236/rss_push2"&gt;程序&lt;/a&gt;，从其示例来看，基本和Feed43一致。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;搞了这么多东西，只是为了在第一时间可以了解到一些网站的最新政策动向，希望对工作会有帮助。这次折腾的附带体会是，Docker真是便利，开源社区真是牛逼，很多原本商业化的服务，现在也可以很简单地在自己的服务器上跑了；服务器也未必一定是个大家伙，像N1这样的小盒子，甚至是更小的pi，都可以当很不错的轻量服务器；未来的趋势是服务端私人化，自己搞定大部分服务的部署，即便不学编程，也要懂得如何部署、调试，一点点自学吧。&lt;/p&gt;
+&lt;p&gt;完结撒花。&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/rss/</guid><pubDate>Sat, 04 Jan 2020 20:26:00 +0806</pubDate></item><item><title>科学听歌</title><link>/archives/music/</link><description>&lt;p&gt;大约从初中那会儿开始喜欢听歌，那个时候很淳朴（穷），买一盒磁带，放在步步高复读机里。那时最喜欢听谢霆锋，因为觉得他叛逆，粤语摇滚，歌也确实好听。那个时候因为整天听复读机，给家人造成了我英语听力很好的错觉，但其实只有粤语听力水平进步了。&lt;/p&gt;
 &lt;p&gt;高中继续听谢霆锋，后来又增加听萧亚轩、周杰伦，都是当时极红的歌手，磁带都是同学间互相借。因为看到大家都用上了索尼、松下的随声听，卡带机为主，也有富家子弟用CD机、MD机的，于是缠着老妈要买一个。终于在某次考得不错之后，妈妈给买了。结果我太兴奋，上来就弄坏了，又拿去修，挺折腾。那时候买这么一个机器还是挺贵的，现在回想有些过份。&lt;/p&gt;
 &lt;p&gt;大学时老爸给买了一个MP3，好像都没有牌子，但我还是听得很开心。去学校机房拷歌，下载各种乱七八糟的，晚上被窝里听，那个时期最喜欢张韶涵、陈绮贞。其实那个时候手机也可以听歌了，还可以通过Mzone下载，算是很先进了。开始知道音质好坏的差别，听过朋友的iRiver播放器+PX100耳机我都好喜欢，可惜买不起。自己用的，还是学校报亭里买的廉价耳机。&lt;/p&gt;
