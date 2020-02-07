@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 07 Feb 2020 08:07:04 +0806</lastBuildDate><pubDate>Fri, 07 Feb 2020 08:07:04 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 07 Feb 2020 08:44:54 +0806</lastBuildDate><pubDate>Fri, 07 Feb 2020 08:44:54 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -83,8 +83,8 @@
 &lt;p&gt;然后把这个feed丢到任何一个RSS阅读器即完成订阅。&lt;/p&gt;
 &lt;p&gt;完结撒花。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;不过折腾总是不会这么快结束，弄完又想着在手机上也能方便得收到实时推送。记得在Telegram上有现成的bot可以用，找了一下果然发现有人提供了Rss bot。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了，所以还是得自己动手。顺着这个bot找到了源码，是一个go语言写的开源机器人：flowerss-bot。&lt;/p&gt;
-&lt;p&gt;为了跑这个服务，把家里吃灰的N1拿出来刷成了armbian。这台N1原本是刷了coreelec看片用，后来换Plex就用不上了。U盘刷完armbian后引导启动成功，再写入emmc。因为有前人经验，dtb什么的都搞好了，所以这一步很顺利。
+&lt;p&gt;不过折腾总是不会这么快结束，弄完又想着在手机上也能方便得收到实时推送。记得在Telegram上有现成的bot可以用，找了一下果然发现有人提供了Rss bot。在对话框中告诉机器人要订阅的rss链接，机器人就会在有更新时推送消息给你，轻量而且方便。不过由于是第三方的bot，用了没几天就因服务器问题下线了，所以还是得自己动手。顺着这个bot找到了源码，是一个go语言写的开源机器人：&lt;a href="https://github.com/indes/flowerss-bot"&gt;flowerss-bot&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;为了跑这个服务，把家里吃灰的N1拿出来刷成了armbian。这台N1原本是刷了coreelec看片用，后来换Plex就用不上了。U盘刷完armbian后引导启动成功，再写入emmc。因为有&lt;a href="https://yuerblog.cc/2019/10/23/%E6%96%90%E8%AE%AFn1-%E5%AE%8C%E7%BE%8E%E5%88%B7%E6%9C%BAarmbian%E6%95%99%E7%A8%8B/"&gt;前人经验&lt;/a&gt;，dtb什么的都搞好了，所以这一步很顺利。
 &lt;figure class="pswp-item" style="flex: 60.0" data-width="840" data-height="700"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d39d45d456ce8f1e35cb565b4c975510.jpg" alt="armbian" /&gt;&lt;figcaption&gt;armbian&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;然后打算跑这个服务，但作者并没有提供arm版的程序，只能自己编译。先装了go，然后go build。
 &lt;figure class="pswp-item" style="flex: 59.857142857142854" data-width="838" data-height="700"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6203067fe124d3800c874248ca9d2dea.jpg" alt="flowerss" /&gt;&lt;figcaption&gt;flowerss&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -108,15 +108,15 @@
 &lt;figure class="pswp-item" style="flex: 47.72393538913363" data-width="650" data-height="681"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6573176ea9b6f38db1ea6e15af59fbac.png" alt="路由规则" /&gt;&lt;figcaption&gt;路由规则&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;毛总用一个中午的时间帮我实现了国家发改委网站的抓取，并在调试后优化。抓取的内容如图：
 &lt;figure class="pswp-item" style="flex: 76.27986348122867" data-width="894" data-height="586"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/15e6b77b93fc121614250b380ef564e4.png" alt="feed" /&gt;&lt;figcaption&gt;feed&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;RssHub还有一个很不错的路由是邮件收取，即通过imap协议收取邮箱中的邮件为RSS。我为此注册了一个Gmail邮箱专门订阅一些Newsletter，然后配置账号信息的到RssHub的环境变量中。这也是个很不错的信息源，老牌RSS服务Inoreader在最近一次&lt;a href="https://sspai.com/post/58690"&gt;更新&lt;/a&gt;后，也支持了这个功能。
+&lt;p&gt;RssHub还有一个很不错的路由是邮件收取，即通过imap协议收取邮箱中的邮件为RSS。我为此注册了一个Gmail邮箱专门订阅一些Newsletter，然后配置账号信息到RssHub的环境变量中。老牌RSS服务Inoreader在最近一次&lt;a href="https://sspai.com/post/58690"&gt;更新&lt;/a&gt;后，也支持了这个功能（收费功能）。
 &lt;figure class="pswp-item" style="flex: 104.47019867549669" data-width="1262" data-height="604"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/19d3471877070a2c21c52262eb206b6d.png" alt="Newsletter" /&gt;&lt;figcaption&gt;Newsletter&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;不过我除了直接用现成的或是抄抄改改已有的路由，其它还是不会。RssHub这个工具的门槛还是偏高，我暂时驾驭不了，或许是我学习js和git的一条进路，以后再说吧。&lt;/p&gt;
+&lt;p&gt;RssHub这个工具的门槛还是偏高，我除了直接用现成的或是抄抄改改已有的路由，其它还是不会。这或许是我学习js和git的一条进路，以后再说吧。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;转而找到另一个工具huginn，直接在Docker里跑很无脑。这个工具有可视化界面，通过指定xpath路径实现内容抓取，编写规则和调试都简单很多。我试着写了规则，很快就抓到内容了。
+&lt;p&gt;转而又找到另一个工具huginn，同样可以直接在Docker里跑。这个工具有可视化界面，通过指定xpath路径实现内容抓取，编写规则和调试都简单很多。我试着写了规则，很快就抓到内容了。
 &lt;figure class="pswp-item" style="flex: 74.32885906040268" data-width="1329" data-height="894"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/00238f3763824949fb4ca1554a0a606d.png" alt="huginn" /&gt;&lt;figcaption&gt;huginn&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;然而，这里抓取的链接并不完整，还需要拼接上网址前缀；但又偏偏多了一个点，很难处理。于是还是得靠毛总帮忙，终于把那个点去掉了。
 &lt;figure class="pswp-item" style="flex: 72.77960526315789" data-width="885" data-height="608"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/fb0dd868d8a2e90b243d0230f38a8d33.png" alt="agent rule" /&gt;&lt;figcaption&gt;agent rule&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这还只是抓取列表的agent，还需要再另建一个抓取全文的agent和生成rss的agent，有点麻烦。暂先不管全文，单单只抓文章标题和链接还是比较快的，很快我就把我常看的几个网站都搞定了。
+&lt;p&gt;这只是抓取文章列表的agent，还需要再另建一个抓取全文的agent和生成rss的agent，有点麻烦。暂先不管全文，单单只抓文章标题和链接还是比较简单的，套路差不多，很快我就把我常看的几个网站都搞定了。
 &lt;figure class="pswp-item" style="flex: 166.48936170212767" data-width="1565" data-height="470"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/bd41583f6e1a29d97c797e57d6a3e5ba.png" alt="Agent flow" /&gt;&lt;figcaption&gt;Agent flow&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;用了一段时间发现，现在很多机构写的干货内容都不放网站而放在微信公众号里，而微信公众号的反爬策略非常严格，尝试用Rsshub里的几个路由抓取都不成功。放狗搜了一下了解到WeRSS这个付费服务，基本上公众号都有收录，界面也不错，35一年价格（8个公众号）也还可以，于是就买了。
@@ -141,9 +141,9 @@
 &lt;p&gt;这个rssbot实在是太好用，非常喜欢，出于稳定性考虑决定转移到群晖跑。然而由于官方镜像有点问题，没跑成功，于是用dockerhub在线编译了一个，然后在群晖里跑就没问题了。
 &lt;figure class="pswp-item" style="flex: 106.08465608465609" data-width="1604" data-height="756"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3548a891017192275a0ad47b952a5247.png" alt="dockerhub" /&gt;&lt;figcaption&gt;dockerhub&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;搞了这么多东西，只是为了在第一时间可以了解到能源行业最新政策动向，希望对工作会有帮助。现在每天一早打开TTRSS，就有信息扑面而来，这种感觉很好。
+&lt;p&gt;目前这套方案总结一下：源的抓取根据不同情形用到了huginn/Rsshub/WeRss/Feed43，然后经TTRSS筛选整合后发布出来，并通过flowerss订阅并推送到Telegram频道里。搞了这么多东西，只是为了在第一时间可以了解到能源行业最新政策动向，希望对工作会有帮助。现在每天一早打开TTRSS，就有信息扑面而来，这种感觉很好。
 &lt;figure class="pswp-item" style="flex: 87.43169398907104" data-width="1280" data-height="732"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/7a63a8dd98685db3cedf92be60486edb.jpg" alt="信息流" /&gt;&lt;figcaption&gt;信息流&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这次折腾的附带体会是，Docker真是便利，开源社区真是牛逼，很多原本商业化的服务，现在也可以很简单地在自己的服务器上跑了；服务器也未必一定是个大家伙，像N1这样的小盒子，甚至是更小的pi，都可以当很不错的轻量服务器；未来的趋势是服务端私人化，自己搞定大部分服务的部署，即便不学编程，也要懂得如何部署、调试，一点点自学吧。&lt;/p&gt;
+&lt;p&gt;这次折腾的附带体会是，Docker真是便利，部署服务和手机上装APP似的；开源社区真是牛逼，很多原本商业化的服务，现在也可以很简单地在自己的服务器上跑了；服务器也未必一定是个大家伙，像N1这样的小盒子，甚至是更小的pi，都可以当很不错的轻量服务器；未来的趋势是服务端私人化，自己搞定大部分服务的部署；即便不学编程，也要懂得如何部署、调试，一点点自学吧。&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/rss/</guid><pubDate>Sat, 04 Jan 2020 20:26:00 +0806</pubDate></item><item><title>科学听歌</title><link>/archives/music/</link><description>&lt;p&gt;大约从初中那会儿开始喜欢听歌，那个时候很淳朴（穷），买一盒磁带，放在步步高复读机里。那时最喜欢听谢霆锋，因为觉得他叛逆，粤语摇滚，歌也确实好听。那个时候因为整天听复读机，给家人造成了我英语听力很好的错觉，但其实只有粤语听力水平进步了。&lt;/p&gt;
 &lt;p&gt;高中继续听谢霆锋，后来又增加听萧亚轩、周杰伦，都是当时极红的歌手，磁带都是同学间互相借。因为看到大家都用上了索尼、松下的随声听，卡带机为主，也有富家子弟用CD机、MD机的，于是缠着老妈要买一个。终于在某次考得不错之后，妈妈给买了。结果我太兴奋，上来就弄坏了，又拿去修，挺折腾。那时候买这么一个机器还是挺贵的，现在回想有些过份。&lt;/p&gt;
 &lt;p&gt;大学时老爸给买了一个MP3，好像都没有牌子，但我还是听得很开心。去学校机房拷歌，下载各种乱七八糟的，晚上被窝里听，那个时期最喜欢张韶涵、陈绮贞。其实那个时候手机也可以听歌了，还可以通过Mzone下载，算是很先进了。开始知道音质好坏的差别，听过朋友的iRiver播放器+PX100耳机我都好喜欢，可惜买不起。自己用的，还是学校报亭里买的廉价耳机。&lt;/p&gt;
