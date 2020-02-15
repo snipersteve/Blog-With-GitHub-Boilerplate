@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 15 Feb 2020 07:28:16 +0806</lastBuildDate><pubDate>Sat, 15 Feb 2020 07:28:16 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 15 Feb 2020 07:59:03 +0806</lastBuildDate><pubDate>Sat, 15 Feb 2020 07:59:03 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -7,12 +7,14 @@
 &lt;p&gt;读研究生期间上网需要锐捷认证，很蛋疼。想学人家把路由刷openwrt并跑锐捷，但是搞不懂，最后只能在电脑上插个360wifi来解决，给iPad之类的设备提供无线。后来学校把这类wifi硬件都封了，必须用修改版的锐捷才能正常运行，很难受。最后找导师要了他的Teacher帐号，WIFI直连外网，放弃锐捷。&lt;/p&gt;
 &lt;p&gt;工作后自己租房子住，在淘宝上买刷好PandoraBox的小米路由mini，为的是在路由上实现透明代理。买了之后发现这货操作反人类，费了很大劲才设置好拨号，而且不怎稳定，用了一段时间就闲置了。作为米粉的我又买了小米路由硬盘版，上网性能一般，但好处是能远程下载电影以及自动追美剧，同时学会用samba实现在电视上看路由器里电影，速度也很快。同时顺带了解了NAS这种东西，研究了一下群晖、Gen8之类的产品，以及HyperV、ESXi之类虚拟技术。&lt;/p&gt;
 &lt;p&gt;然后就忽悠单位买了群晖，主要用于企业数据备份和共享，8盘位，raid 5。一开始用QuickConnect来远程访问，很方便但速度不理想。为了能够相对快速地实现远程访问，专门研究了一下ddns，搞了个花生壳的动态域名。这其实挺傻的，因为单位的专线其实是有公网固定IP的，这是后话，不表。&lt;/p&gt;
-&lt;p&gt;自己又跟风买了Newifi mini，刷各种固件极为方便，发现老毛子固件真好用，相较openwrt直观太多。在路由上设置好ss后，所有终端免翻，真是居家越货必备良品。同时可以设置adbyby、KMS等功能，十分强大。顺便在阿里买了个域名，用aliddns可以实现远程访问。但因为家里有两台路由，为了用aria功能，又研究了半天端口转发的问题，挺头疼。&lt;/p&gt;
+&lt;p&gt;自己又跟风买了Newifi mini，刷各种固件极为方便，发现老毛子固件真好用，相较openwrt直观太多。在路由上设置好ss后，所有终端免翻，真是居家越货必备良品。同时可以设置adbyby、KMS等功能，十分强大。顺便在阿里买了个域名，用aliddns可以实现远程访问。但因为家里有两台路由，为了用aria功能，又研究了半天端口转发的问题，挺头疼。
+&lt;figure class="pswp-item" style="flex: 75.10288065843622" data-width="730" data-height="486"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/2b1102bbe11d865d774ba94332fa4312.jpg" alt="Newifi" /&gt;&lt;figcaption&gt;Newifi&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Newifi用起来各种好，然后开始到处安利，并囤积居奇，买了一打放在家里，送给有需要的朋友。期间上门给导师装了一台，设置好翻墙和去广告，导师表示对其科研有很大帮助，并表示要给我介绍女朋友。我后来又开始买已经下车了的K2/K2P，刷好荒野无灯的固件并配置好搬瓦工的ss线路送朋友，到手插网线就能用。但因为不可描述的原因，不久之后就不能用了，我也不可能上门去维护，后来便放弃了。&lt;/p&gt;
 &lt;p&gt;我自己则把原先用的Newifi淘汰下来，换成Asus ac66u b1，刷梅林。梅林固件有个插件中心，按需要安装，独立更新，用起来更方便。这货的最大问题是温度常年70度往上，我经常用它来温一下过于冰的可乐。后来专门给它配了个USB风扇，温度降到50度左右。
 &lt;figure class="pswp-item" style="flex: 37.8316906747536" data-width="1996" data-height="2638"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/a718830c0d818c26831b4e1f24e83902.jpg" alt="梅林" /&gt;&lt;figcaption&gt;梅林&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;顺手把单位里的R8000也刷了梅林，在全所范围内实现ss、kms和去广告，自己方便，别人也方便。配合AP，全面覆盖，无缝漫游。有一次内部开会，有个同事说因为在单位可以上Google，查资料方便，所以很愿意加班。老板听了很满意，频频冲我点头，但并没有给我加工资。&lt;/p&gt;
-&lt;p&gt;最新的梅林固件开始支持AiMesh，于是我又买了一台66u b1，两台共同组AiMesh，有线回程。然而某天我突然发现自己其实根本不需要无缝漫游，因为家里实在小，一台K2P完全可以覆盖了，而且发热量还小。撤掉两台66u，收进车库里吃灰。&lt;/p&gt;
+&lt;p&gt;最新的梅林固件开始支持AiMesh，于是我又买了一台66u b1，两台共同组AiMesh，有线回程。然而某天我突然发现自己其实根本不需要无缝漫游，因为家里实在小，一台K2P完全可以覆盖了，而且发热量还小。撤掉两台66u，收进车库里吃灰。
+&lt;figure class="pswp-item" style="flex: 78.73626373626374" data-width="1433" data-height="910"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/0383690c69315cfcf8c72ca7d0d73988.png" alt="Aimesh" /&gt;&lt;figcaption&gt;Aimesh&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;另一方面，科学上网的变化日新月异，转眼间我已数次换了机场，换了跨栏方案，路由器上的ss不带混淆，已无法用了。于是改为在终端翻，策略组分流，ios用quantumalt，android用surfboard，win用clash。其中clash是我最喜欢的，开源稳定，在PC上用clash之后几乎再没出过不能上网的情况。
 &lt;figure class="pswp-item" style="flex: 88.44339622641509" data-width="1500" data-height="848"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1790c1de2e6ff98e0f9c674739f8a627.png" alt="clash" /&gt;&lt;figcaption&gt;clash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;偶然了解到旁路方案，本想把一台闲置的MacBook装上surge当网关用，无奈surge太贵买不起。后来经安利买了一个orange pi zero plus，和我早年买的树莓派是一个道理，不过这个更小，而且是千兆口，CPU也更强。刷了群里老竭力改过的PandoraBox固件，已内置了ssr plus，支持订阅和故障转移，非常好用。把xbox网关指向Pi就可以实现翻墙，看Netflix速度很棒，和老婆晚上在家看4K的纸牌屋，很开心。
@@ -166,8 +168,10 @@
 &lt;p&gt;Sonos的主要特点就是简单易用，可以在线播放Spotify、Tidal、网易等各种音源的歌（还可以语音控制）；电视打开的时候，就会自动切换到电视音源，5.1声道看Netflix不要太爽；还有很重要的一点是好看，放在沙发边上，很和谐。
 &lt;figure class="pswp-item" style="flex: 37.5" data-width="3024" data-height="4032"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/19a3fd03b60b4957a745b2d567e6fab3.jpg" alt="Sonos sub" /&gt;&lt;figcaption&gt;Sonos sub&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;说到音源，这个也经历了一番折腾，尝试过自建曲库，放到NAS里，用Audio Station来管理，不太理想。又试了树莓派刷Volumio、Moode等进行管理，科技感很强，实际用起来并不方便。还试过用Plex组织，也效果一般。
+&lt;p&gt;说到音源，这个也经历了一番折腾，尝试过自建曲库，放到NAS里，用Audio Station来管理，不太理想。又试了树莓派刷Volumio、Moode等进行管理，科技感很强，实际用起来并不方便。
 &lt;figure class="pswp-item" style="flex: 68.36461126005362" data-width="1020" data-height="746"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/6e8c1be14b43f379236435b45fc72644.jpg" alt="Volumio" /&gt;&lt;figcaption&gt;Volumio&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;还试过用Plex/Jellyfin组织，也没啥意思，只能图个好看。
+&lt;figure class="pswp-item" style="flex: 75.82938388625593" data-width="1280" data-height="844"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/28804cec72788887a4c160b18caf55ed.jpg" alt="Jellyfin Music" /&gt;&lt;figcaption&gt;Jellyfin Music&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;于是还是回归在线曲库，先后试了Spotify/Tidal/Youtube Music等，实测还是Spotify最强，曲库最全，算法最优。为了Spotify还上了Spoticheap这条贼船，交了一年的费用，没多久就翻车了，难受。还是在Telegram上找个合租吧。
 &lt;figure class="pswp-item" style="flex: 100.50761421319797" data-width="1188" data-height="591"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/27bf198de8f2ca077c124706152ff91e.png" alt="Spotify" /&gt;&lt;figcaption&gt;Spotify&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
