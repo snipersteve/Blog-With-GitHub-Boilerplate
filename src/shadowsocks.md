@@ -51,14 +51,23 @@ Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处�
 
 为了能远程看到家里的网络情况，打电话给电信改了桥接，然后用主路由PPPOE拨号，并在阿里云买了一个域名，用于ddns；搞了证书，可以远程https访问到路由器管理页面。这个操作看起来并没有什么卵用，但实际上打开了一扇大门。
 
-实现远程访问后，在家里搞了一台群晖415+，4盘4T跑raid5，约10T的可用容量。装了cloudsync来下载百度盘和Google Drive上的资源。装了docker跑一个同步到Google photos的容器。其它似乎也没啥好玩的，有点过于简单，没得折腾。
-![synology](./images/synology.png)
+实现远程访问后，在家里搞了一台群晖415+，4盘4T跑raid5，约10T的可用容量。用cloudsync来下载百度盘和Google Drive上的资源（cloudsync真是神器）。
+![cloudsync](./images/cloudsync.jpg)
 
-所里的群晖，一度没有好好利用起来，速度不理想。直到所里请了一位高手，优化了所里的网络架构，内外网访问都不成问题。速度上来后，Drive、Webdav等功能终于可以利用起来，有望成为提升工作效率的强力工具。另，利用docker也跑了个clash在上面，可以作为旁路用。
-![docker](./images/docker.png)
+在群晖上跑docker也很不错，跑了clash和[gost](https://docs.ginuerzh.xyz/gost/)，后者是一个转发代理的工具，可以实现将连到这台nas的特定流量转发到clash，从而实现代理中转，有一定用处。
+![gost](./images/gost.png)
 
-在2019年这一年里，眼看着Clash这个开源软件一步步走向全平台（iOS除外），感叹开源社区的强大。我现在电脑、手机、路由器都是用Clash了。Clash配置文件基本是全平台共用的，我一开始写好配置后放在群晖里托管，后来发现放gist管理更方便；最后索性跑了一个转换服务，可以把服务商的订阅转换成自己喜欢的配置并可以自动更新。
+最终还是说回Clash。在2019年这一年里，眼看着Clash这个开源软件一步步走向全平台（iOS除外），我现在电脑、手机、路由器、NAS都是用Clash了。再次感叹开源社区的强大，在Dreamacro写了Clash内核后，又有各位高手写了各平台的UI，各有特色。
+
+除各平台UI程序外，因为Clash配置相对复杂，又有人写了转换程序，可以把服务商的ss/v2订阅转换成自己喜欢的配置并可以自动更新。
 ![subconverter](./images/subconverter.png)
+
+此外，还有一个Clash的管理界面，我也很喜欢，方便查看实时网速、流量以及日志等。
+![clash-dashboard](./images/yacd.jpg)
+
+但开源社区也有一些不那么舒服的事情。今天碰巧看到关于shadowsocks发展史的一篇[文章](https://github.com/JadaGates/ShadowsocksBio)，让人唏嘘不已。其中ss和ssr的故事再一次重演，发生在clash和clashr上。Dreamacro写的clash为开源项目，但不支持ssr协议；因很多机场只提供ssr节点，广大小白用户希望支持ssr协议的呼声很高；lvguangfa在clash核心上加了ssr支持，闭源，向机场主收费，被人肉，被迫开源后退出。历史总是惊人的相似。
+
+我现在属于拿来主义，只会拿开源社区的东西来用；希望以后也有能力可以去提pr甚至自己写个有用的程序，也为开源社区作点贡献。
 
 ---
 
@@ -66,5 +75,3 @@ Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处�
 
 这一感觉和网友[@cxiaoji](https://twitter.com/i/web/status/1126165698978271232)说的很像：
 >我对数据结构有非常美好的回忆。我真正开始理解编程就是在贵系蹭的数据结构课。老师没打开过教材，上课就一个编辑器，从头写一个类，一边讲一边往里面添方法。讲完编译，测试，通过，正好下课。我期末要熬图根本没工夫复习的，但是这门课学的东西一点都没忘。
-
-今天碰巧看到关于shadowsocks发展史的一篇[文章](https://github.com/JadaGates/ShadowsocksBio)，让人唏嘘不已。其中ss和ssr的故事再一次重演，发生在clash和clashr上。Dreamacro写的clash为开源项目，但不支持ssr协议；因很多机场只提供ssr节点，广大小白用户希望支持ssr协议的呼声很高；lvguangfa在clash核心上加了ssr支持，闭源，向机场主收费，被人肉，被迫开源。历史总是惊人的相似。
