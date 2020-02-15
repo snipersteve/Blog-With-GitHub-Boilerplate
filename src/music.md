@@ -36,8 +36,11 @@ Sonos的主要特点就是简单易用，可以在线播放Spotify、Tidal、网
 
 ---
 
-说到音源，这个也经历了一番折腾，尝试过自建曲库，放到NAS里，用Audio Station来管理，不太理想。又试了树莓派刷Volumio、Moode等进行管理，科技感很强，实际用起来并不方便。还试过用Plex组织，也效果一般。
+说到音源，这个也经历了一番折腾，尝试过自建曲库，放到NAS里，用Audio Station来管理，不太理想。又试了树莓派刷Volumio、Moode等进行管理，科技感很强，实际用起来并不方便。
 ![Volumio](./images/Volumio.jpg)
+
+还试过用Plex/Jellyfin组织，也没啥意思，只能图个好看。
+![Jellyfin Music](./images/jf-music.jpg)
 
 于是还是回归在线曲库，先后试了Spotify/Tidal/Youtube Music等，实测还是Spotify最强，曲库最全，算法最优。为了Spotify还上了Spoticheap这条贼船，交了一年的费用，没多久就翻车了，难受。还是在Telegram上找个合租吧。
 ![Spotify](./images/spotify.png)
