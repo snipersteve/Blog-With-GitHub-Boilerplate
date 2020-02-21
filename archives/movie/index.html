@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/707f30a49fda9133c157a9dfa9c74a2d.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/c9ef969a2ff7132f6076e19a1d07dae5.json"
         }
     </script>
     
@@ -89,7 +89,8 @@
 <p>赶上黑五的时候又买了Firestick 4K，接房间的小米电视，十分小巧可以藏在电视背后，从正面完全看不出来。而且这货可以用Alexa来控制，装逼效果一流，实际没啥用处。不过我慢慢失去耐心，一般剧都看不过三集。</p>
 <p>Netflix虽好，但上面还是有很多片子是没有的，所以有时还是需要本地片源，原先用的小米路由器硬盘版太弱，便上了群晖。群晖上cloudsync堪称下载神器，可以以同步的方案下载百度盘、Google Drive上的资源，这俩是目前最主流的资源分享渠道了。对于种子或是磁力，也可以通过其自带的Download Station来下载，速度一般。
 <figure class="pswp-item" style="flex: 85.25316455696202" data-width="1347" data-height="790"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d8a8cd4baba0839e9fd904498071dfc7.jpg" alt="CloudSync" /><figcaption>CloudSync</figcaption></figure></p>
-<p>然后为更流畅地看本地4K片源，又买了一个N1，刷coreelec（kodi变体），观影效果很棒。</p>
+<p>然后为更流畅地看本地4K片源，又买了一个N1，刷coreelec（kodi变体），观影效果很棒。
+<figure class="pswp-item" style="flex: 74.94646680942184" data-width="1400" data-height="934"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/f786edae1f83133e063d413cad09d443.jpg" alt="N1" /><figcaption>N1</figcaption></figure></p>
 <p>不过老婆嫌NAS太吵，家里太小没办法只能搬去单位，SMB方式变得不可行。后来偶然了解到还有Plex这样的神器，可以远程流媒体传输。群晖上有现成的套件就直接跑了一个，也很简单。我最喜欢Plex之处在于任意设备直接播放，并且保存播放记录多设备同步，相当于自己跑了一个爱奇艺。此外，其自带的刮削器也很强，片子的信息基本都能正确地抓到，效果如图：</p>
 <p><figure class="pswp-item" style="flex: 89.0125173852573" data-width="1280" data-height="719"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/5408edcfb3afc7f653beb687bde3b4d9.jpg" alt="电影" /><figcaption>电影</figcaption></figure>
 <figure class="pswp-item" style="flex: 89.0125173852573" data-width="1280" data-height="719"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cb3dda4050240c0899872679b38556d6.jpg" alt="剧集" /><figcaption>剧集</figcaption></figure></p>
@@ -103,10 +104,17 @@
 <p>Jellyfin作为开源免费软件，功能上并不输Plex，我更喜欢Jellyfin的一点是它不需要像Plex那样要过Plex服务器认证后才能连接，直接远程连接到自己服务器即可，更为自主可靠。另外，一些细节设置也更为人性化，比如在手动识别媒体信息时能直接显示匹配的片名及图片，选择起来更直观。</p>
 <p>Jellyfin+Kodi的方案，相当于就是把Jellyfin作为影片管理器来用了，其刮削器匹配的影片信息，准确度也很高。此外，通过插件下载字幕，也十分方便。
 <figure class="pswp-item" style="flex: 67.5054704595186" data-width="1234" data-height="914"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/799fc13089c728359082ede0d495a3b0.png" alt="字幕" /><figcaption>字幕</figcaption></figure></p>
-<p>不过如果特别有钱的话，Plex+Infuse Pro体验会更好些，同样是Plex作为影片管理器，Infuse作为播放器，UI很舒服，操作也很人性化。通过Apple TV来播放，应该是最佳方案了。
+<p>不过如果特别有钱的话，Plex+Infuse Pro体验会更好些，同样是Plex作为影片管理器，Infuse作为播放器，UI很舒服，操作也很人性化。通过Apple TV来播放，应该算是最佳方案了。
 <figure class="pswp-item" style="flex: 66.7361835245047" data-width="1280" data-height="959"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/191a649a3dff4867649f81f9c2d6c51f.jpg" alt="Infuse on iPad Pro" /><figcaption>Infuse on iPad Pro</figcaption></figure></p>
-<p>不过我还是继续用平民方案，直接在电视机上装Kodi，少去外接的麻烦。如果电视机性能不够的话，可以选择N1刷CoreElec后装Jellyfin看，是非常实惠的方案。</p>
-<p>折腾了那么多，看剧的时间是越来越少了，有点忧伤。</p>
+<p>不过我还是继续用平民方案，对于客厅的Sony电视直接在电视机上装Kodi，性能够用；对于房间的小米电视，性能略差，直接装Kodi有时会卡。因此，还是选择用N1刷CoreElec后装Jellyfin看。买了一根usb转dc的诱骗线，用小米电视的USB口供电并假装自己是12V从而成功带动N1，这样就免去再接一根电线的麻烦。N1完全隐在壁挂电视背后，非常完美。
+<figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/07c0745d187abf4ccd72f3b08c0450c5.jpg" alt="N1解码" /><figcaption>N1解码</figcaption></figure></p>
+<p>十分喜欢N1这个小盒子，于是又买了个，刷了小钢炮系统用于下载，荒野无灯出品，找到了当年用他的老毛子路由器固件的感觉，十分简洁直观。
+<figure class="pswp-item" style="flex: 70.04189944134079" data-width="1003" data-height="716"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/10e498c2e3a32f4c1c738315a67ae922.png" alt="NDM" /><figcaption>NDM</figcaption></figure></p>
+<p>在N1上插个不用的移动硬盘，使用系统自带qBittorrent来下载些蓝光电影，本地观看，速度更快，也没什么噪音。然后用另一个N1 CE解码播放，很配。
+<figure class="pswp-item" style="flex: 72.82303370786516" data-width="1037" data-height="712"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/7bd7a572458bc5e199adf23332b5a339.png" alt="qBit" /><figcaption>qBit</figcaption></figure></p>
+<p>然而折腾了那么多，看剧的时间是越来越少了，有点忧伤。为什么还要折腾，大约是一种情怀，有一位<a href="https://twitter.com/piece/status/1230364853610483713">推友</a>说的很符合我的心境：</p>
+<blockquote><p>昨天花了很长时间折腾IPTV，想抛弃电视盒子在家随意观看，什么双线双拨，什么VLAN都尝试过，家里的网搞瘫两次，一直搞到今天凌晨三点也没成功。其实我不看电视，也不闲，甚至还有点忙，就是啥正事也不想干，就想把精力耗干，每隔一段时间就会来一次，啥也不想干。</p>
+</blockquote>
 
             </div>
         </article>

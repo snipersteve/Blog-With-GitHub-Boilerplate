@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/707f30a49fda9133c157a9dfa9c74a2d.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/c9ef969a2ff7132f6076e19a1d07dae5.json"
         }
     </script>
     
@@ -96,19 +96,23 @@
 <p>顺手把单位里的R8000也刷了梅林，在全所范围内实现ss、kms和去广告，自己方便，别人也方便。配合AP，全面覆盖，无缝漫游。有一次内部开会，有个同事说因为在单位可以上Google，查资料方便，所以很愿意加班。老板听了很满意，频频冲我点头，但并没有给我加工资。</p>
 <p>最新的梅林固件开始支持AiMesh，于是我又买了一台66u b1，两台共同组AiMesh，有线回程。然而某天我突然发现自己其实根本不需要无缝漫游，因为家里实在小，一台K2P完全可以覆盖了，而且发热量还小。撤掉两台66u，收进车库里吃灰。
 <figure class="pswp-item" style="flex: 78.73626373626374" data-width="1433" data-height="910"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/0383690c69315cfcf8c72ca7d0d73988.png" alt="Aimesh" /><figcaption>Aimesh</figcaption></figure></p>
-<p>另一方面，科学上网的变化日新月异，转眼间我已数次换了机场，换了跨栏方案，路由器上的ss不带混淆，已无法用了。于是改为在终端翻，策略组分流，ios用quantumalt，android用surfboard，win用clash。其中clash是我最喜欢的，开源稳定，在PC上用clash之后几乎再没出过不能上网的情况。
-<figure class="pswp-item" style="flex: 88.44339622641509" data-width="1500" data-height="848"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1790c1de2e6ff98e0f9c674739f8a627.png" alt="clash" /><figcaption>clash</figcaption></figure></p>
+<hr>
+<p>梅林用了好几年，期间很稳定，一直没去动过。不过，科学上网的姿势日新月异，转眼间我已数次换了机场，换了跨栏方案，梅林路由器上的ss不带混淆，已无法用了。于是改为在终端翻，策略组分流，ios用quantumalt，android用surfboard，win用clash。其中clash是我最喜欢的，开源稳定，在PC上用cfw之后几乎再没出过不能上网的情况。
+<figure class="pswp-item" style="flex: 88.44339622641509" data-width="1500" data-height="848"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1790c1de2e6ff98e0f9c674739f8a627.png" alt="clash for windows" /><figcaption>clash for windows</figcaption></figure></p>
 <p>偶然了解到旁路方案，本想把一台闲置的MacBook装上surge当网关用，无奈surge太贵买不起。后来经安利买了一个orange pi zero plus，和我早年买的树莓派是一个道理，不过这个更小，而且是千兆口，CPU也更强。刷了群里老竭力改过的PandoraBox固件，已内置了ssr plus，支持订阅和故障转移，非常好用。把xbox网关指向Pi就可以实现翻墙，看Netflix速度很棒，和老婆晚上在家看4K的纸牌屋，很开心。
 <figure class="pswp-item" style="flex: 68.62949452840022" data-width="2634" data-height="1919"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/8956bdf983a86a3f2d460f3595c9d227.jpg" alt="pi" /><figcaption>pi</figcaption></figure></p>
 <p>正好电信有免费提速到200M的优惠，就办理了，结果提速后家里测速还是只有100M，问了才知道精装修装的交换机是百兆的，真的垃圾。本想买个千兆交换机放弱电箱，后来转念买了台Newifi3，刷lean固件，拆了外壳后勉强可塞进弱电箱，发热量也还好。将Newifi作为主路由，关无线，挂ssr；K2P使用AP模式，连WIFI；Pi专供Xbox，保证视频速度流畅。</p>
 <p>这套方案本身挺合理的，只是裸板放弱电箱还是不放心。某天出差，临时起意买了个四口的J1900。到手后发现做工真好，被动散热效果就很不错，夏天也仅40多度。而且大小适中，正好可以放进弱电箱，把新三给换下来。性能上，跑分可以跑三万多，但是看Netflix的速度基本还是一样，估计瓶颈在线路本身的速度。软路由配合K2P的AP，硬件上暂不需要折腾了。
 <figure class="pswp-item" style="flex: 66.66666666666667" data-width="4032" data-height="3024"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e8a1ea7a124e9cf101350467be1dc2dd.jpg" alt="J1900" /><figcaption>J1900</figcaption></figure></p>
-<p>J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。原本还想折腾一下PVE虚拟化，然后再跑路由系统，但查了发现J1900不支持网卡直通，作罢，也省去了折腾的心思。网上看到有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。
-<figure class="pswp-item" style="flex: 65.57863501483679" data-width="1326" data-height="1011"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/83c081daa1db69d5fd63d64da3eabb8e.png" alt="openwrt" /><figcaption>openwrt</figcaption></figure></p>
+<p>J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。不过翻墙工具更新很快，openwrt平台除了ssr plus、clash之外，又冒出了passwall、hello world等新工具，功能更全面，但是我通过安装网友编译的ipk包时总是会出现缺少依赖的情形。更彻底的办法是直接更新固件，但软路由要更新固件却很麻烦，相当于电脑重装系统，费时费力。更科学的方法是虚拟化安装，但J1900这块CPU不支持网卡直通，故不考虑。</p>
+<p>转而用那台刷了小钢炮的N1测试了docker安装op，确实很方便，更新固件只需要pull一下最新镜像，远程配置一下即可，而不必去动机器本身。
+<figure class="pswp-item" style="flex: 58.05714285714286" data-width="1016" data-height="875"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/60448a53ed36ea029f3fea60a955c4d1.png" alt="N1 OP" /><figcaption>N1 OP</figcaption></figure></p>
+<p>因此虚拟化安装是更科学的系统安装方式，打算以后换个软路由，比如3865U之类。网上看到还有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。</p>
 <p>Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。总体能用，成熟后可以部署到主路由上。
-<figure class="pswp-item" style="flex: 50.0" data-width="2160" data-height="2160"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/fdf62ce91800bd0fee5a12e9a7b4aab2.jpg" alt="luci-clash" /><figcaption>luci-clash</figcaption></figure></p>
+<figure class="pswp-item" style="flex: 50.0" data-width="2160" data-height="2160"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e601716888ae03b2dcd2f51815022145.jpg" alt="luci-clash" /><figcaption>luci-clash</figcaption></figure></p>
 <p>535期间没事干，翻出早年买的一个小黄路由——GL MT300N V2，在吃灰多年后，经更新固件终于可以支持华为4G网卡，插上即可上网。其固件本质为openwrt，套了个一定制的界面。进ssh刷上ssr plus，可用，但性能较弱。并没有想到可用场景，就当玩玩吧。
 <figure class="pswp-item" style="flex: 70.91503267973856" data-width="1302" data-height="918"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3b2b2494f147d31f0ce0f2892e551c15.jpg" alt="随身路由" /><figcaption>随身路由</figcaption></figure></p>
+<hr>
 <p>为了能远程看到家里的网络情况，打电话给电信改了桥接，然后用主路由PPPOE拨号，并在阿里云买了一个域名，用于ddns；搞了证书，可以远程https访问到路由器管理页面。这个操作看起来并没有什么卵用，但实际上打开了一扇大门。</p>
 <p>实现远程访问后，在家里搞了一台群晖415+，4盘4T跑raid5，约10T的可用容量。用cloudsync来下载百度盘和Google Drive上的资源（cloudsync真是神器）。
 <figure class="pswp-item" style="flex: 85.25316455696202" data-width="1347" data-height="790"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d8a8cd4baba0839e9fd904498071dfc7.jpg" alt="cloudsync" /><figcaption>cloudsync</figcaption></figure></p>

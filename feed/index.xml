@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 15 Feb 2020 07:59:03 +0806</lastBuildDate><pubDate>Sat, 15 Feb 2020 07:59:03 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 21 Feb 2020 11:05:33 +0806</lastBuildDate><pubDate>Fri, 21 Feb 2020 11:05:33 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -15,19 +15,23 @@
 &lt;p&gt;顺手把单位里的R8000也刷了梅林，在全所范围内实现ss、kms和去广告，自己方便，别人也方便。配合AP，全面覆盖，无缝漫游。有一次内部开会，有个同事说因为在单位可以上Google，查资料方便，所以很愿意加班。老板听了很满意，频频冲我点头，但并没有给我加工资。&lt;/p&gt;
 &lt;p&gt;最新的梅林固件开始支持AiMesh，于是我又买了一台66u b1，两台共同组AiMesh，有线回程。然而某天我突然发现自己其实根本不需要无缝漫游，因为家里实在小，一台K2P完全可以覆盖了，而且发热量还小。撤掉两台66u，收进车库里吃灰。
 &lt;figure class="pswp-item" style="flex: 78.73626373626374" data-width="1433" data-height="910"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/0383690c69315cfcf8c72ca7d0d73988.png" alt="Aimesh" /&gt;&lt;figcaption&gt;Aimesh&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;另一方面，科学上网的变化日新月异，转眼间我已数次换了机场，换了跨栏方案，路由器上的ss不带混淆，已无法用了。于是改为在终端翻，策略组分流，ios用quantumalt，android用surfboard，win用clash。其中clash是我最喜欢的，开源稳定，在PC上用clash之后几乎再没出过不能上网的情况。
-&lt;figure class="pswp-item" style="flex: 88.44339622641509" data-width="1500" data-height="848"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1790c1de2e6ff98e0f9c674739f8a627.png" alt="clash" /&gt;&lt;figcaption&gt;clash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;梅林用了好几年，期间很稳定，一直没去动过。不过，科学上网的姿势日新月异，转眼间我已数次换了机场，换了跨栏方案，梅林路由器上的ss不带混淆，已无法用了。于是改为在终端翻，策略组分流，ios用quantumalt，android用surfboard，win用clash。其中clash是我最喜欢的，开源稳定，在PC上用cfw之后几乎再没出过不能上网的情况。
+&lt;figure class="pswp-item" style="flex: 88.44339622641509" data-width="1500" data-height="848"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1790c1de2e6ff98e0f9c674739f8a627.png" alt="clash for windows" /&gt;&lt;figcaption&gt;clash for windows&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;偶然了解到旁路方案，本想把一台闲置的MacBook装上surge当网关用，无奈surge太贵买不起。后来经安利买了一个orange pi zero plus，和我早年买的树莓派是一个道理，不过这个更小，而且是千兆口，CPU也更强。刷了群里老竭力改过的PandoraBox固件，已内置了ssr plus，支持订阅和故障转移，非常好用。把xbox网关指向Pi就可以实现翻墙，看Netflix速度很棒，和老婆晚上在家看4K的纸牌屋，很开心。
 &lt;figure class="pswp-item" style="flex: 68.62949452840022" data-width="2634" data-height="1919"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/8956bdf983a86a3f2d460f3595c9d227.jpg" alt="pi" /&gt;&lt;figcaption&gt;pi&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;正好电信有免费提速到200M的优惠，就办理了，结果提速后家里测速还是只有100M，问了才知道精装修装的交换机是百兆的，真的垃圾。本想买个千兆交换机放弱电箱，后来转念买了台Newifi3，刷lean固件，拆了外壳后勉强可塞进弱电箱，发热量也还好。将Newifi作为主路由，关无线，挂ssr；K2P使用AP模式，连WIFI；Pi专供Xbox，保证视频速度流畅。&lt;/p&gt;
 &lt;p&gt;这套方案本身挺合理的，只是裸板放弱电箱还是不放心。某天出差，临时起意买了个四口的J1900。到手后发现做工真好，被动散热效果就很不错，夏天也仅40多度。而且大小适中，正好可以放进弱电箱，把新三给换下来。性能上，跑分可以跑三万多，但是看Netflix的速度基本还是一样，估计瓶颈在线路本身的速度。软路由配合K2P的AP，硬件上暂不需要折腾了。
 &lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="4032" data-height="3024"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e8a1ea7a124e9cf101350467be1dc2dd.jpg" alt="J1900" /&gt;&lt;figcaption&gt;J1900&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。原本还想折腾一下PVE虚拟化，然后再跑路由系统，但查了发现J1900不支持网卡直通，作罢，也省去了折腾的心思。网上看到有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。
-&lt;figure class="pswp-item" style="flex: 65.57863501483679" data-width="1326" data-height="1011"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/83c081daa1db69d5fd63d64da3eabb8e.png" alt="openwrt" /&gt;&lt;figcaption&gt;openwrt&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。不过翻墙工具更新很快，openwrt平台除了ssr plus、clash之外，又冒出了passwall、hello world等新工具，功能更全面，但是我通过安装网友编译的ipk包时总是会出现缺少依赖的情形。更彻底的办法是直接更新固件，但软路由要更新固件却很麻烦，相当于电脑重装系统，费时费力。更科学的方法是虚拟化安装，但J1900这块CPU不支持网卡直通，故不考虑。&lt;/p&gt;
+&lt;p&gt;转而用那台刷了小钢炮的N1测试了docker安装op，确实很方便，更新固件只需要pull一下最新镜像，远程配置一下即可，而不必去动机器本身。
+&lt;figure class="pswp-item" style="flex: 58.05714285714286" data-width="1016" data-height="875"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/60448a53ed36ea029f3fea60a955c4d1.png" alt="N1 OP" /&gt;&lt;figcaption&gt;N1 OP&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;因此虚拟化安装是更科学的系统安装方式，打算以后换个软路由，比如3865U之类。网上看到还有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。&lt;/p&gt;
 &lt;p&gt;Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。总体能用，成熟后可以部署到主路由上。
-&lt;figure class="pswp-item" style="flex: 50.0" data-width="2160" data-height="2160"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/fdf62ce91800bd0fee5a12e9a7b4aab2.jpg" alt="luci-clash" /&gt;&lt;figcaption&gt;luci-clash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;figure class="pswp-item" style="flex: 50.0" data-width="2160" data-height="2160"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e601716888ae03b2dcd2f51815022145.jpg" alt="luci-clash" /&gt;&lt;figcaption&gt;luci-clash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;535期间没事干，翻出早年买的一个小黄路由——GL MT300N V2，在吃灰多年后，经更新固件终于可以支持华为4G网卡，插上即可上网。其固件本质为openwrt，套了个一定制的界面。进ssh刷上ssr plus，可用，但性能较弱。并没有想到可用场景，就当玩玩吧。
 &lt;figure class="pswp-item" style="flex: 70.91503267973856" data-width="1302" data-height="918"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3b2b2494f147d31f0ce0f2892e551c15.jpg" alt="随身路由" /&gt;&lt;figcaption&gt;随身路由&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;为了能远程看到家里的网络情况，打电话给电信改了桥接，然后用主路由PPPOE拨号，并在阿里云买了一个域名，用于ddns；搞了证书，可以远程https访问到路由器管理页面。这个操作看起来并没有什么卵用，但实际上打开了一扇大门。&lt;/p&gt;
 &lt;p&gt;实现远程访问后，在家里搞了一台群晖415+，4盘4T跑raid5，约10T的可用容量。用cloudsync来下载百度盘和Google Drive上的资源（cloudsync真是神器）。
 &lt;figure class="pswp-item" style="flex: 85.25316455696202" data-width="1347" data-height="790"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d8a8cd4baba0839e9fd904498071dfc7.jpg" alt="cloudsync" /&gt;&lt;figcaption&gt;cloudsync&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -65,7 +69,8 @@
 &lt;p&gt;赶上黑五的时候又买了Firestick 4K，接房间的小米电视，十分小巧可以藏在电视背后，从正面完全看不出来。而且这货可以用Alexa来控制，装逼效果一流，实际没啥用处。不过我慢慢失去耐心，一般剧都看不过三集。&lt;/p&gt;
 &lt;p&gt;Netflix虽好，但上面还是有很多片子是没有的，所以有时还是需要本地片源，原先用的小米路由器硬盘版太弱，便上了群晖。群晖上cloudsync堪称下载神器，可以以同步的方案下载百度盘、Google Drive上的资源，这俩是目前最主流的资源分享渠道了。对于种子或是磁力，也可以通过其自带的Download Station来下载，速度一般。
 &lt;figure class="pswp-item" style="flex: 85.25316455696202" data-width="1347" data-height="790"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d8a8cd4baba0839e9fd904498071dfc7.jpg" alt="CloudSync" /&gt;&lt;figcaption&gt;CloudSync&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;然后为更流畅地看本地4K片源，又买了一个N1，刷coreelec（kodi变体），观影效果很棒。&lt;/p&gt;
+&lt;p&gt;然后为更流畅地看本地4K片源，又买了一个N1，刷coreelec（kodi变体），观影效果很棒。
+&lt;figure class="pswp-item" style="flex: 74.94646680942184" data-width="1400" data-height="934"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/f786edae1f83133e063d413cad09d443.jpg" alt="N1" /&gt;&lt;figcaption&gt;N1&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;不过老婆嫌NAS太吵，家里太小没办法只能搬去单位，SMB方式变得不可行。后来偶然了解到还有Plex这样的神器，可以远程流媒体传输。群晖上有现成的套件就直接跑了一个，也很简单。我最喜欢Plex之处在于任意设备直接播放，并且保存播放记录多设备同步，相当于自己跑了一个爱奇艺。此外，其自带的刮削器也很强，片子的信息基本都能正确地抓到，效果如图：&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 89.0125173852573" data-width="1280" data-height="719"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/5408edcfb3afc7f653beb687bde3b4d9.jpg" alt="电影" /&gt;&lt;figcaption&gt;电影&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure class="pswp-item" style="flex: 89.0125173852573" data-width="1280" data-height="719"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cb3dda4050240c0899872679b38556d6.jpg" alt="剧集" /&gt;&lt;figcaption&gt;剧集&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -79,10 +84,17 @@
 &lt;p&gt;Jellyfin作为开源免费软件，功能上并不输Plex，我更喜欢Jellyfin的一点是它不需要像Plex那样要过Plex服务器认证后才能连接，直接远程连接到自己服务器即可，更为自主可靠。另外，一些细节设置也更为人性化，比如在手动识别媒体信息时能直接显示匹配的片名及图片，选择起来更直观。&lt;/p&gt;
 &lt;p&gt;Jellyfin+Kodi的方案，相当于就是把Jellyfin作为影片管理器来用了，其刮削器匹配的影片信息，准确度也很高。此外，通过插件下载字幕，也十分方便。
 &lt;figure class="pswp-item" style="flex: 67.5054704595186" data-width="1234" data-height="914"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/799fc13089c728359082ede0d495a3b0.png" alt="字幕" /&gt;&lt;figcaption&gt;字幕&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;不过如果特别有钱的话，Plex+Infuse Pro体验会更好些，同样是Plex作为影片管理器，Infuse作为播放器，UI很舒服，操作也很人性化。通过Apple TV来播放，应该是最佳方案了。
+&lt;p&gt;不过如果特别有钱的话，Plex+Infuse Pro体验会更好些，同样是Plex作为影片管理器，Infuse作为播放器，UI很舒服，操作也很人性化。通过Apple TV来播放，应该算是最佳方案了。
 &lt;figure class="pswp-item" style="flex: 66.7361835245047" data-width="1280" data-height="959"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/191a649a3dff4867649f81f9c2d6c51f.jpg" alt="Infuse on iPad Pro" /&gt;&lt;figcaption&gt;Infuse on iPad Pro&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;不过我还是继续用平民方案，直接在电视机上装Kodi，少去外接的麻烦。如果电视机性能不够的话，可以选择N1刷CoreElec后装Jellyfin看，是非常实惠的方案。&lt;/p&gt;
-&lt;p&gt;折腾了那么多，看剧的时间是越来越少了，有点忧伤。&lt;/p&gt;
+&lt;p&gt;不过我还是继续用平民方案，对于客厅的Sony电视直接在电视机上装Kodi，性能够用；对于房间的小米电视，性能略差，直接装Kodi有时会卡。因此，还是选择用N1刷CoreElec后装Jellyfin看。买了一根usb转dc的诱骗线，用小米电视的USB口供电并假装自己是12V从而成功带动N1，这样就免去再接一根电线的麻烦。N1完全隐在壁挂电视背后，非常完美。
+&lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/07c0745d187abf4ccd72f3b08c0450c5.jpg" alt="N1解码" /&gt;&lt;figcaption&gt;N1解码&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;十分喜欢N1这个小盒子，于是又买了个，刷了小钢炮系统用于下载，荒野无灯出品，找到了当年用他的老毛子路由器固件的感觉，十分简洁直观。
+&lt;figure class="pswp-item" style="flex: 70.04189944134079" data-width="1003" data-height="716"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/10e498c2e3a32f4c1c738315a67ae922.png" alt="NDM" /&gt;&lt;figcaption&gt;NDM&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在N1上插个不用的移动硬盘，使用系统自带qBittorrent来下载些蓝光电影，本地观看，速度更快，也没什么噪音。然后用另一个N1 CE解码播放，很配。
+&lt;figure class="pswp-item" style="flex: 72.82303370786516" data-width="1037" data-height="712"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/7bd7a572458bc5e199adf23332b5a339.png" alt="qBit" /&gt;&lt;figcaption&gt;qBit&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然而折腾了那么多，看剧的时间是越来越少了，有点忧伤。为什么还要折腾，大约是一种情怀，有一位&lt;a href="https://twitter.com/piece/status/1230364853610483713"&gt;推友&lt;/a&gt;说的很符合我的心境：&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;昨天花了很长时间折腾IPTV，想抛弃电视盒子在家随意观看，什么双线双拨，什么VLAN都尝试过，家里的网搞瘫两次，一直搞到今天凌晨三点也没成功。其实我不看电视，也不闲，甚至还有点忙，就是啥正事也不想干，就想把精力耗干，每隔一段时间就会来一次，啥也不想干。&lt;/p&gt;
+&lt;/blockquote&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/movie/</guid><pubDate>Fri, 27 Dec 2019 15:26:00 +0806</pubDate></item><item><title>科学订阅</title><link>/archives/rss/</link><description>&lt;p&gt;十年前是RSS盛行的年代，十年后已变成了微信公众号的天下。微信公众号给出了一种比较简便的内容发布方案，但是不够开放，算是进步和退步吧。2019年8、9月份的时候，因为需要跟踪上海发改委网站上关于奉贤海上风电项目竞价的情况，每天打开网站看一遍，真是太蛋疼了。于是想到了自己去烧制一个RSS。&lt;/p&gt;
 &lt;p&gt;通过Google找到了Feed43，原理蛮简单，就是定时去读取网站内容，然后用类似正则的方式去匹配内容信息。试了一下就会了，制作了国家发改委、能源局等网站的RSS。
 &lt;figure class="pswp-item" style="flex: 77.50533049040511" data-width="727" data-height="469"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/08a8289311e92cf80d9ed7bd1b4aac23.png" alt="Feed43" /&gt;&lt;figcaption&gt;Feed43&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
