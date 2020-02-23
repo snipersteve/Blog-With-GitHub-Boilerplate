@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/d7642bdfcbe3fc8fec1dfc0ad29a31dc.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/0248bcb995b882e4877cb2085417db09.json"
         }
     </script>
     
@@ -104,8 +104,9 @@
 <p>正好电信有免费提速到200M的优惠，就办理了，结果提速后家里测速还是只有100M，问了才知道精装修装的交换机是百兆的，真的垃圾。本想买个千兆交换机放弱电箱，后来转念买了台Newifi3，刷lean固件，拆了外壳后勉强可塞进弱电箱，发热量也还好。将Newifi作为主路由，关无线，挂ssr；K2P使用AP模式，连WIFI；Pi专供Xbox，保证视频速度流畅。</p>
 <p>这套方案本身挺合理的，只是裸板放弱电箱还是不放心。某天出差，临时起意买了个四口的J1900。到手后发现做工真好，被动散热效果就很不错，夏天也仅40多度。而且大小适中，正好可以放进弱电箱，把新三给换下来。性能上，跑分可以跑三万多，但是看Netflix的速度基本还是一样，估计瓶颈在线路本身的速度。软路由配合K2P的AP，硬件上暂不需要折腾了。
 <figure class="pswp-item" style="flex: 66.66666666666667" data-width="4032" data-height="3024"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e8a1ea7a124e9cf101350467be1dc2dd.jpg" alt="J1900" /><figcaption>J1900</figcaption></figure></p>
-<p>J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。不过翻墙工具更新很快，openwrt平台除了ssr plus、clash之外，又冒出了passwall、hello world等新工具，功能更全面，但是我通过安装网友编译的ipk包时总是会出现缺少依赖的情形。更彻底的办法是直接更新固件，但软路由要更新固件却很麻烦，尤其是我的软路由是放在弱电箱里，要拿出来特别麻烦。更科学的方法是虚拟化安装，但J1900这块CPU不支持网卡直通，故不考虑。</p>
-<p>转而用那台刷了小钢炮的N1测试了docker安装op，确实很方便，更新固件只需要pull一下最新镜像，远程配置一下即可，而不必去动机器本身。
+<p>J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。不过翻墙工具更新很快，openwrt平台上除了ssr plus、clash之外，又冒出了passwall、hello world等新工具，功能更全面，但是我通过安装编译好的ipk包时总是会出现缺少依赖的情形。更彻底的办法是直接更新固件，但软路由要更新固件却很麻烦，尤其是我的软路由是放在弱电箱里，要拿出来特别麻烦。有一次尝试盲刷，然而固件的lan口与我原先的不一致，最终还是只能拿出来刷，十分蛋疼。
+<figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/66aac90ca0f69568e3b0b101d500a8ac.jpg" alt="打开弱电箱" /><figcaption>打开弱电箱</figcaption></figure></p>
+<p>新固件更科学的方法是虚拟化安装，但J1900这块CPU不支持网卡直通，故不考虑。转而用那台刷了小钢炮的N1测试了docker安装op，确实很方便，更新固件只需要pull一下最新镜像，远程配置一下即可，而不必去动机器本身。
 <figure class="pswp-item" style="flex: 58.05714285714286" data-width="1016" data-height="875"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/60448a53ed36ea029f3fea60a955c4d1.png" alt="N1 OP" /><figcaption>N1 OP</figcaption></figure></p>
 <p>因此虚拟化安装是更科学的系统安装方式，打算以后换个软路由，比如3865U之类。网上看到还有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。</p>
 <p>Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。总体能用，成熟后可以部署到主路由上。
