@@ -78,6 +78,8 @@ Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处�
 此外，还有一个Clash的管理界面，我也很喜欢，方便查看实时网速、流量以及日志等。
 ![clash-dashboard](./images/yacd.jpg)
 
+Clash实在好用，计划把家里网络环境简化一下，主路由用UBNT ER-X，负责拨号；N1刷armbian跑clash作为旁路，负责翻墙及去广告；Velop mesh作为AP。应该是最佳方案了。
+
 但开源社区也有一些不那么舒服的事情。今天碰巧看到关于shadowsocks发展史的一篇[文章](https://github.com/JadaGates/ShadowsocksBio)，让人唏嘘不已。其中ss和ssr的故事再一次重演，发生在clash和clashr上。Dreamacro写的clash为开源项目，但不支持ssr协议；因很多机场只提供ssr节点，广大小白用户希望支持ssr协议的呼声很高；lvguangfa在clash核心上加了ssr支持，闭源，向机场主收费，被人肉，被迫开源后退出。历史总是惊人的相似。
 
 我现在属于拿来主义，只会拿开源社区的东西来用；希望以后也有能力可以去提pr甚至自己写个有用的程序，也为开源社区作点贡献。
