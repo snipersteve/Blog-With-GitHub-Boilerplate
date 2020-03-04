@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/d9930557ce51ccf0780d533707f06613.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/b0768d5f1861acdaf778d4ba91f3a5d7.json"
         }
     </script>
     
@@ -110,7 +110,7 @@
 <p>更科学的方法是虚拟化安装，但J1900这块CPU不支持网卡直通，故不考虑。转而用那台刷了小钢炮的N1测试了docker安装op，确实很方便，更新固件只需要pull一下最新镜像，远程配置一下即可，而不必去动机器本身。
 <figure class="pswp-item" style="flex: 58.05714285714286" data-width="1016" data-height="875"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/60448a53ed36ea029f3fea60a955c4d1.png" alt="N1 OP" /><figcaption>N1 OP</figcaption></figure></p>
 <p>因此虚拟化安装是更科学的系统安装方式，打算以后换个软路由，比如3865U之类。网上看到还有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。</p>
-<p>Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。总体能用，成熟后可以部署到主路由上。
+<p>Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。不过旁路其实没必要跑openwrt，各组件之间容易打架，不如直接armbian跑clash并设置iptables转发规则到clash更为简洁，理论上速度也更快。
 <figure class="pswp-item" style="flex: 50.0" data-width="2160" data-height="2160"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e601716888ae03b2dcd2f51815022145.jpg" alt="luci-clash" /><figcaption>luci-clash</figcaption></figure></p>
 <p>535期间没事干，翻出早年买的一个小黄路由——GL MT300N V2，在吃灰多年后，经更新固件终于可以支持华为4G网卡，插上即可上网。其固件本质为openwrt，套了个一定制的界面。进ssh刷上ssr plus，可用，但性能较弱。并没有想到可用场景，就当玩玩吧。
 <figure class="pswp-item" style="flex: 70.91503267973856" data-width="1302" data-height="918"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3b2b2494f147d31f0ce0f2892e551c15.jpg" alt="随身路由" /><figcaption>随身路由</figcaption></figure></p>
