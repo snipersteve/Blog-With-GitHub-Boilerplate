@@ -116,6 +116,4 @@ TTRSS另提供了一个模仿Fever服务的插件，可以让一些支持Fever�
 
 ---
 
-update after 2 months
-
-换成了付费方案inoreader，50刀一年，带生成feed、过滤、邮件摘要、关键词高亮、动态搜索等功能，真香。
+update after 2 months：换成了付费方案inoreader，50刀一年，带生成feed、过滤、邮件摘要、关键词高亮、动态搜索等功能，真香。
