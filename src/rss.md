@@ -57,10 +57,11 @@ author: ste
 毛总用一个中午的时间帮我实现了国家发改委网站的抓取，并在调试后优化。抓取的内容如图：
 ![feed](./images/feed.png)
 
+后来索性向毛总请教如何写路由，在漫长的试错之后，终于学会抓一些简单的博客类网站，比如律所官网，学会之后还是很有成就感的，以后可以出去自称精通node.js了。
+![通商所](./images/lawfirm.png)
+
 RssHub还有一个很不错的路由是邮件收取，即通过imap协议收取邮箱中的邮件为RSS。我为此注册了一个Gmail邮箱专门订阅一些Newsletter，然后配置账号信息到RssHub的环境变量中。老牌RSS服务Inoreader在最近一次[更新](https://sspai.com/post/58690)后，也支持了这个功能（收费功能）。
 ![Newsletter](./images/newsletter.png)
-
-RssHub这个工具的门槛还是偏高，我除了直接用现成的或是抄抄改改已有的路由，其它还是不会。这或许是我学习js和git的一条进路，以后再说吧。
 
 ---
 
