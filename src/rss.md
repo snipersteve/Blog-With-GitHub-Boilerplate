@@ -118,4 +118,16 @@ TTRSS另提供了一个模仿Fever服务的插件，可以让一些支持Fever�
 ---
 
 update after 2 months：换成了付费方案inoreader，50刀一年，带生成feed、过滤、邮件摘要、关键词高亮、动态搜索等功能，真香。
-![Inoreader](./images/inoreader.png)
+![Inoreader](./images/inoreader0.jpg)
+
+最吸引我的是Inoreader的动态搜索功能，可以从所有订阅源里检索相应关键词（或正则）而形成一个独立的栏目，这个栏目可以做成一个RSS源，还可以通过邮件摘要的方式分享给团队，非常实用。
+![动态搜索](./images/inoreader1.jpg)
+
+Inoreader的另一个杀手锏功能是2020年4月更新的“Follow websites without RSS with Web feeds”，通过指定内容来生成RSS源，自动识别就很准，还可以通过指定xpath精确定位。这个功能比rsshub、feed43等傻瓜得多，简单好用。
+![网页抓取](./images/inoreader2.jpg)
+
+另一个不错的功能是规则自动化，类似ifttt，设定好条件后自动执行。比如我设定了star的文章里匹配正则的内容发送到我印象笔记的指定文件夹里，从而实现用Inoreader阅读，有用的文章星标，然后自动收集到印象笔记里进一步梳理。此外，ifttt也支持Inoreader服务，可以玩出更多花样。
+![规则自动化](./images/inoreader3.jpg)
+
+最后说一下Inoreader的阅读体验，网页和APP都很精美，我更喜欢用网页版，快捷键操作配合荧光标功能有助于速览。在科学上网的前提下，响应速度也比较理想。
+![荧光标](./images/inoreader.png)
