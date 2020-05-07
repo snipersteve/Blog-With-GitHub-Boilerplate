@@ -45,8 +45,11 @@ Sonos的主要特点就是简单易用，可以在线播放Spotify、Tidal、网
 moOde用起来体验相对好些，因为树莓派闲置，就跑了一个，偶尔听听。
 ![moOde](./images/moode.png)
 
-最方便还是在线曲库，先后试了Spotify/Tidal/Youtube Music等，实测还是Spotify最强，曲库最全，算法最优。为了Spotify还上了Spoticheap这条贼船，交了一年的费用，没多久就翻车了，难受。还是在Telegram上找个合租吧。
+最方便还是在线曲库，先后试了Spotify/Tidal/Youtube Music等，体验上还是Spotify最强，然而我为了用Spotify还上了Spoticheap这条贼船，交了一年的费用，没多久就翻车了，难受。
 ![Spotify](./images/spotify.png)
+
+最终选择了Youtube Music。其本身曲库就挺全，主流新歌基本同步都有，歌单和算法也不错。还有Youtube的巨大库作为后备，大量歌曲我更喜欢其演唱会版本、综艺版本，基本都可以找到。实在没有的资源，还可以自己找到mp3后传到Youtube上听。从而一个APP搞定所有，不必再纠结版权分散问题。这可能是听歌的最佳解决方案。
+![Youtube](./images/youtube.png)
 
 ---
 
