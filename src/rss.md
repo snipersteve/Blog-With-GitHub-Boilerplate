@@ -117,7 +117,9 @@ TTRSS另提供了一个模仿Fever服务的插件，可以让一些支持Fever�
 
 ---
 
-update after 2 months：换成了付费方案inoreader，50刀一年，带生成feed、过滤、邮件摘要、关键词高亮、动态搜索等功能，真香。
+update 2020.5.5
+
+换成了付费方案inoreader，50刀一年，带生成feed、过滤、邮件摘要、关键词高亮、动态搜索等功能，真香。
 ![Inoreader](./images/inoreader0.jpg)
 
 最吸引我的是Inoreader的动态搜索功能，可以从所有订阅源里检索相应关键词（或正则）而形成一个独立的栏目，这个栏目可以做成一个RSS源，还可以通过邮件摘要的方式分享给团队，非常实用。
@@ -131,3 +133,23 @@ Inoreader的另一个杀手锏功能是2020年4月更新的“Follow websites wi
 
 最后说一下Inoreader的阅读体验，网页和APP都很精美，我更喜欢用网页版，快捷键操作配合荧光标功能有助于速览。在科学上网的前提下，响应速度也比较理想。
 ![荧光标](./images/inoreader.png)
+
+---
+
+update 2020.5.28
+
+非常喜欢RSSHub的功能及理念，决定去提Pull Request。重新Fork了一次以确保与主仓库一致，然后git clone到本地，新增若干路由后提交到自己的仓库。
+
+接下来就是提PR了，一提交就立刻触发机器人自动审核。
+![检查](./images/pr1.jpg)
+
+同时，Telegarm群里也自动有机器人提示有新PR。
+![通知](./images/pr2.jpg)
+
+有多项检查，好紧张。等了几分钟，终于通过了。
+![初审](./images/pr3.jpg)
+
+竟然还解锁了一个成就！
+![成就](./images/pr4.jpg)
+
+最终就是等作者通过了。
