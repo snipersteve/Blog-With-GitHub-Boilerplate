@@ -156,3 +156,6 @@ update 2020.5.28
 
 最终PR通过，还是很开心的。
 ![合并](./images/merged.png)
+
+顺便说一下，在写路由的过程中，用Visual Studio Code的Remote SSH插件远程到服务器，编写、运行都非常方便，本文也是在VSCode上写的。
+![VSCode](./images/vscode.png)
