@@ -80,7 +80,7 @@ Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处�
 
 但开源社区也有一些不那么舒服的事情。今天碰巧看到关于shadowsocks发展史的一篇[文章](https://github.com/JadaGates/ShadowsocksBio)，让人唏嘘不已。其中ss和ssr的故事再一次重演，发生在clash和clashr上。Dreamacro写的clash为开源项目，但不支持ssr协议；因很多机场只提供ssr节点，广大小白用户希望支持ssr协议的呼声很高；lvguangfa在clash核心上加了ssr支持，闭源，向机场主收费，被人肉，被迫开源后退出。历史总是惊人的相似。
 
-clash在2020年6月27日突然把版本号拉到1.0.0[版本](https://github.com/Dreamacro/clash/releases/tag/v1.0.0)，这意味着开源时代的结束。此后clash将另开一个闭源版本，称为Premium内核，支持rule provider、tun等新功能。此举封死了clashr无脑抄代码的路子，但也堵死了开源合作的可能性。对于使用者而言，目前来看影响不大，clash的开源版本已经更新了proxy provider这个重要功能，配合subconverter进行节点更新十分方便。我在服务器docker里跑了1.0.0版本，使用良好。
+clash在2020年6月27日突然把版本号拉到1.0.0[版本](https://github.com/Dreamacro/clash/releases/tag/v1.0.0)，这其实是意味着开源时代的结束。此后clash将另开一个Premium的闭源版本，支持rule provider、tun、script等新功能。此举封死了clashr无脑抄代码的路子，但也堵死了开源合作的可能性，仅有为数不多的开发者参与其中。对于使用者而言，目前来看影响不大，clash的开源版本已经更新了proxy provider这个重要功能，配合subconverter进行节点更新十分方便，未来小修小补可能还是会有更新的。我在服务器docker里跑了1.0.0版本，使用良好。
 
 我现在属于拿来主义，只会拿开源社区的东西来用；希望以后也有能力可以去提pr甚至自己写个有用的程序，也为开源社区作点贡献。
 
