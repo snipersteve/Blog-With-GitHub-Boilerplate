@@ -1,61 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 29 Jun 2020 01:09:28 +0806</lastBuildDate><pubDate>Mon, 29 Jun 2020 01:09:28 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 07 Jul 2020 08:52:25 +0806</lastBuildDate><pubDate>Tue, 07 Jul 2020 08:52:25 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-</description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/ss/</link><description>&lt;p&gt;我的智商极限大约就是折腾路由器了。&lt;/p&gt;
+</description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/internet/</link><description>&lt;p&gt;我的智商极限大约就是折腾上网了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
-&lt;p&gt;后来自己家里也买了电脑，每次开机都要先拨号，总要等好一会儿才行，经朋友指点装了一个路由器，记得是水星的。在路由上完成拨号，比电脑上来得更快。虽然只是填个宽带账号的事情，还是研究了半天。搞明白之后，还跑去小姑娘家里给人家设置，弄好之后我就很老实地回家了。&lt;/p&gt;
-&lt;p&gt;读研究生期间上网需要锐捷认证，很蛋疼。想学人家把路由刷openwrt并跑锐捷，但是搞不懂，最后只能在电脑上插个360wifi来解决，给iPad之类的设备提供无线。后来学校把这类wifi硬件都封了，必须用修改版的锐捷才能正常运行，很难受。最后找导师要了他的Teacher帐号，WIFI直连外网，放弃锐捷。&lt;/p&gt;
+&lt;p&gt;后来自己家里也买了电脑，每次开机都要先拨号，总要等好一会儿才行，经朋友指点买了一个路由器，记得是水星的。在路由上完成拨号，比电脑上来得更快。虽然只是进后台填个宽带账号的事情，还是研究了半天。搞明白之后，还跑去小姑娘家里帮人设置，弄好之后我就很老实地回家了。&lt;/p&gt;
+&lt;p&gt;读研究生期间上网需要锐捷认证，很蛋疼。想学人家把路由器刷openwrt并跑锐捷，但是搞不懂，最后只能在电脑上插个360wifi来解决，给iPad之类的设备提供无线。后来学校把这类wifi硬件都封了，必须用修改版的锐捷才能正常运行，很难受。最后找导师要了他的Teacher帐号，WIFI直连外网，感叹技术不如关系好用。&lt;/p&gt;
 &lt;p&gt;工作后自己租房子住，在淘宝上买刷好PandoraBox的小米路由mini，为的是在路由上实现透明代理。买了之后发现这货操作反人类，费了很大劲才设置好拨号，而且不怎稳定，用了一段时间就闲置了。作为米粉的我又买了小米路由硬盘版，上网性能一般，但好处是能远程下载电影以及自动追美剧，同时学会用samba实现在电视上看路由器里电影，速度也很快。同时顺带了解了NAS这种东西，研究了一下群晖、Gen8之类的产品，以及HyperV、ESXi之类虚拟技术。&lt;/p&gt;
-&lt;p&gt;然后就忽悠单位买了群晖，主要用于企业数据备份和共享，8盘位，raid 5。一开始用QuickConnect来远程访问，很方便但速度不理想。为了能够相对快速地实现远程访问，专门研究了一下ddns，搞了个花生壳的动态域名。这其实挺傻的，因为单位的专线其实是有公网固定IP的，这是后话，不表。&lt;/p&gt;
-&lt;p&gt;自己又跟风买了Newifi mini，刷各种固件极为方便，发现老毛子固件真好用，相较openwrt直观太多。在路由上设置好ss后，所有终端免翻，真是居家越货必备良品。同时可以设置adbyby、KMS等功能，十分强大。顺便在阿里买了个域名，用aliddns可以实现远程访问。但因为家里有两台路由，为了用aria功能，又研究了半天端口转发的问题，挺头疼。
+&lt;p&gt;然后就忽悠单位买了群晖，主要用于企业数据备份和共享，8盘位，raid 5。一开始用QuickConnect来远程访问，很方便但速度不理想。为了能够相对快速地实现远程访问，专门研究了一下ddns，搞了个花生壳的动态域名。然而这其实挺傻的，因为单位的专线其实有公网固定IP。这是后话，不表。&lt;/p&gt;
+&lt;p&gt;小米路由器不好用，自己又跟风买了Newifi mini，刷各种固件极为方便。发现老毛子固件真好用，相较openwrt直观太多。在路由上设置好酸酸后，所有终端免翻，真是居家越货必备良品。同时可以设置adbyby、KMS等功能，十分强大。顺便在阿里买了个域名，用aliddns可以实现远程访问。
 &lt;figure class="pswp-item" style="flex: 75.10288065843622" data-width="730" data-height="486"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/2b1102bbe11d865d774ba94332fa4312.jpg" alt="Newifi" /&gt;&lt;figcaption&gt;Newifi&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Newifi用起来各种好，然后开始到处安利，并囤积居奇，买了一打放在家里，送给有需要的朋友。期间上门给导师装了一台，设置好翻墙和去广告，导师表示对其科研有很大帮助，并表示要给我介绍女朋友。我后来又开始买已经下车了的K2/K2P，刷好荒野无灯的固件并配置好搬瓦工的ss线路送朋友，到手插网线就能用。但因为不可描述的原因，不久之后就不能用了，我也不可能上门去维护，后来便放弃了。&lt;/p&gt;
+&lt;p&gt;Newifi用起来各种好，然后开始到处安利，并囤积居奇，买了一打放在家里，送给有需要的朋友。期间上门给导师装了一台，设置好酸酸和去广告，导师表示对其科研有很大帮助，并表示要给我介绍女朋友。后来又我开始买已经下车了的K2/K2P，刷好荒野无灯的固件并配置好搬瓦工的酸酸线路送朋友，到手插网线就能用。但因为不可描述的原因，往往用不了太久，我也很难上门去维护，后来便放弃了。&lt;/p&gt;
 &lt;p&gt;我自己则把原先用的Newifi淘汰下来，换成Asus ac66u b1，刷梅林。梅林固件有个插件中心，按需要安装，独立更新，用起来更方便。这货的最大问题是温度常年70度往上，我经常用它来温一下过于冰的可乐。后来专门给它配了个USB风扇，温度降到50度左右。
 &lt;figure class="pswp-item" style="flex: 37.8316906747536" data-width="1996" data-height="2638"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/a718830c0d818c26831b4e1f24e83902.jpg" alt="梅林" /&gt;&lt;figcaption&gt;梅林&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;顺手把单位里的R8000也刷了梅林，在全所范围内实现ss、kms和去广告，自己方便，别人也方便。配合AP，全面覆盖，无缝漫游。有一次内部开会，有个同事说因为在单位可以上Google，查资料方便，所以很愿意加班。老板听了很满意，频频冲我点头，但并没有给我加工资。&lt;/p&gt;
-&lt;p&gt;最新的梅林固件开始支持AiMesh，于是我又买了一台66u b1，两台共同组AiMesh，有线回程。然而某天我突然发现自己其实根本不需要无缝漫游，因为家里实在小，一台K2P完全可以覆盖了，而且发热量还小。撤掉两台66u，收进车库里吃灰。
+&lt;p&gt;顺手把单位里的R8000也刷了梅林，在全所范围内实现酸酸、kms和去广告，自己方便，别人也方便。配合AP，全面覆盖，无缝漫游。有一次内部开会，有个同事说因为在单位可以上Google，查资料方便，所以很愿意加班。老板听了很满意，频频冲我点头，但并没有给我加工资。&lt;/p&gt;
+&lt;p&gt;最新的梅林固件开始支持AiMesh，于是我又买了一台66u b1，两台共同组AiMesh，有线回程，效果一般。然而某天我突然发现自己其实根本不需要无缝漫游，因为家里实在小，一台K2P完全可以覆盖了，而且发热量还小。遂撤掉两台华硕，收进车库里吃灰。
 &lt;figure class="pswp-item" style="flex: 78.73626373626374" data-width="1433" data-height="910"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/0383690c69315cfcf8c72ca7d0d73988.png" alt="Aimesh" /&gt;&lt;figcaption&gt;Aimesh&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;梅林用了好几年，期间很稳定，一直没去动过。不过，科学上网的姿势日新月异，转眼间我已数次换了机场，换了跨栏方案，梅林路由器上的ss不带混淆，已无法用了。于是改为在终端翻，策略组分流，ios用quantumalt，android用surfboard，win用clash。其中clash是我最喜欢的，开源稳定，在PC上用cfw之后几乎再没出过不能上网的情况。
+&lt;p&gt;这时我发现科学上网的姿势日新月异，转眼间我已数次换了机场，换了跨栏方案，原本在K2P上刷的固件因为不支持混淆已无法用了。懒得刷固件，于是在终端上想办法，ios用quantumalt，android用surfboard，win用clash，都可以策略组分流。其中clash是我最喜欢的，开源稳定，在PC上用cfw之后几乎再没出过不能上网的情况。
 &lt;figure class="pswp-item" style="flex: 88.44339622641509" data-width="1500" data-height="848"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1790c1de2e6ff98e0f9c674739f8a627.png" alt="clash for windows" /&gt;&lt;figcaption&gt;clash for windows&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;偶然了解到旁路方案，本想把一台闲置的MacBook装上surge当网关用，无奈surge太贵买不起。后来经安利买了一个orange pi zero plus，和我早年买的树莓派是一个道理，不过这个更小，而且是千兆口，CPU也更强。刷了群里老竭力改过的PandoraBox固件，已内置了ssr plus，支持订阅和故障转移，非常好用。把xbox网关指向Pi就可以实现翻墙，看Netflix速度很棒，和老婆晚上在家看4K的纸牌屋，很开心。
+&lt;p&gt;偶然了解到旁路方案，本想把一台闲置的MacBook装上surge当网关用，无奈surge太贵买不起。后来经安利买了一个orange pi zero plus，和我早年买的树莓派是一个道理，不过这个更小，而且是千兆口，CPU也更强。刷了群里老竭力改过的openwrt固件，支持订阅和故障转移，非常好用。把xbox网关指向Pi就可以实现翻墙，看Netflix速度很棒，和老婆晚上在家看4K的纸牌屋，很开心。
 &lt;figure class="pswp-item" style="flex: 68.62949452840022" data-width="2634" data-height="1919"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/8956bdf983a86a3f2d460f3595c9d227.jpg" alt="pi" /&gt;&lt;figcaption&gt;pi&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;正好电信有免费提速到200M的优惠，就办理了，结果提速后家里测速还是只有100M，问了才知道精装修装的交换机是百兆的，真的垃圾。本想买个千兆交换机放弱电箱，后来转念买了台Newifi3，刷lean固件，拆了外壳后勉强可塞进弱电箱，发热量也还好。将Newifi作为主路由，关无线，挂ssr；K2P使用AP模式，连WIFI；Pi专供Xbox，保证视频速度流畅。&lt;/p&gt;
-&lt;p&gt;这套方案本身挺合理的，只是裸板放弱电箱还是不放心。考虑买一台弱电箱神器UBNT ER-X作为主路由，非常稳定；然后跑一个旁路处理有特殊上网需求的设备，即便这个旁路设备出问题，至少能保证家里主干网络不受影响；然后买几个Velop mesh有线回程作为AP，真是美滋滋。&lt;/p&gt;
-&lt;p&gt;然而某天出差，临时起意买了个四口的J1900软路由。到手后发现做工真好，被动散热效果就很不错，夏天也仅40多度。而且大小适中，正好可以放进弱电箱，把新三给换下来。性能上，跑分可以跑三万多，看着就舒服。继续拿K2P作AP，除次卧信号略差之外，稳定又给力。
+&lt;p&gt;正好电信有免费提速到200M的优惠，就办理了，结果提速后家里测速还是只有100M，问了才知道精装修装的交换机是百兆的，真的垃圾。本想买个千兆交换机放弱电箱，后来转念买了台Newifi3，刷lean固件，拆了外壳后勉强可塞进弱电箱，发热量也还好。将Newifi作为主路由，关无线，挂酸酸乳；K2P使用AP模式，连WIFI；Pi专供Xbox，保证视频速度流畅。&lt;/p&gt;
+&lt;p&gt;这套方案本身挺合理的，只是裸板放弱电箱还是不放心。盘算着等优惠的时候买一台弱电箱神器UBNT ER-X作为主路由，然后跑一个旁路处理有特殊上网需求的设备，然后再买几个Velop mesh有线回程作为AP，真是美滋滋。&lt;/p&gt;
+&lt;p&gt;然而某天出差，临时起意买了个四口的J1900软路由。到手后发现做工极好，被动散热效果很不错，夏天也仅40多度。而且大小适中，正好可以放进弱电箱，把新三给换下来。性能上，跑分可以跑三万多，看着就舒服。继续拿K2P作AP，除次卧信号略差之外，稳定又给力。
 &lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="4032" data-height="3024"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e8a1ea7a124e9cf101350467be1dc2dd.jpg" alt="J1900" /&gt;&lt;figcaption&gt;J1900&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。不过翻墙工具更新很快，openwrt平台上除了ssr plus、clash之外，又冒出了passwall、hello world等新工具，功能更全面，但是我通过安装编译好的ipk包时总是会出现缺少依赖的情形。更彻底的办法是直接更新固件，但软路由要更新固件却很麻烦，尤其是我的软路由是放在弱电箱里，要拿出来特别麻烦。有一次尝试盲刷，然而固件的lan口与我原先的不一致，最终还是只能拿出来配置，十分蛋疼。
+&lt;p&gt;J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下来十分稳定。不过人总是要折腾，不时想装装其它的软件包，但是我通过安装编译好的ipk包时总是会出现缺少依赖的情形。更彻底的办法是直接更新固件，但软路由要更新固件却很麻烦，尤其是我的软路由是放在弱电箱里，要拿出来特别麻烦。有一次尝试盲刷，然而固件的lan口与我原先的不一致，最终还是只能拿出来配置，十分蛋疼。
 &lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/66aac90ca0f69568e3b0b101d500a8ac.jpg" alt="打开弱电箱" /&gt;&lt;figcaption&gt;打开弱电箱&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;更科学的方法是虚拟化安装，但J1900这块CPU不支持网卡直通，故不考虑。转而用那台刷了小钢炮的N1测试了docker安装op，确实很方便，更新固件只需要pull一下最新镜像，远程配置一下即可，而不必去动机器本身。
 &lt;figure class="pswp-item" style="flex: 58.05714285714286" data-width="1016" data-height="875"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/60448a53ed36ea029f3fea60a955c4d1.png" alt="N1 OP" /&gt;&lt;figcaption&gt;N1 OP&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;因此虚拟化安装是更科学的系统安装方式，打算以后换个软路由，比如3865U之类。网上看到还有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。&lt;/p&gt;
-&lt;p&gt;Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。不过旁路其实没必要跑openwrt，各组件之间容易打架，不如直接armbian跑clash并设置iptables转发规则到clash更为简洁，理论上速度也更快。
+&lt;p&gt;虚拟化安装是更科学的系统安装方式，打算以后有机会再换个软路由，比如3865U之类。网上看到还有一种思路是先PVE虚拟化后，跑一个Openwrt，再跑一个Linux定期pull最新源码并编译后自动更新Openwrt，这个操作太骚，学不来。&lt;/p&gt;
+&lt;p&gt;Pi暂时闲置了，作为测试clash的专用机器。clash及luci clash尚处于测试阶段，有一些小毛病，不如终端上的版本稳定。最新版本clash上开始引入fake-ip模式，但我并没有搞懂，大约就是防DNS污染的一种方法。不过旁路其实没必要跑openwrt，不如直接armbian跑clash并设置iptables转发规则到clash更为简洁，尤其是clash更新tun模式之后，理论上速度也更快。
 &lt;figure class="pswp-item" style="flex: 50.0" data-width="2160" data-height="2160"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e601716888ae03b2dcd2f51815022145.jpg" alt="luci-clash" /&gt;&lt;figcaption&gt;luci-clash&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;535期间没事干，翻出早年买的一个小黄路由——GL MT300N V2，在吃灰多年后，经更新固件终于可以支持华为4G网卡，插上即可上网。其固件本质为openwrt，套了个一定制的界面。进ssh刷上ssr plus，可用，但性能较弱。并没有想到可用场景，就当玩玩吧。
+&lt;p&gt;某次心血来潮翻出早年买的一个小黄路由——GL MT300N V2，在吃灰多年后，经更新固件终于可以支持华为4G网卡，插上即可上网。其固件本质为openwrt，套了个一定制的界面。然而并没有想到可用的场景，就当玩玩吧。
 &lt;figure class="pswp-item" style="flex: 70.91503267973856" data-width="1302" data-height="918"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3b2b2494f147d31f0ce0f2892e551c15.jpg" alt="随身路由" /&gt;&lt;figcaption&gt;随身路由&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;为了能远程看到家里的网络情况，打电话给电信改了桥接，然后用主路由PPPOE拨号，并在阿里云买了一个域名，用于ddns；搞了证书，可以远程https访问到路由器管理页面。这个操作看起来并没有什么卵用，但实际上打开了一扇大门。&lt;/p&gt;
-&lt;p&gt;实现远程访问后，在家里搞了一台蜗牛星际跑黑裙（矿渣真香）。用cloudsync来下载百度盘和Google Drive上的资源（cloudsync真是神器）。
+&lt;p&gt;为了能远程看到家里的网络情况，打电话给电信改了桥接，然后用主路由PPPOE拨号，并在阿里云买了一个域名，用于ddns。这个操作看起来并没有什么卵用，但实际上打开了一扇大门。&lt;/p&gt;
+&lt;p&gt;实现远程访问后，在家里搞了一台蜗牛星际跑黑群（矿渣真香）。用cloudsync来下载百度盘和Google Drive上的资源（cloudsync真是神器）。
 &lt;figure class="pswp-item" style="flex: 85.25316455696202" data-width="1347" data-height="790"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d8a8cd4baba0839e9fd904498071dfc7.jpg" alt="cloudsync" /&gt;&lt;figcaption&gt;cloudsync&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在群晖上跑docker也很不错，跑了clash和&lt;a href="https://docs.ginuerzh.xyz/gost/"&gt;gost&lt;/a&gt;，后者是一个转发代理的工具，可以实现将连到这台nas的特定流量转发到clash，从而实现代理中转，有一定用处。
 &lt;figure class="pswp-item" style="flex: 91.62790697674419" data-width="394" data-height="215"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/dd0f4c8b0003dc00623c77fd5d97d38e.png" alt="gost" /&gt;&lt;figcaption&gt;gost&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;最终还是说回Clash。在2019年这一年里，眼看着Clash这个开源软件一步步走向全平台（iOS除外），我现在电脑、手机、路由器、NAS都是用Clash了。再次感叹开源社区的强大，在Dreamacro写了Clash内核后，又有各位高手写了各平台的UI，各有特色。&lt;/p&gt;
-&lt;p&gt;除各平台UI程序外，因为Clash配置相对复杂，又有人写了转换程序，可以把服务商的ss/v2订阅转换成自己喜欢的配置并可以自动更新。
+&lt;p&gt;最终还是说回clash。在2019年这一年里，眼看着clash这个开源软件一步步走向全平台（iOS除外），我现在电脑、手机、路由器、NAS都是用Clash了。再次感叹开源社区的强大，在Dreamacro写了Clash内核后，又有各路高手写了各平台的UI，各有特色，比如cfw/cfa都是很棒的软件。&lt;/p&gt;
+&lt;p&gt;除各平台UI程序外，因为clash配置相对复杂，又有人写了转换程序，可以把服务商的订阅转换成自己喜欢的配置并可以自动更新。我主要用来转普通订阅为node list，然后通过proxy-provider更新。
 &lt;figure class="pswp-item" style="flex: 86.1557478368356" data-width="1394" data-height="809"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/a47519502a5de57d34c15c83b69d368d.png" alt="subconverter" /&gt;&lt;figcaption&gt;subconverter&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;此外，还有一个Clash的管理界面，我也很喜欢，方便查看实时网速、流量以及日志等。
+&lt;p&gt;此外，还有一个clash的web管理界面，我也很喜欢，方便查看实时网速、流量以及日志等。
 &lt;figure class="pswp-item" style="flex: 88.15426997245179" data-width="1280" data-height="726"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/71755d754143251e958174a477de2e88.jpg" alt="clash-dashboard" /&gt;&lt;figcaption&gt;clash-dashboard&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;但开源社区也有一些不那么舒服的事情。今天碰巧看到关于shadowsocks发展史的一篇&lt;a href="https://github.com/JadaGates/ShadowsocksBio"&gt;文章&lt;/a&gt;，让人唏嘘不已。其中ss和ssr的故事再一次重演，发生在clash和clashr上。Dreamacro写的clash为开源项目，但不支持ssr协议；因很多机场只提供ssr节点，广大小白用户希望支持ssr协议的呼声很高；lvguangfa在clash核心上加了ssr支持，闭源，向机场主收费，被人肉，被迫开源后退出。历史总是惊人的相似。&lt;/p&gt;
-&lt;p&gt;clash在2020年6月27日突然把版本号拉到1.0.0&lt;a href="https://github.com/Dreamacro/clash/releases/tag/v1.0.0"&gt;版本&lt;/a&gt;，这其实是意味着开源时代的结束。此后clash将另开一个Premium的闭源版本，支持rule provider、tun、script等新功能。此举封死了clashr无脑抄代码的路子，但也堵死了开源合作的可能性，仅有为数不多的开发者参与其中。对于使用者而言，目前来看影响不大，clash的开源版本已经更新了proxy provider这个重要功能，配合subconverter进行节点更新十分方便，未来小修小补可能还是会有更新的。我在服务器docker里跑了1.0.0版本，使用良好。&lt;/p&gt;
+&lt;p&gt;但开源社区也有一些不那么舒服的事情。今天碰巧看到一篇&lt;a href="https://github.com/JadaGates/ShadowsocksBio"&gt;文章&lt;/a&gt;，让人唏嘘不已。很多事情在clash上&lt;a href="https://github.com/JadaGates/ShadowsocksBio/issues/6"&gt;重演&lt;/a&gt;，历史总是惊人的相似。&lt;/p&gt;
+&lt;p&gt;clash在2020年6月27日突然把版本号拉到1.0.0&lt;a href="https://github.com/Dreamacro/clash/releases/tag/v1.0.0"&gt;版本&lt;/a&gt;，这意味着开源时代的结束。此后clash将另开一个Premium的闭源版本，支持rule-provider、tun、script等新功能。此举封死了clashr无脑抄代码的路子，但也堵死了开源合作的可能性，只剩为数不多的开发者参仍与其中。对于使用者而言，目前来看影响不大，clash的开源版本已经更新了proxy-provider这个重要功能，配合subconverter进行节点更新十分方便，未来小修小补可能还是会有更新的。我在服务器docker里跑了1.0.0版本，使用良好。&lt;/p&gt;
 &lt;p&gt;我现在属于拿来主义，只会拿开源社区的东西来用；希望以后也有能力可以去提pr甚至自己写个有用的程序，也为开源社区作点贡献。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;原本计划用Velop mesh作为AP，后来觉得实在是贵，消费降级，买了最便宜的水星mesh路由，2只的价格不到200，用起来效果也不错。除了参数上，wifi5略落后，2.5Ghz+5Ghz总共1200M的带宽也无法完全跑满千兆，但总体够用了，颜值也不错。比当年用华硕的Aimesh强多了，回头看华硕的路由器实在是有些坑。
+&lt;p&gt;硬件上，原本计划用Velop mesh作为AP，后来觉得实在是贵，消费降级，买了最便宜的水星mesh路由，两只的价格不到200，用起来效果也不错。除了参数上，wifi5略落后，2.5Ghz+5Ghz总共1200M的带宽也无法完全跑满千兆，但总体够用了，颜值也不错。比当年用华硕的Aimesh强多了，回头看华硕的路由器实在是有些坑，但在那个时期人人奉为神器，人的局限性真的很大。
 &lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/87f1ae7e5f78b82e7c2354afae02490e.jpg" alt="Mesh AP" /&gt;&lt;figcaption&gt;Mesh AP&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;我感叹网络技术真是深不见底，越到底层我越搞不懂，这大约是我智商的极限了，如果有空我得去读一读TCP/IP，了解一下底层原理。不过这种软硬结合的玩法真的有趣，学习效果也很好，我已然将其视为一种乐趣，而超过实现科学上网功能这一初衷。&lt;/p&gt;
+&lt;p&gt;我感叹网络技术真是深不见底，越到底层我越搞不懂，这大约是我智商的极限了，如果有空我得去读一读TCP/IP，了解一下底层原理。不过这种软硬结合的玩法真的有趣，我已然将其视为一种乐趣，而超过实现科学上网功能这一初衷。&lt;/p&gt;
 &lt;p&gt;这一感觉和网友&lt;a href="https://twitter.com/i/web/status/1126165698978271232"&gt;@cxiaoji&lt;/a&gt;说的很像：&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;我对数据结构有非常美好的回忆。我真正开始理解编程就是在贵系蹭的数据结构课。老师没打开过教材，上课就一个编辑器，从头写一个类，一边讲一边往里面添方法。讲完编译，测试，通过，正好下课。我期末要熬图根本没工夫复习的，但是这门课学的东西一点都没忘。&lt;/p&gt;
 &lt;/blockquote&gt;
-</description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/ss/</guid><pubDate>Wed, 25 Dec 2019 14:26:00 +0806</pubDate></item><item><title>科学阅读</title><link>/archives/reading/</link><description>&lt;p&gt;看书这个事情也要讲究科学性，我对于科学性的追求，一开始都关注在设备上，先后买过Nook、Kindle以及iPad Pro等，但每一样其实都看得不多。&lt;/p&gt;
+</description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/internet/</guid><pubDate>Wed, 25 Dec 2019 14:26:00 +0806</pubDate></item><item><title>科学阅读</title><link>/archives/reading/</link><description>&lt;p&gt;看书这个事情也要讲究科学性，我对于科学性的追求，一开始都关注在设备上，先后买过Nook、Kindle以及iPad Pro等，但每一样其实都看得不多。&lt;/p&gt;
 &lt;p&gt;但我还是给自己找了很多买设备的理由，比如买KPW时，是因为看到各种评测、晒物的帖子里都有它的身影，自己不买个都不好意思和人打招呼。结果买来终于明白为什么它出镜率这么高，因为用来当背景真的挺好看的。
 &lt;figure class="pswp-item" style="flex: 66.67956656346749" data-width="1723" data-height="1292"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/e8c87b4d1ae514495af4d64dc6d8f9bd.jpg" alt="Kindle Paperwhite 3" /&gt;&lt;figcaption&gt;Kindle Paperwhite 3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;后来又买iPad Pro和Apple pencil，是因为可以全尺寸看PDF，并方便批注。不过iPad即便是Pro也还是逃不出“买前生产力，买后爱奇艺”的命运。
