@@ -78,7 +78,8 @@ J1900买来就是刷好了lean openwrt的成品软路由，用了一段时间下
 
 ## 说说clash
 
-最终还是说回clash。在2019年这一年里，眼看着clash这个开源软件一步步走向全平台（iOS除外），我现在电脑、手机、路由器、NAS都是用Clash了。再次感叹开源社区的强大，在Dreamacro写了Clash内核后，又有各路高手写了各平台的UI，各有特色，比如cfw/cfa都是很棒的软件。
+最终还是说回clash。在2019年这一年里，眼看着clash这个开源软件一步步走向全平台（iOS除外），我现在电脑、手机、路由器、NAS都是用Clash了。再次感叹开源社区的强大，在Dreamacro写了Clash内核后，又有各路高手写了各平台的UI，各有特色，比如cfw/cfa都是很棒的软件。路由器上，openclash提供了便捷的配置调整功能，从而可以直接使用电脑/手机上的配置文件，略微调整下DNS等设置即可为路由器使用，很方便。
+![openclash](./images/openclash.png)
 
 除各平台UI程序外，因为clash配置相对复杂，又有人写了转换程序，可以把服务商的订阅转换成自己喜欢的配置并可以自动更新。我主要用来转普通订阅为node list，然后通过proxy-provider更新。
 ![subconverter](./images/subconverter.png)
