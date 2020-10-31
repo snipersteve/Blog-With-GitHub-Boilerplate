@@ -14,7 +14,9 @@ author: ste
 
 阵列组好后，开始玩docker，发现有个app市场，本质上是docker模板的合集，用起来很方便。市场上没有的，就按传统方法装docker。docker装好后管理起来非常方便，随意编辑修改，一键更新，操作更人性化。这个要打满分。
 
-然后玩虚拟机，装了一个黑群试试，也非常简单。但似乎也没有太多用群晖的必要了，群晖里有比较出彩的几个套件如Drive、Moments、Cloudsync等，还有些独特性，其于都不如直接跑docker。不过既然装好了，我还是用Drive同步了些资料进去，并用Cloudsync备份到onedrive。对于家庭使用而言，不一定要raid，把重要资料做好云备份，也就差不多了。
+![dashboard](./images/unraid.png)
+
+然后玩虚拟机，装了一个黑群试试，也非常简单。但似乎也没有太多用群晖的必要了，群晖里有比较出彩的几个套件如Drive、Moments、Cloudsync等，还有些独特性，其它都不如直接跑docker。折腾了一下没啥意思，转手又删了。
 
 本还想再装个centos虚拟机，远程调试rsshub用。后来一想unraid本身就是linux，不如直接在底层跑。于是在Nerd Tools里一键安装了git，并把自己的仓库拉下来。然后跑了一个rsshub的docker，并把路径指好，就算是部署好了调试环境：vscode远程连过去编写路由，然后通过重启docker并看log的方式来调试，一种偷懒的办法。
 
