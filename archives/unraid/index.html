@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/6ebcf82afcbefd21cb17d0e7b0d588c3.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/9b11ac8fc1cbd8786b6dba83048cb21e.json"
         }
     </script>
     
@@ -84,12 +84,15 @@
             <div class="ga-content_body">
                 <p>家里一直是一台群晖+一台N1的组合，前者负责存储并跑一些服务，后者跑PT并跑了一个OP旁路，挺科学，也很稳定。然而不知从什么时候起，反复听到Unraid这个系统，心里开始痒痒。</p>
 <p>关于unraid听的最多的就是All in one，但其实把所有东西都整合到一起也并非会很好。比如路由的部分，我更倾向于独立出来，我把一个ubnt er-x放弱电箱，安安稳稳，没掉过链子。但我还是想着要体验一下unraid，于是去买了一台J4125的小主机，8+256的配置，计划就是当个小服务器跑跑；最不济，刷成软路由也行。</p>
+<p><figure class="pswp-item" style="flex: 50.0" data-width="800" data-height="800"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/c433088cf93315bd0e2cb4c307a49afe.jpg" alt="GK55" /><figcaption>GK55</figcaption></figure></p>
 <p>很小巧的机子，Unraid安装也非常简单，单纯把文件拷进U盘即可。上手后发现硬盘组阵列也很简单，而且很自由，设置也很丰富，比如服务类的存储都限定在固态上，而媒体类限定在机械上，无访问的情况下硬盘自动休眠，最大程度上保护硬盘及省电。如果硬盘损坏，即使没有校验盘，也只是损失这块硬盘上的内容，于其它资料没关系。这大约是Unraid相较于群晖类跑raid模式的最大优势吧，也是其名字的由来。</p>
-<p>阵列组好后，开始玩docker，发现有个app市场，本质上是docker模板的合集，用起来很方便。市场上没有的，就按传统方法装docker。docker装好后管理起来非常方便，随意编辑修改，一键更新，操作更人性化。这个要打满分。</p>
-<p><figure class="pswp-item" style="flex: 87.68518518518519" data-width="1894" data-height="1080"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/40342d6cb2446c5fac3c387beb5251f9.png" alt="dashboard" /><figcaption>dashboard</figcaption></figure></p>
+<p><figure class="pswp-item" style="flex: 38.14055636896047" data-width="521" data-height="683"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/aee1bb9c2b819ed10f1dc616d3dc3a24.png" alt="文件逻辑" /><figcaption>文件逻辑</figcaption></figure></p>
+<p>阵列组好后，开始玩docker，发现有个app市场，本质上是docker模板以及plugins的合集，用起来很方便。市场上没有的，就按传统方法装docker。docker装好后管理起来非常方便，随意编辑修改，一键更新，操作更人性化。这个要打满分。
+<figure class="pswp-item" style="flex: 147.87735849056602" data-width="1881" data-height="636"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/003f7fff24ea7e2abb2352fc506f5fcb.png" alt="插件更新" /><figcaption>插件更新</figcaption></figure></p>
 <p>然后玩虚拟机，装了一个黑群试试，也非常简单。但似乎也没有太多用群晖的必要了，群晖里有比较出彩的几个套件如Drive、Moments、Cloudsync等，还有些独特性，其它都不如直接跑docker。折腾了一下没啥意思，转手又删了。</p>
 <p>本还想再装个centos虚拟机，远程调试rsshub用。后来一想unraid本身就是linux，不如直接在底层跑。于是在Nerd Tools里一键安装了git，并把自己的仓库拉下来。然后跑了一个rsshub的docker，并把路径指好，就算是部署好了调试环境：vscode远程连过去编写路由，然后通过重启docker并看log的方式来调试，一种偷懒的办法。</p>
 <p>大约就这么些用法，实测这个小主机当服务器用用是蛮好的，但必须有前置的科学上网，否则app市场都打不开，docker部署也麻烦。</p>
+<p><figure class="pswp-item" style="flex: 87.68518518518519" data-width="1894" data-height="1080"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/40342d6cb2446c5fac3c387beb5251f9.png" alt="dashboard" /><figcaption>dashboard</figcaption></figure></p>
 
             </div>
         </article>
