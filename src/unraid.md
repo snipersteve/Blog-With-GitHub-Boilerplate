@@ -22,7 +22,7 @@ author: ste
 本还想再装个centos虚拟机，远程调试rsshub用。后来一想unraid本身就是linux，不如直接在底层跑。于是在Nerd Tools里一键安装了git，并把自己的仓库拉下来。然后跑了一个rsshub的docker，并把路径指好，就算是部署好了调试环境：vscode远程连过去编写路由，然后通过重启docker并看log的方式来调试，一种偷懒的办法。
 ![dashboard](./images/unraid.png)
 
-如果只是跑这些docker未免有些性能浪费，于是又想起Plex来。同样用docker安装了一个，并挂载了群晖的一个媒体盘作为其媒体库。由于themoviedb等数据库都被墙了，所以必须有前置的科学上网。事实上，unraid使用最好有前置代理，否则app市场都打不开，docker部署也麻烦。不过实测走代理后，本地plex与plex服务器连接存在问题，需要在路由器上把pubsub.plex.tv设置绕过，避免向plex服务器错误汇报代理的IP。设置好后，影片及剧的信息都识别很准，即便不观影，光看看海报墙也是舒服的。
+如果只是跑这些docker未免有些性能浪费，于是又想起Plex来。同样用docker安装了一个，并挂载了群晖的一个媒体盘作为其媒体库。由于themoviedb等数据库都被墙了，所以必须有前置的科学上网。事实上，unraid使用最好有前置代理，否则app市场都打不开，docker部署也麻烦。不过实测走代理后，本地plex与plex服务器连接存在问题，我在openclash上设置了DOMAIN-KEYWORD,plex,DIRECT，避免向plex服务器错误汇报代理的IP。设置好后连接正常，影片及剧的信息都识别很准，即便不观影，光看看海报墙也是舒服的。
 ![PLEX](./images/plex.png)
 
 然而J4125的硬解我一直没搞定，据称是Intel的BUG还没修，只能等等。实测CPU软解的话，卡成PPT。为避免转码，可以把烧录字幕的选项设置为仅图像，这样可以避免对ASS字幕转码，降低CPU负担，但ASS的特效也就没了，成为普普通通的字幕。在直接串流播放的情况下，效果完美，其APP胜Jellyfin等十余条街，比Kodi的体验也好很多。
