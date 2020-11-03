@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/a8632074db4d306d75f0462b222067bc.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/4c5b64c39ab1a9c1fe99bf9053644707.json"
         }
     </script>
     
@@ -30,7 +30,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/archives/unraid/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2020-10-30T14:26:00-00.00" />
+<meta property="article:published_time" content="2020-11-03T14:26:00-00.00" />
 <meta name="twitter:title" content="科学整合 - 科学生活" />
 <meta name="twitter:description" content="家里一直是一台群晖+一台N1的组合，前者负责存储并跑一些服务，后者跑PT并跑了一个OP旁路，挺科学，也很稳定。然而不知从什么时候起，反复听到Unraid这个系统，心里开始痒痒。" />
 <meta name="twitter:card" content="summary" />
@@ -76,7 +76,7 @@
             <span class="ga-post_meta ga-mono">
                 <span>ste</span>
                 <time>
-                    2020-10-30
+                    2020-11-03
                 </time>
                 
                 
@@ -94,7 +94,9 @@
 <figure class="pswp-item" style="flex: 87.68518518518519" data-width="1894" data-height="1080"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/40342d6cb2446c5fac3c387beb5251f9.png" alt="dashboard" /><figcaption>dashboard</figcaption></figure></p>
 <p>如果只是跑这些docker未免有些性能浪费，于是又想起Plex来。同样用docker安装了一个，并挂载了群晖的一个媒体盘作为其媒体库。由于themoviedb等数据库都被墙了，所以必须有前置的科学上网。事实上，unraid使用最好有前置代理，否则app市场都打不开，docker部署也麻烦。不过实测走代理后，本地plex与plex服务器连接存在问题，我在openclash上设置了DOMAIN-KEYWORD,plex,DIRECT，避免向plex服务器错误汇报代理的IP。设置好后连接正常，影片及剧的信息都识别很准，即便不观影，光看看海报墙也是舒服的。
 <figure class="pswp-item" style="flex: 95.34883720930233" data-width="1558" data-height="817"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/aa31587f1a05ed97612efba1db187f8f.png" alt="PLEX" /><figcaption>PLEX</figcaption></figure></p>
-<p>然而J4125的硬解我一直没搞定，据称是Intel的BUG还没修，只能等等。实测CPU软解的话，卡成PPT。为避免转码，可以把烧录字幕的选项设置为仅图像，这样可以避免对ASS字幕转码，降低CPU负担，但ASS的特效也就没了，成为普普通通的字幕。在直接串流播放的情况下，效果完美，其APP胜Jellyfin等十余条街，比Kodi的体验也好很多。</p>
+<p>然而J4125的硬解我一直有问题，据称是Intel的BUG还没修。实测CPU软解的话，CPU爆炸，勉强也能播放。为避免转码，可以把烧录字幕的选项设置为仅图像，这样可以避免对ASS字幕转码，降低CPU负担，但ASS的特效也就没了，成为普普通通的字幕。还是不甘心，在网上找了好多好多资料，最终终于解决，最终还是在smzdm的评论中找到方案，要求：1、指定i965驱动；2、关闭VT-d。</p>
+<p>实现硬解之后，实测在播放时还是有几秒的等待时间，但播放过程中是流畅无卡顿的。总体来说，其观影效果完美，APP胜Jellyfin等十余条街，比Kodi的体验也好很多。
+<figure class="pswp-item" style="flex: 176.39664804469274" data-width="1263" data-height="358"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/44a40d89cc55d45877f255a0f76622fa.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
 <p>所以这大致就是unraid的用法，理论上可以把实体群晖淘汰掉，把影片服务、文档备份、照片共享及其它服务都跑在这个机器上，算是一种科学整合吧。</p>
 
             </div>
