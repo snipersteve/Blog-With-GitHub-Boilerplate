@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/3ae0cc228747fe8dc7cab050f9e39661.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/aa7c59e4f082a528220850a267ea6d4a.json"
         }
     </script>
     
@@ -95,10 +95,12 @@
 <figure class="pswp-item" style="flex: 87.68518518518519" data-width="1894" data-height="1080"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/40342d6cb2446c5fac3c387beb5251f9.png" alt="dashboard" /><figcaption>dashboard</figcaption></figure></p>
 <p>如果只是跑这些docker未免有些性能浪费，于是又想起Plex来。同样用docker安装了一个，并挂载了群晖的一个媒体盘作为其媒体库。由于themoviedb等数据库都被墙了，所以必须有前置的科学上网。事实上，unraid使用最好有前置代理，否则app市场都打不开，docker部署也麻烦。不过实测走代理后，本地plex与plex服务器连接存在问题，我在openclash上设置了DOMAIN-KEYWORD,plex,DIRECT，避免向plex服务器错误汇报代理的IP。设置好后连接正常，影片及剧的信息都识别很准，即便不观影，光看看海报墙也是舒服的。
 <figure class="pswp-item" style="flex: 95.34883720930233" data-width="1558" data-height="817"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/aa31587f1a05ed97612efba1db187f8f.png" alt="PLEX" /><figcaption>PLEX</figcaption></figure></p>
-<p>然而J4125的硬解我一直有问题，据称是Intel的BUG还没修。实测CPU软解的话，CPU爆炸，勉强也能播放。为避免转码，可以把烧录字幕的选项设置为仅图像，这样可以避免对ASS字幕转码，降低CPU负担，但ASS的特效也就没了，成为普普通通的字幕。还是不甘心，在网上找了好多好多资料，最终终于解决，要求：1、指定i965驱动；2、关闭VT-d；后者是无意间在smzdm的评论中找到的方案，这是一个神奇的网站。当然，在关闭VT-d后，CPU的直通功能也就关闭了，IOMMU也显示禁用，如果想要直通网卡等进行软路由设定的，就必须有个取舍。</p>
-<p>实现硬解之后，实测在播放前还是有几秒的等待时间，但播放过程中是流畅无卡顿的。总体来说，其观影效果很棒，APP胜Jellyfin等十余条街，比Kodi的体验也好很多。为了Plex硬解，这块CPU真是太心累了，早知道直接上i3 8100之类就会简单很多，忧伤。
+<p>然而J4125的硬解我一直有问题，据称是Intel的BUG还没修。实测CPU软解的话，CPU爆炸，勉强也能播放。为避免转码，可以把烧录字幕的选项设置为仅图像，这样可以避免对ASS字幕转码，降低CPU负担，但ASS的特效也就没了，成为普普通通的字幕。还是不甘心，在网上找了好多好多资料，最终终于解决，要求：1、指定i965驱动；2、关闭VT-d；后者是无意间在smzdm的评论中找到的方案，这是一个神奇的网站。</p>
+<p>实现硬解之后，实测在播放前还是有几秒的等待时间，但播放过程中是流畅无卡顿的。总体来说，其观影效果很棒，APP胜Jellyfin等十余条街，比Kodi的体验也好很多。为了Plex硬解，这块CPU真是太心累了，早知道直接上i3 8100之类就会简单很多，忧伤。但是，因为关闭了VT-d，CPU的直通功能也就没了，IOMMU也显示禁用，如果想要直通网卡等进行软路由设定的，就必须有个取舍。我纠结了半天，还是打开了VT-d。
 <figure class="pswp-item" style="flex: 176.39664804469274" data-width="1263" data-height="358"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/44a40d89cc55d45877f255a0f76622fa.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
-<p>所以这大致就是我这台unraid的用法，理论上可以把实体群晖淘汰掉，把影片服务、文档备份、照片共享及其它服务都跑在这个机器上，但我认为把所有东西都整合到一起并不是个很好的主意。比如路由的部分，我更倾向于独立出来，用一个ubnt er-x当主路由，安安稳稳，不掉链子。家里的实体黑群既然还能正常用，索性就继续用着，当一台单纯的下载和存储的机器也不错。所以说了半天整合，其实我压根没有整合，反而多了个设备。通过功能的划分，我觉得总体还是更合理了。</p>
+<p>最终还是在群晖上跑Plex，通过改hosts来解决tmdb无法访问的问题。Plex在1.20.4.3517版更新后，终于提供了为电视剧库指定用tmdb获取信息的功能，而非原先默认的tvdb。themoviedb听起来是针对电影的，实际上电视剧信息也很全，比tvdb更好，基本可以全自动识别不用纠正。Plex相较于Jellyfin的一大优势就是刮削更好用，即便都是指向同样的数据库。</p>
+<p>由于我的黑群CPU太弱鸡，支持不了转码。最后我还是选择在CoreElec上跑了Plex插件，并设置为自启动。实测整体启动时间和我小米电视的启动时间相当，体验还可以。什么时候安卓上有个Infuse就好了，目前的情况总是让人纠结。Plex真是个让人纠结的东西，但我试了一圈，对于个人影音管理，还是这个最靠谱。</p>
+<p>我这台unraid最终成了一个docker专用机。理论上可以把实体群晖淘汰掉，把影片服务、文档备份、照片共享及其它服务都跑在这个机器上，但我认为把所有东西都整合到一起并不是个很好的主意。比如路由的部分，我更倾向于独立出来，用一个ubnt er-x当主路由，安安稳稳，不掉链子。家里的实体黑群既然还能正常用，索性就继续用着，也还不错。所以说了半天整合，其实我压根没有整合，反而多了个设备。通过功能的划分，我觉得总体还是更合理了。</p>
 
             </div>
         </article>
