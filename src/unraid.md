@@ -21,7 +21,8 @@ author: ste
 插件的更新也是一样，这些插件都挺实用的，不过能集成到系统就更好了，比如APP市场、存储挂载等，内置更合理。
 ![插件更新](./images/update.png)
 
-然后玩虚拟机，装了一个黑群试试，也非常简单。不过群晖里比较出彩的几个套件大概也就Drive、Moments、Cloudsync等，其它都不如直接跑docker。以后可以考虑把家庭照片、个人资料等重要文件存到这台机器的固态上来，更安全；同时跑onedrive云备份，确保万无一失。
+然后玩虚拟机，装了一个黑群试试，并直通了一个网口给群晖用，也非常简单。不过群晖里比较出彩的几个套件大概也就Drive、Moments、Cloudsync等，其它都不如直接跑docker。以后可以考虑把家庭照片、个人资料等重要文件存到这台机器的固态上来，更安全；同时跑onedrive云备份，确保万无一失。
+![VFIO](./images/VFIO.png)
 
 为了能远程调试rsshub，需要git及相应环境。偷懒直接在底层跑，用在Nerd Tools里一键安装了git，并把自己的仓库拉下来。然后跑了一个rsshub的docker，并把路径指好，就算是部署好了调试环境：vscode远程连过去编写路由，然后通过重启docker并看log的方式来调试。然而重启后发现root目录下的ssh、git设置等都没了，因为是U盘引导启动的原因。所以还是得跑个虚拟机，装了ubuntu 20.04，还挺方便。配置好git等，专门用来调试rsshub。
 ![Ubuntu](./images/ubuntu.png)
