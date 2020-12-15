@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/81116947acaf2564b60375f85b925c00.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/211a62977cd1d33ff1121f77f1b819cf.json"
         }
     </script>
     
@@ -103,8 +103,10 @@
 <figure class="pswp-item" style="flex: 176.39664804469274" data-width="1263" data-height="358"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/44a40d89cc55d45877f255a0f76622fa.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
 <hr>
 <p>尝试在家里的群晖上跑PLEX，由于我的黑群CPU太弱鸡，转码基本上都是转圈，暂通过在CoreElec上跑PLEX插件后直接播放，并设置插件自启动。实测整体启动时间和我小米电视的启动时间相当，体验还可以。什么时候安卓上有个Infuse就好了，PLEX真是个让人纠结的东西，但我试了一圈，对于个人影音管理，还是这个最靠谱。</p>
-<p>最终决定换成一台i3 8100T（带HD630显卡）的机器，6SATA+nvme，跑unraid后可以全面利用老的硬盘，而且支持硬盘休眠，对于只有晚上回家偶尔看看电影的用途来说，比较省电。</p>
-<p>跑unraid后，新建一个下载文件夹，指定存放在1T的ssd（三星evo860，600T写入）上，专用来跑PT，不进缓存；以及一个媒体文件夹，排除ssd，也不进缓存。所以真正进缓存的只有个别docker（transmission/ddns）及虚拟机（openwrt），256的nvme就可以对付了。</p>
+<p>最终决定换成一台i3 8100T（带HD630集显）的机器，6SATA+nvme+双网口的主板，跑unraid后可以把老的闲置硬盘都利用起来。另有一块新买的1T的ssd（三星evo860，600T写入）直通给群晖用，一块500G的nvme当缓存。
+<figure class="pswp-item" style="flex: 47.9746835443038" data-width="758" data-height="790"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/075bfe025deaf3ba81b8d2b2e6abde92.jpg" alt="硬盘阵列" /><figcaption>硬盘阵列</figcaption></figure></p>
+<p>把系统、docker、虚拟机等文件夹全部放到缓存，访问快一些，但是没有保护，一般也不会丢。媒体、书籍等其它不怎么访问的数据文件存在阵列上，有校验保护。因为unraid支持硬盘无访问自动休眠，对于只有晚上回家偶尔看看电影的用途来说，比较省电，也比较省硬盘。本来照片是最适合存在阵列上的，但由于没有好用的照片管理工具，我还是只能存在群晖虚拟机里。
+<figure class="pswp-item" style="flex: 70.67307692307692" data-width="882" data-height="624"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/26aa6789baae1200abb9cadf2dbc3abc.jpg" alt="休眠" /><figcaption>休眠</figcaption></figure></p>
 <p>跑PLEX后终于可以实现流畅的硬解，体验完美。通过改hosts来解决tmdb无法访问的问题。PLEX在1.20.4.3517版更新后，终于提供了为电视剧库指定用tmdb获取信息的功能，而非原先默认的tvdb。themoviedb听起来是针对电影的，实际上电视剧信息也很全，比tvdb更好，基本可以全自动识别不用纠正。PLEX相较于Jellyfin的一大优势就是刮削更好用，即便都是指向同样的数据库。</p>
 <p>这是一台All in one的机器，理论上可以把所有服务跑在这台机器上，但我还是选择把rss相关服务跑在GK55那台机器上，利用单位的固定IP，访问起来更稳定一些。通过这一波整合，淘汰了家里用来跑存储的蜗牛星际、用来跑下载及op的N1（小钢炮系统）以及用来当播放器的两台N1（CoreElec），实现了心理上的舒适。</p>
 
