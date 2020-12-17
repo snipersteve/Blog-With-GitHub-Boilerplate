@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/4d523b1f5187d830830b616a8c61824e.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/c9d575d84ccc3ab2809eb8c2bb3296dd.json"
         }
     </script>
     
@@ -92,8 +92,6 @@
 <figure class="pswp-item" style="flex: 54.41014332965821" data-width="987" data-height="907"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/0b1d55d6a0c43a7171ad5cc2e9b621d4.png" alt="Docker更新" /><figcaption>Docker更新</figcaption></figure></p>
 <p>插件的更新也是一样，这些插件都挺实用的，不过能集成到系统就更好了，比如APP市场、存储挂载等，内置更合理。
 <figure class="pswp-item" style="flex: 147.87735849056602" data-width="1881" data-height="636"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/003f7fff24ea7e2abb2352fc506f5fcb.png" alt="插件更新" /><figcaption>插件更新</figcaption></figure></p>
-<p>然后玩虚拟机，装了一个黑群试试，并直通了一个网口给群晖用，也非常简单，完全可视化操作。不过群晖里比较出彩的几个套件大概也就Drive、Moments、Cloudsync等，其它都不如直接跑docker。以后可以考虑把家庭照片、个人资料等重要文件存到这台机器的固态上来，更安全；同时跑onedrive云备份，确保万无一失。
-<figure class="pswp-item" style="flex: 68.67298578199052" data-width="1449" data-height="1055"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/29f78e47432638a91558856f574813a9.png" alt="网口直通" /><figcaption>网口直通</figcaption></figure></p>
 <p>为了能远程调试rsshub，需要git及相应环境。偷懒直接在底层跑，用在Nerd Tools里一键安装了git，并把自己的仓库拉下来。然后跑了一个rsshub的docker，并把路径指好，就算是部署好了调试环境：vscode远程连过去编写路由，然后通过重启docker并看log的方式来调试。然而重启后发现root目录下的ssh、git设置等都没了，因为是U盘引导启动的原因。所以还是得跑个虚拟机，装了ubuntu 20.04，还挺方便。配置好git等，专门用来调试rsshub。
 <figure class="pswp-item" style="flex: 67.25714285714285" data-width="1177" data-height="875"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/c2a9444245db41a1077719b6a97ec7c1.png" alt="Ubuntu" /><figcaption>Ubuntu</figcaption></figure></p>
 <p>J4125的集显HD600据说挺强，于是用docker安装了一个PLEX，并挂载了群晖的一个媒体盘作为其媒体库。由于themoviedb等数据库都被墙了，所以必须有前置的科学上网。事实上，unraid使用最好有前置代理，否则app市场都打不开，docker部署也麻烦。不过实测走代理后，本地PLEX与PLEX服务器连接存在问题，我在openclash上设置了DOMAIN-KEYWORD,PLEX,DIRECT，避免向PLEX服务器错误汇报代理的IP。设置好后连接正常，影片及剧的信息都识别很准，即便不观影，光看看海报墙也是舒服的。
@@ -103,11 +101,14 @@
 <figure class="pswp-item" style="flex: 176.39664804469274" data-width="1263" data-height="358"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/44a40d89cc55d45877f255a0f76622fa.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
 <hr>
 <p>尝试在家里的黑群上跑PLEX，由于J1900这块CPU太弱鸡，转码基本上都是转圈，暂通过在CoreElec上跑PLEX插件后直接播放，并设置插件自启动。实测整体启动时间和我小米电视的启动时间相当，体验还可以。什么时候安卓上有个Infuse就好了，PLEX真是个让人纠结的东西，但我试了一圈，对于个人影音管理，还是这个最靠谱。</p>
-<p>最终决定换成一台i3 8100T（带HD630集显）的机器，6SATA+nvme+双网口的主板，16G内存，蜗牛机箱。配置已然超过我的台式机了。
+<p>最终换了一台i3 8100T（带HD630集显）的机器，6SATA+nvme+双网口的主板，16G内存，蜗牛机箱，配置已然超过我的台式机了。
 <figure class="pswp-item" style="flex: 75.0" data-width="768" data-height="512"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cd22b0321ba864b9db5ddfdee6e4ded0.jpg" alt="机箱" /><figcaption>机箱</figcaption></figure></p>
-<p>跑unraid后可以把老的闲置硬盘都利用起来。另有一块新买的1T的ssd（三星evo860，600T写入）直通给群晖用，一块500G的nvme当缓存。
+<p>跑unraid后可以把老的小容量闲置硬盘都利用起来，组阵列。阵列之外，另有一块500G的nvme当缓存，一块新买的1T的ssd（三星evo860，600T写入）直通给群晖用。
 <figure class="pswp-item" style="flex: 47.9746835443038" data-width="758" data-height="790"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/075bfe025deaf3ba81b8d2b2e6abde92.jpg" alt="硬盘阵列" /><figcaption>硬盘阵列</figcaption></figure></p>
-<p>把Docker、虚拟机等文件夹全部放到缓存，访问快一些，但是没有保护，一般也不会丢；以后有机会可以改成raid1。影音媒体等不怎么访问的数据文件存在阵列上，有校验保护。因为unraid支持硬盘无访问自动休眠，对于只有晚上回家偶尔看看电影的用途来说（这其实是大部分家庭的使用场景），比较省电，也比较省硬盘。
+<p>跑了群晖虚拟机，主要用到Drive、Moments、Cloudsync等套件，把家庭照片、个人资料等文件存里面，同时跑onedrive云备份，确保万无一失。</p>
+<p>另跑了一个Openwrt虚拟机，并直通了一个网口进去，当旁路由用，完全可视化操作，比实体软路由刷固件简单多了。
+<figure class="pswp-item" style="flex: 68.67298578199052" data-width="1449" data-height="1055"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/29f78e47432638a91558856f574813a9.png" alt="网口直通" /><figcaption>网口直通</figcaption></figure></p>
+<p>把Docker、虚拟机等文件夹全部放到缓存，访问快一些，但是没有保护，不过一般也不会丢；以后有机会可以改成raid1。影音媒体等不怎么访问的数据文件存在阵列上，有校验保护。因为unraid支持硬盘无访问自动休眠，对于只有晚上回家偶尔看看电影的用途来说（这其实是大部分家庭的使用场景），比较省电，也比较省硬盘。
 <figure class="pswp-item" style="flex: 70.67307692307692" data-width="882" data-height="624"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/26aa6789baae1200abb9cadf2dbc3abc.jpg" alt="休眠" /><figcaption>休眠</figcaption></figure></p>
 <p>跑PLEX后终于可以实现流畅的硬解，播放前缓冲约5秒左右，体验很好。实测在全盘待机情况下功耗约27W，PLEX硬解跑起来的时候约50W。
 <figure class="pswp-item" style="flex: 64.321608040201" data-width="1280" data-height="995"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/18504e6b27bcc70ed5b3cad1aef7a270.jpg" alt="功耗" /><figcaption>功耗</figcaption></figure></p>
