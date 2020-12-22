@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/c9d575d84ccc3ab2809eb8c2bb3296dd.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/0ca1d2d369dde6d4cf53070ffa5fffc4.json"
         }
     </script>
     
@@ -99,15 +99,15 @@
 <p>然而J4125的硬解我一直有问题，查了才知道是Intel的BUG还没修。实测CPU软解的话，CPU爆炸，勉强也能播放。为避免转码，可以把烧录字幕的选项设置为仅图像，这样可以避免对ASS字幕转码，降低CPU负担，但ASS的特效也就没了，成为普普通通的字幕。还是不甘心，在网上找了好多好多资料，最终终于解决，要求：1、指定i965驱动；2、关闭VT-d；后者是无意间在smzdm的评论中找到的方案，这是一个神奇的网站。</p>
 <p>实现硬解之后，实测在播放前还是有几秒的等待时间，但播放过程中是流畅无卡顿的。总体来说，其观影效果很棒，APP胜Jellyfin等十余条街，比Kodi的体验也好很多。为了PLEX硬解，这块CPU真是太心累了，早知道直接上i3 8100之类就会简单很多，忧伤。但是，因为关闭了VT-d，CPU的直通功能也就没了，IOMMU也显示禁用，如果想要直通网卡等进行软路由设定的，就必须有个取舍。我纠结了半天，还是打开了VT-d。
 <figure class="pswp-item" style="flex: 176.39664804469274" data-width="1263" data-height="358"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/44a40d89cc55d45877f255a0f76622fa.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
+<p>打开直通后，直通了一个网口给openwrt虚拟机作为wan，并把br0和bond0作为lan，从而实现op拨号并跑科学上网，unraid本机以及lan口接出来的ap均能科学上网。实测在op关掉的情况下，还是可以通过lan访问到unraid进行管理，从而方便调试管理，即便玩炸了也不怕。
+<figure class="pswp-item" style="flex: 68.67298578199052" data-width="1449" data-height="1055"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/29f78e47432638a91558856f574813a9.png" alt="网口直通" /><figcaption>网口直通</figcaption></figure></p>
 <hr>
 <p>尝试在家里的黑群上跑PLEX，由于J1900这块CPU太弱鸡，转码基本上都是转圈，暂通过在CoreElec上跑PLEX插件后直接播放，并设置插件自启动。实测整体启动时间和我小米电视的启动时间相当，体验还可以。什么时候安卓上有个Infuse就好了，PLEX真是个让人纠结的东西，但我试了一圈，对于个人影音管理，还是这个最靠谱。</p>
 <p>最终换了一台i3 8100T（带HD630集显）的机器，6SATA+nvme+双网口的主板，16G内存，蜗牛机箱，配置已然超过我的台式机了。
 <figure class="pswp-item" style="flex: 75.0" data-width="768" data-height="512"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cd22b0321ba864b9db5ddfdee6e4ded0.jpg" alt="机箱" /><figcaption>机箱</figcaption></figure></p>
 <p>跑unraid后可以把老的小容量闲置硬盘都利用起来，组阵列。阵列之外，另有一块500G的nvme当缓存，一块新买的1T的ssd（三星evo860，600T写入）直通给群晖用。
 <figure class="pswp-item" style="flex: 47.9746835443038" data-width="758" data-height="790"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/075bfe025deaf3ba81b8d2b2e6abde92.jpg" alt="硬盘阵列" /><figcaption>硬盘阵列</figcaption></figure></p>
-<p>跑了群晖虚拟机，主要用到Drive、Moments、Cloudsync等套件，把家庭照片、个人资料等文件存里面，同时跑onedrive云备份，确保万无一失。</p>
-<p>另跑了一个Openwrt虚拟机，并直通了一个网口进去，当旁路由用，完全可视化操作，比实体软路由刷固件简单多了。
-<figure class="pswp-item" style="flex: 68.67298578199052" data-width="1449" data-height="1055"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/29f78e47432638a91558856f574813a9.png" alt="网口直通" /><figcaption>网口直通</figcaption></figure></p>
+<p>跑了群晖虚拟机，主要用到Drive、Moments、Cloudsync等套件，把家庭照片、个人资料等文件存里面，同时跑onedrive云备份，确保万无一失。另跑了一个Openwrt虚拟机，并直通了一个网口进去，当旁路由用，完全可视化操作，比实体软路由刷固件简单多了。</p>
 <p>把Docker、虚拟机等文件夹全部放到缓存，访问快一些，但是没有保护，不过一般也不会丢；以后有机会可以改成raid1。影音媒体等不怎么访问的数据文件存在阵列上，有校验保护。因为unraid支持硬盘无访问自动休眠，对于只有晚上回家偶尔看看电影的用途来说（这其实是大部分家庭的使用场景），比较省电，也比较省硬盘。
 <figure class="pswp-item" style="flex: 70.67307692307692" data-width="882" data-height="624"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/26aa6789baae1200abb9cadf2dbc3abc.jpg" alt="休眠" /><figcaption>休眠</figcaption></figure></p>
 <p>跑PLEX后终于可以实现流畅的硬解，播放前缓冲约5秒左右，体验很好。实测在全盘待机情况下功耗约27W，PLEX硬解跑起来的时候约50W。
