@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/0ca1d2d369dde6d4cf53070ffa5fffc4.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/399ddc10a36857712b5db51ecaff3c14.json"
         }
     </script>
     
@@ -99,7 +99,7 @@
 <p>然而J4125的硬解我一直有问题，查了才知道是Intel的BUG还没修。实测CPU软解的话，CPU爆炸，勉强也能播放。为避免转码，可以把烧录字幕的选项设置为仅图像，这样可以避免对ASS字幕转码，降低CPU负担，但ASS的特效也就没了，成为普普通通的字幕。还是不甘心，在网上找了好多好多资料，最终终于解决，要求：1、指定i965驱动；2、关闭VT-d；后者是无意间在smzdm的评论中找到的方案，这是一个神奇的网站。</p>
 <p>实现硬解之后，实测在播放前还是有几秒的等待时间，但播放过程中是流畅无卡顿的。总体来说，其观影效果很棒，APP胜Jellyfin等十余条街，比Kodi的体验也好很多。为了PLEX硬解，这块CPU真是太心累了，早知道直接上i3 8100之类就会简单很多，忧伤。但是，因为关闭了VT-d，CPU的直通功能也就没了，IOMMU也显示禁用，如果想要直通网卡等进行软路由设定的，就必须有个取舍。我纠结了半天，还是打开了VT-d。
 <figure class="pswp-item" style="flex: 176.39664804469274" data-width="1263" data-height="358"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/44a40d89cc55d45877f255a0f76622fa.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
-<p>打开直通后，直通了一个网口给openwrt虚拟机作为wan，并把br0和bond0作为lan，从而实现op拨号并跑科学上网，unraid本机以及lan口接出来的ap均能科学上网。实测在op关掉的情况下，还是可以通过lan访问到unraid进行管理，从而方便调试管理，即便玩炸了也不怕。
+<p>打开直通后，直通了一个网口给openwrt虚拟机作为wan，并把br0和bond0作为lan，从而实现op拨号并跑科学上网，unraid本机以及lan口接出来的ap均能科学上网。实测在op关掉的情况下，还是可以通过lan访问到unraid进行管理，从而方便调试管理，即便玩炸了也不怕。原本我还给unraid配了一个前置的路由器R2S，这下连这个也省了。
 <figure class="pswp-item" style="flex: 68.67298578199052" data-width="1449" data-height="1055"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/29f78e47432638a91558856f574813a9.png" alt="网口直通" /><figcaption>网口直通</figcaption></figure></p>
 <hr>
 <p>尝试在家里的黑群上跑PLEX，由于J1900这块CPU太弱鸡，转码基本上都是转圈，暂通过在CoreElec上跑PLEX插件后直接播放，并设置插件自启动。实测整体启动时间和我小米电视的启动时间相当，体验还可以。什么时候安卓上有个Infuse就好了，PLEX真是个让人纠结的东西，但我试了一圈，对于个人影音管理，还是这个最靠谱。</p>
