@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/718ea36381153390cf062ce5c089d726.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/6a21fdff514e06c4c5778f9db31ec689.json"
         }
     </script>
     
@@ -107,13 +107,13 @@
 <figure class="pswp-item" style="flex: 75.0" data-width="768" data-height="512"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cd22b0321ba864b9db5ddfdee6e4ded0.jpg" alt="机箱" /><figcaption>机箱</figcaption></figure></p>
 <p>跑unraid后可以把老的小容量闲置硬盘都利用起来，组阵列。阵列之外，另有一块500G的nvme当缓存，一块新买的1T的ssd（三星evo860，600T写入）直通给群晖用。
 <figure class="pswp-item" style="flex: 47.9746835443038" data-width="758" data-height="790"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/075bfe025deaf3ba81b8d2b2e6abde92.jpg" alt="硬盘阵列" /><figcaption>硬盘阵列</figcaption></figure></p>
-<p>跑了群晖虚拟机，主要用到Drive、Moments、Cloudsync等套件，把家庭照片、个人资料等文件存里面，同时跑onedrive云备份，确保万无一失。另跑了一个Openwrt虚拟机，并直通了一个网口进去，当旁路由用，完全可视化操作，比实体软路由刷固件简单多了。</p>
-<p>把Docker、虚拟机等文件夹全部放到缓存，访问快一些，但是没有保护，不过一般也不会丢；以后有机会可以改成raid1。影音媒体等不怎么访问的数据文件存在阵列上，有校验保护。因为unraid支持硬盘无访问自动休眠，对于只有晚上回家偶尔看看电影的用途来说（这其实是大部分家庭的使用场景），比较省电，也比较省硬盘。
+<p>跑了群晖虚拟机，主要用到Drive、Moments、Cloudsync等套件，把家庭照片、个人资料等文件存里面，同时跑onedrive云备份，确保万无一失。跑了一个Openwrt虚拟机，并直通了一个网口进去，当旁路由用，完全可视化操作，比实体软路由刷固件简单多了。跑了一个win10虚拟机，在外面的时候偶尔可以回内网环境调试用。</p>
+<p>把Docker、虚拟机等文件夹全部放到缓存，访问快一些，但是没有保护，不过一般也不会丢；以后有机会可以改成raid1。影音媒体等不怎么访问的数据文件存在阵列上，有校验保护。因为unraid支持硬盘无访问自动休眠，对于只有晚上回家偶尔看看电影的用途来说（这其实是大部分家庭的使用场景），比较省电，也比较省硬盘。有了自己的阵列还是挺好的，硬盘滚动换新，相当于有了一种可修复、可成长的生命力，而不是坏了之后只能重建。
 <figure class="pswp-item" style="flex: 70.67307692307692" data-width="882" data-height="624"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/26aa6789baae1200abb9cadf2dbc3abc.jpg" alt="休眠" /><figcaption>休眠</figcaption></figure></p>
 <p>跑PLEX后终于可以实现流畅的硬解，播放前缓冲约5秒左右，体验很好。实测在全盘待机情况下功耗约27W，PLEX硬解跑起来的时候约50W。
 <figure class="pswp-item" style="flex: 64.321608040201" data-width="1280" data-height="995"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/18504e6b27bcc70ed5b3cad1aef7a270.jpg" alt="功耗" /><figcaption>功耗</figcaption></figure></p>
 <p>PLEX在1.20.4.3517版更新后，终于提供了为电视剧库指定用tmdb获取信息的功能，而非原先默认的tvdb。themoviedb听起来是针对电影的，实际上电视剧信息也很全，比tvdb更好，基本可以全自动识别不用纠正。PLEX相较于Jellyfin的一大优势就是刮削更好用，即便都是指向同样的数据库。在没有代理的情况下，可以通过改hosts来解决tmdb无法访问的问题，速度也还可以。</p>
-<p>这是一台All in one的机器，理论上可以把所有服务跑在这台机器上，但我还是选择把rss相关服务跑在GK55那台机器上，国际访问起来更方便一些。通过这一波整合，淘汰了家里用来跑存储的蜗牛星际、用来跑下载及旁路的N1（小钢炮&amp;Openwrt）以及用来当播放器的两台N1（CoreElec），实现了心理上的舒适。</p>
+<p>这是一台All in one的机器，理论上可以把所有服务跑在这台机器上，但我还是选择把rss相关服务跑在GK55那台机器上，国际访问起来更方便一些；端口转发dmz，访问也更方便些。通过这一波整合，淘汰了家里用来跑存储的蜗牛星际、用来跑下载及旁路的N1（小钢炮&amp;Openwrt）以及用来当播放器的两台N1（CoreElec），实现了心理上的舒适。</p>
 
             </div>
         </article>
