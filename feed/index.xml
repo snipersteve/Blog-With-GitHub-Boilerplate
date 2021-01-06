@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 06 Jan 2021 08:37:38 +0806</lastBuildDate><pubDate>Wed, 06 Jan 2021 08:37:38 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 06 Jan 2021 08:44:11 +0806</lastBuildDate><pubDate>Wed, 06 Jan 2021 08:44:11 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/internet/</link><description>&lt;p&gt;我的智商极限大约就是折腾上网了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -99,13 +99,14 @@
 &lt;figure class="pswp-item" style="flex: 44.34389140271493" data-width="784" data-height="884"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/0c26652ed7a0203264b9b1cd466bacff.png" alt="Notion" /&gt;&lt;figcaption&gt;Notion&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;改用手机或电脑看书之后，倒不如直接发Twitter，关于某一本书的感想，写在一个thread里，要引用原文的，直接截图就好，最为简单。&lt;/p&gt;
 &lt;h2&gt;书籍管理&lt;/h2&gt;
-&lt;p&gt;长期以来，阅读都记录在豆瓣上，在年末时还能看看这一年一共看了多少书，很有成就感。慢慢地看书少了，也懒得上去记一笔到底看了什么书。
+&lt;p&gt;长期以来，阅读都记录在豆瓣上，在年末时还能看看这一年一共看了多少书，很有成就感。慢慢地看书少了，也懒得上去记一笔到底看了什么书。大约只有在想看书评时，才会去上去看一下。
 &lt;figure class="pswp-item" style="flex: 50.346820809248555" data-width="871" data-height="865"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d5cc5cd4b3bb505d29d25b71380dc647.png" alt="douban" /&gt;&lt;figcaption&gt;douban&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;某次在尝试转换自购的Kindle电子书为epub时，接触到了calibre，觉得这工具挺不错的，管理书籍很方便。但是有些过于臃肿，用两次就不想用了。&lt;/p&gt;
 &lt;p&gt;好多年之后，知道还有个calibre-web，于是用docker跑了一个。发现这货本质就是个plex嘛，把书丢进去后，可以联网匹配书籍信息，可以转换格式，可以在线阅读。而且暗黑主题完全就是抄plex的，让人直呼牛逼。
 &lt;figure class="pswp-item" style="flex: 113.70123691722169" data-width="2390" data-height="1051"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/923d143095df51608037306a5f674a27.jpg" alt="calibre-web" /&gt;&lt;figcaption&gt;calibre-web&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;手机端自适应也很不错，直接拿来当阅读器也不是不可以。不过我还是仅用来管理，阅读还是用多看吧。
 &lt;figure class="pswp-item" style="flex: 24.02135231316726" data-width="1080" data-height="2248"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3b1e0e0313ea47a783abc01426f06ca4.jpg" alt="calibre-mobile" /&gt;&lt;figcaption&gt;calibre-mobile&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;书籍的来源，一部分是中亚自购后去DRM，然后全平台可看。图省力的话，可以在微信读书app里看，书很全。Kindle Unlimited也是差不多道理，但是书太少了，基本只有些畅销书可读。现在更多直接在网上下载盗版，愿意支持一下的，再去从正。我特别喜欢三体，除了纸质版外，几乎在所有电子平台都买了正版。&lt;/p&gt;
 &lt;p&gt;折腾了这么多，书还是没看几本，有点忧伤。&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/reading/</guid><pubDate>Thu, 26 Dec 2019 18:26:00 +0806</pubDate></item><item><title>科学看剧</title><link>/archives/movie/</link><description>&lt;p&gt;大约从大学起开始看美剧，跟风看老友记、越狱什么的，主要是从学校的ftp下载，或者从同学那里拷贝。后来有了Maze，下载更方便一些。后来发现别人看完都去考GRE出国了，都是带着目的去看美剧的，就我是在那儿瞎JB看。&lt;/p&gt;
 &lt;p&gt;研究生阶段主要看冰与火、纸牌屋为主，同时开始看韩剧，城市猎人、星星的你之类。主要通过人人影视等渠道去下载，迅雷下到电脑上，几个室友一起看。&lt;/p&gt;
