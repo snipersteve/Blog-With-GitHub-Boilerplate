@@ -21,7 +21,7 @@ author: ste
 插件的更新也是一样，这些插件都挺实用的，不过能集成到系统就更好了，比如APP市场、存储挂载等，内置更合理。
 ![插件更新](./images/update.png)
 
-为了能远程调试rsshub，需要git及相应环境。偷懒直接在底层跑，用在Nerd Tools里一键安装了git，并把自己的仓库拉下来。然后跑了一个rsshub的docker，并把路径指好，就算是部署好了调试环境：vscode远程连过去编写路由，然后通过重启docker并看log的方式来调试。然而重启后发现root目录下的ssh、git设置等都没了，因为是U盘引导启动的原因。所以还是得跑个虚拟机，装了ubuntu 20.04，还挺方便。配置好git等，专门用来调试rsshub。（update：改为直接docker跑了一个code-server搞定，ubuntu虚拟机也不需要了，电脑上都不需要装vscode了，浏览器里搞定）
+为了能远程调试rsshub，需要git及相应环境。偷懒直接在底层跑，用在Nerd Tools里一键安装了git，并把自己的仓库拉下来。然后跑了一个rsshub的docker，并把路径指好，就算是部署好了调试环境：vscode远程连过去编写路由，然后通过重启docker并看log的方式来调试。然而重启后发现root目录下的ssh、git设置等都没了，因为是U盘引导启动的原因。所以还是得跑个虚拟机，装了ubuntu 20.04，配置好git和环境，专门用来调试rsshub。（update：改为直接用docker跑了一个code-server，ubuntu虚拟机也不需要了，电脑上都不需要装vscode了，浏览器里全搞定）
 ![Ubuntu](./images/ubuntu.png)
 
 J4125的集显HD600据说挺强，于是用docker安装了一个PLEX，并挂载了群晖的一个媒体盘作为其媒体库。由于themoviedb等数据库都被墙了，所以必须有前置的科学上网。事实上，unraid使用最好有前置代理，否则app市场都打不开，docker部署也麻烦。不过实测走代理后，本地PLEX与PLEX服务器连接存在问题，我在openclash上设置了DOMAIN-KEYWORD,PLEX,DIRECT，避免向PLEX服务器错误汇报代理的IP。设置好后连接正常，影片及剧的信息都识别很准，即便不观影，光看看海报墙也是舒服的。
