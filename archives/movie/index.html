@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/1b823f74a8892872e63c09af971f2064.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/3cd0291759285127ab13a365fffb13bb.json"
         }
     </script>
     
@@ -102,13 +102,14 @@
 <figure class="pswp-item" style="flex: 81.84143222506394" data-width="1280" data-height="782"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/858a3bd6c4c329686b0b9307f9904bb3.jpg" alt="电视上的效果" /><figcaption>电视上的效果</figcaption></figure></p>
 <p>试着放了一下4k的片子，确实更流畅，而且群晖CPU并没有显著变化。
 <figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/ecd01f17a2abf1208186995698b00e2f.jpg" alt="4K" /><figcaption>4K</figcaption></figure></p>
-<p>Jellyfin作为开源免费软件，功能上并不输Plex，我更喜欢Jellyfin的一点是它不需要像Plex那样要过Plex服务器认证后才能连接，直接远程连接到自己服务器即可，更为自主可靠。另外，一些细节设置也更为人性化，比如在手动识别媒体信息时能直接显示匹配的片名及图片，选择起来更直观。此外，Jellyfin支持硬解，我试了在配置硬解后网页直接播放，CPU降至50%左右，还是勉强，不如终端解码。
+<p>Jellyfin作为开源免费软件，功能上并不输Plex，我更喜欢Jellyfin的一点是它不需要像Plex那样要过Plex服务器认证后才能连接，直接远程连接到自己服务器即可，更为自主可靠。此外，Jellyfin无须付费就支持硬解，我试了在配置硬解后网页直接播放，CPU降至50%左右，还是有些勉强。
 <figure class="pswp-item" style="flex: 99.84177215189874" data-width="631" data-height="316"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/ecf4167bffd940fca042f1484ff6dcf0.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
 <p>Jellyfin+Kodi的方案，相当于就是把Jellyfin作为影片管理器来用了，其刮削器匹配的影片信息，准确度也很高。此外，通过插件下载字幕，也十分方便。
 <figure class="pswp-item" style="flex: 67.5054704595186" data-width="1234" data-height="914"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/799fc13089c728359082ede0d495a3b0.png" alt="字幕" /><figcaption>字幕</figcaption></figure></p>
-<p>不过如果特别有钱的话，Plex+Infuse Pro体验会更好些，同样是Plex作为影片管理器，Infuse作为播放器，UI很舒服，操作也很人性化。通过Apple TV来播放，应该算是最佳方案了。
+<p>不过Jellyfin在匹配同一部剧的不同季的海报上似乎有bug，永远都是用同一张海报。为了解决这个问题，改为跑Emby，则完全没这个问题。Emby可以看成是Jellyfin的付费加强版，和Plex相比各有优劣，价格差不的情况下，我还是选择Plex，在刮削、字体等方面更为省心。</p>
+<p>由于我NAS的CPU太垃圾，使用Plex+Infuse Pro的组合体验会更好，同样是Plex作为影片管理器，Infuse作为播放器，UI很舒服，操作也很人性化。通过Apple TV来播放，应该算是最佳方案了。
 <figure class="pswp-item" style="flex: 66.7361835245047" data-width="1280" data-height="959"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/191a649a3dff4867649f81f9c2d6c51f.jpg" alt="Infuse on iPad Pro" /><figcaption>Infuse on iPad Pro</figcaption></figure></p>
-<p>不过我还是继续用平民方案，对于客厅的Sony电视直接在电视机上装Kodi，性能够用；对于房间的小米电视，性能略差，直接装Kodi有时会卡。因此，还是选择用N1刷CoreELEC后装Jellyfin看。买了一根usb转dc的诱骗线，用小米电视的USB口供电并假装自己是12V从而成功带动N1，这样就免去再接一根电线的麻烦。同时因为有CEC支持，所以可以直接用小米遥控操作N1。N1完全隐在壁挂电视背后，非常完美，这个配合堪称最佳实践。
+<p>平民方案还是用Jellyfin，另选择用N1刷CoreELEC后装Jellyfin看。买了一根usb转dc的诱骗线，用小米电视的USB口供电并假装自己是12V从而成功带动N1，这样就免去再接一根电线的麻烦。同时因为有CEC支持，所以可以直接用小米遥控操作N1。N1完全隐在壁挂电视背后，非常完美，这个配合堪称最佳实践。
 <figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/07c0745d187abf4ccd72f3b08c0450c5.jpg" alt="N1解码" /><figcaption>N1解码</figcaption></figure></p>
 <p>十分喜欢N1这个小盒子，于是又买了个，刷了小钢炮系统用于下载，荒野无灯出品，找到了当年用他的老毛子路由器固件的感觉，十分简洁直观。
 <figure class="pswp-item" style="flex: 70.04189944134079" data-width="1003" data-height="716"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/10e498c2e3a32f4c1c738315a67ae922.png" alt="NDM" /><figcaption>NDM</figcaption></figure></p>
