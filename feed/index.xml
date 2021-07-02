@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 12 Jun 2021 15:11:37 +0806</lastBuildDate><pubDate>Sat, 12 Jun 2021 15:11:37 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 02 Jul 2021 15:04:23 +0806</lastBuildDate><pubDate>Fri, 02 Jul 2021 15:04:23 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/internet/</link><description>&lt;p&gt;我的智商极限大约就是折腾上网了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -335,6 +335,7 @@
 &lt;p&gt;后来Evernote的功能越来越完善，也更加喜欢用。Evernote推出收费机制后，开始付费使用。有一度非常痴迷Moleskine，经常海淘买Moleskine与Evernote的联名款笔记本，每一本附3个月高级账号。现在回想真是情怀。&lt;/p&gt;
 &lt;h1&gt;Vim&lt;/h1&gt;
 &lt;p&gt;用Vim也是因为看了善用佳软的推荐，纵然学习曲线陡峭，但是坚持用下来了。通过Vimwiki插件写笔记及日记，笔记与日记相关联，各种内部链接，亦即wiki的逻辑。用Vimwiki写日记的习惯保持了十年，后来人到中年，顾不过来了，就中断了。&lt;/p&gt;
+&lt;p&gt;&lt;figure class="pswp-item" style="flex: 85.15463917525773" data-width="826" data-height="485"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/d1098dc46f9c1bf8279c534800eab51c.png" alt="vimwiki" /&gt;&lt;figcaption&gt;vimwiki&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;BTW 在善用佳软的推荐下，除了Evernote、Vim之外，还有两件对我有重大影响的：五笔、TotalCommander。&lt;/p&gt;
 &lt;h2&gt;印象笔记&lt;/h2&gt;
 &lt;p&gt;Evernote进入中国后开了小号，相当于开了一分支，叫做印象笔记。印象笔记的好处是与Evernote所有功能一致的情况下，同步飞快。那个时期正好是我步入工作岗位的时候，于是把工作相关笔记全部写在印象笔记里，多终端同步，非常舒适。同时我开始运用Vimwiki中学到的内链思路，不仅仅是无脑收录，更注重笔记间的关联，非常有效&lt;/p&gt;
