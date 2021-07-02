@@ -17,6 +17,8 @@ author: ste
 # Vim
 用Vim也是因为看了善用佳软的推荐，纵然学习曲线陡峭，但是坚持用下来了。通过Vimwiki插件写笔记及日记，笔记与日记相关联，各种内部链接，亦即wiki的逻辑。用Vimwiki写日记的习惯保持了十年，后来人到中年，顾不过来了，就中断了。
 
+![vimwiki](./images/vimwiki.png)
+
 BTW 在善用佳软的推荐下，除了Evernote、Vim之外，还有两件对我有重大影响的：五笔、TotalCommander。
 
 ## 印象笔记
