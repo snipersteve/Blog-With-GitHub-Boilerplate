@@ -159,3 +159,10 @@ update 2020.5.28
 
 顺便说一下，在写路由的过程中，用Visual Studio Code的Remote SSH插件远程到服务器，编写、运行都非常方便，本文也是在VSCode上写的。
 ![VSCode](./images/vscode.png)
+
+---
+
+update 2021.8.2
+
+改为在本地wsl环境里调试，push到codeup后自动部署到服务器，一定程度上的DevOps，更科学。
+![codeup](./images/devops.png)
