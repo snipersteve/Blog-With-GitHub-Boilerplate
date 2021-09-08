@@ -8,6 +8,12 @@ source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
+template = {
+    "name": "Galileo",
+    "type": "git",
+    "url": "https://github.com/AlanDecode/Maverick-Theme-Galileo.git",
+    "branch": "latest"
+}
 enable_jsdelivr = {
     "enabled": True,
     "repo": "snipersteve/Blog@gh-pages"
