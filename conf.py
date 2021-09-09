@@ -6,7 +6,7 @@
 site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
-index_page_size = 10
+index_page_size = 20
 archives_page_size = 20
 enable_jsdelivr = {
     "enabled": True,
