@@ -164,5 +164,5 @@ update 2020.5.28
 
 update 2021.8.2
 
-改为在本地wsl环境里调试，push到codeup后自动部署到服务器，一定程度上的DevOps，更科学。
+改为在本地wsl环境里调试，push到codeup后自动部署到服务器（Oracle的小鸡），一定程度上的DevOps，更科学。
 ![codeup](./images/devops.png)
