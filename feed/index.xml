@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 08 Nov 2021 09:09:46 +0806</lastBuildDate><pubDate>Mon, 08 Nov 2021 09:09:46 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 15 Nov 2021 04:13:42 +0806</lastBuildDate><pubDate>Mon, 15 Nov 2021 04:13:42 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/internet/</link><description>&lt;p&gt;我的智商极限大约就是折腾上网了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -349,7 +349,7 @@
 &lt;p&gt;于是我退回到了一个很老的版本，是印象笔记为了兼容XP专门放出的，大约是最后一个响应快速、没有广告的桌面。鉴于我在印象笔记里已经有一万多条笔记，完全放弃也很难，打算就这样一直用下去，同时找找新的替代品，等服务到期后（2026年），我想我是不会再续费了。&lt;/p&gt;
 &lt;h2&gt;为知笔记&lt;/h2&gt;
 &lt;p&gt;印象笔记表现出流氓姿态后，我开始试用其它笔记，找了一个国产的为知笔记。为知我一开始用了免费版，同时内购了iOS的同步IAP，用起来也不错。但很快为知也流氓了，关闭了免费用户的同步功能，我买的内购也就白买了。不是说收费不行，但给人的体验极差。&lt;/p&gt;
-&lt;p&gt;update 20211108 听说为知重构了，并且增加了双链功能，于是又去跑了一个docker试用。重构版给人的感觉非常惊艳，基本具备了现代笔记软件的主要功能，包括双链、知识图、实时协作、评论、思维导图和结构图等，很适合小团队内协作使用（免费版5人上限）。如果说缺点主要是移动端还不太完善、操作起来不太顺手。总体已经非常好了，观望后续的发展。
+&lt;p&gt;update 20211108 听说为知重构了，并且增加了双链功能，于是又去跑了一个docker试用。重构版给人的感觉非常惊艳，基本具备了现代笔记软件的主要功能，包括双链、知识图、实时协作、评论、思维导图和结构图等，很适合小团队内协作使用（免费版5人上限）。如果说缺点主要是移动端还不太完善、操作起来不太顺手。总体已经非常好了，观望后续的发展，可以作为团队内知识分享和讨论使用。
 &lt;figure class="pswp-item" style="flex: 42.695035460992905" data-width="1204" data-height="1410"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/b2fda1070d414ca9de538757273bf890.png" alt="wiznote" /&gt;&lt;figcaption&gt;wiznote&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Notion&lt;/h2&gt;
 &lt;p&gt;非常火的一个在线笔记，首次提出了块的概念。我在第一时间搞了一个永久账号，但用下来不得要领，似乎更适合作为信息发布功能来使用。因为国内网络的问题，用起来也不流畅，先放着吧。
