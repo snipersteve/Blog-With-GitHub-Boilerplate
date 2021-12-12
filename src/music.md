@@ -36,7 +36,7 @@ Sonos的主要特点就是简单易用，可以在线播放Spotify、Tidal、网
 
 ---
 
-说到音源，这个也经历了一番折腾，尝试过自建曲库，放到NAS里，用Audio Station来管理，不太理想。改为用Plex/Jellyfin组织，也没啥意思，只能图个好看。
+说到音源，这个也经历了一番折腾，尝试过自建曲库，放到NAS里，用Audio Station来管理，不太理想。改为用Plex/Jellyfin组织，也没啥意思，只能图个好看。Plex有个专门的Plexamp用来听歌，挺好看的。
 ![Jellyfin Music](./images/jf-music.jpg)
 
 又试了树莓派刷Volumio等进行管理，科技感很强，实际用起来并不方便。
