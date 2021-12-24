@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/d39e8ebd53c5e66c523df85d014f4431.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/3a50f4cc4d44881c56329b11456d2f91.json"
         }
     </script>
     
@@ -114,7 +114,11 @@
 <figure class="pswp-item" style="flex: 64.321608040201" data-width="1280" data-height="995"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/18504e6b27bcc70ed5b3cad1aef7a270.jpg" alt="功耗" /><figcaption>功耗</figcaption></figure></p>
 <p>PLEX在1.20.4.3517版更新后，终于提供了为电视剧库指定用tmdb获取信息的功能，而非原先默认的tvdb。themoviedb听起来是针对电影的，实际上电视剧信息也很全，比tvdb更好，基本可以全自动识别不用纠正。PLEX相较于Jellyfin/Emby的一大优势就是刮削更好用，即便都是指向同样的数据库，这也是我换来换去后最终选择PLEX的主要原因。在没有代理的情况下，可以通过改hosts来解决tmdb无法访问的问题，速度也还可以。不过我还是选择跑了一个clash的docker，然后在PLEX的docker配置中加入代理的环境变量，速度更快一些。</p>
 <p>这是一台All in one的机器，通过这一波整合，淘汰了家里用来跑存储的蜗牛星际、用来跑下载及旁路的N1（小钢炮&amp;Openwrt）以及用来当播放器的两台N1（CoreElec），实现了心理上的舒适。</p>
-<p>update 经过整个夏天跑下来，硬盘温度一般不超过50度，噪声也很小，稳定运行。</p>
+<p>update 20211015 经过整个夏天跑下来，硬盘温度一般不超过50度，噪声也很小，稳定运行。</p>
+<p>update 20211212 给机器换了壳，一个6盘位的机箱，正好对应主板的6SATA。并且用PCIE扩展出一个nvme槽，又插了一条500G与原先那条组raid1，更为可靠。至此，这个机器所有的槽都插满了，舒服。
+<figure class="pswp-item" style="flex: 66.65387567152725" data-width="1737" data-height="1303"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/647b042e754296a68488f7eaf4b5a9ad.jpg" alt="PCIE转NVME" /><figcaption>PCIE转NVME</figcaption></figure>
+<figure class="pswp-item" style="flex: 66.65387567152725" data-width="1737" data-height="1303"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/b67d75a60fc51736ebd69cd5243ae8fd.jpg" alt="新的机箱" /><figcaption>新的机箱</figcaption></figure>
+<figure class="pswp-item" style="flex: 106.06060606060606" data-width="2520" data-height="1188"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/d49fd9899c16bdc2ab7da0af7ecf785f.png" alt="webui" /><figcaption>webui</figcaption></figure></p>
 
             </div>
         </article>

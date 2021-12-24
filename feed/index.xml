@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 24 Dec 2021 06:05:33 +0806</lastBuildDate><pubDate>Fri, 24 Dec 2021 06:05:33 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 24 Dec 2021 06:21:19 +0806</lastBuildDate><pubDate>Fri, 24 Dec 2021 06:21:19 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/internet/</link><description>&lt;p&gt;我的智商极限大约就是折腾上网了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -71,9 +71,7 @@
 &lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/408e746e3cff69f5e00e6eaa3d957517.jpg" alt="R2S" /&gt;&lt;figcaption&gt;R2S&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;利用Github Action自动编译了固件，烧到TF卡也十分简单。这大约是最简单的软路由方案了吧。跑了一段时间也非常稳定。
 &lt;figure class="pswp-item" style="flex: 65.26181353767561" data-width="1022" data-height="783"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/f6ad0bf5b1c52a0b64d8cd9084726491.png" alt="OP" /&gt;&lt;figcaption&gt;OP&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;R2S虽然温度并不高，夏天也就50度出头，但出于好玩，给它上了一个散热，同时当底座用。风扇无法取电，所以还是被动散热，大约降七八度的样子。
-&lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/db1bd66c5987505355b8c9f8ac411713.jpg" alt="散热底座" /&gt;&lt;figcaption&gt;散热底座&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;本来R2S是放在单位用的，某天家里的ERX突然电源烧坏了，索性给换了。考虑到放鞋柜还是不太放心，这次放到了电视柜处，两个网口，正好wan进lan出。lan接回弱电箱里的交换机，再接至房间各网口。AP也正好换了，换成红米AX6，双频WIFI6，跑有线回程，放在NAS大小正好。
+&lt;p&gt;本来R2S是放在单位用的，某天家里的ERX突然电源烧坏了，索性给换了。考虑到放鞋柜还是不太放心，这次放到了电视柜处，两个网口，正好wan进lan出。lan接回弱电箱里的交换机，再接至房间各网口。AP也正好换了，换成红米AX6，双频WIFI6，跑有线回程，放在NAS上大小正好。
 &lt;figure class="pswp-item" style="flex: 37.49040675364543" data-width="977" data-height="1303"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/0cc40b643945a29131b670698074ebd3.jpg" alt="AP" /&gt;&lt;figcaption&gt;AP&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;结语&lt;/h2&gt;
 &lt;p&gt;我感叹网络技术真是深不见底，越到底层我越搞不懂，这大约是我智商的极限了，如果有空我得去读一读TCP/IP，了解一下底层原理。不过这种软硬结合的玩法真的有趣，我已然将其视为一种乐趣，而超过实现科学上网功能这一初衷。&lt;/p&gt;
@@ -335,7 +333,11 @@
 &lt;figure class="pswp-item" style="flex: 64.321608040201" data-width="1280" data-height="995"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/18504e6b27bcc70ed5b3cad1aef7a270.jpg" alt="功耗" /&gt;&lt;figcaption&gt;功耗&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;PLEX在1.20.4.3517版更新后，终于提供了为电视剧库指定用tmdb获取信息的功能，而非原先默认的tvdb。themoviedb听起来是针对电影的，实际上电视剧信息也很全，比tvdb更好，基本可以全自动识别不用纠正。PLEX相较于Jellyfin/Emby的一大优势就是刮削更好用，即便都是指向同样的数据库，这也是我换来换去后最终选择PLEX的主要原因。在没有代理的情况下，可以通过改hosts来解决tmdb无法访问的问题，速度也还可以。不过我还是选择跑了一个clash的docker，然后在PLEX的docker配置中加入代理的环境变量，速度更快一些。&lt;/p&gt;
 &lt;p&gt;这是一台All in one的机器，通过这一波整合，淘汰了家里用来跑存储的蜗牛星际、用来跑下载及旁路的N1（小钢炮&amp;amp;Openwrt）以及用来当播放器的两台N1（CoreElec），实现了心理上的舒适。&lt;/p&gt;
-&lt;p&gt;update 经过整个夏天跑下来，硬盘温度一般不超过50度，噪声也很小，稳定运行。&lt;/p&gt;
+&lt;p&gt;update 20211015 经过整个夏天跑下来，硬盘温度一般不超过50度，噪声也很小，稳定运行。&lt;/p&gt;
+&lt;p&gt;update 20211212 给机器换了壳，一个6盘位的机箱，正好对应主板的6SATA。并且用PCIE扩展出一个nvme槽，又插了一条500G与原先那条组raid1，更为可靠。至此，这个机器所有的槽都插满了，舒服。
+&lt;figure class="pswp-item" style="flex: 66.65387567152725" data-width="1737" data-height="1303"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/647b042e754296a68488f7eaf4b5a9ad.jpg" alt="PCIE转NVME" /&gt;&lt;figcaption&gt;PCIE转NVME&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="pswp-item" style="flex: 66.65387567152725" data-width="1737" data-height="1303"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/b67d75a60fc51736ebd69cd5243ae8fd.jpg" alt="新的机箱" /&gt;&lt;figcaption&gt;新的机箱&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class="pswp-item" style="flex: 106.06060606060606" data-width="2520" data-height="1188"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/d49fd9899c16bdc2ab7da0af7ecf785f.png" alt="webui" /&gt;&lt;figcaption&gt;webui&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/unraid/</guid><pubDate>Tue, 03 Nov 2020 14:26:00 +0806</pubDate></item><item><title>科学笔记</title><link>/archives/note/</link><description>&lt;p&gt;写笔记似乎很简单，但也是一件可以折腾的事情。我读书的时候基本不写单独的笔记，教材上重点内容划线，旁边再写两句就好，实践证明也十分有效。真正开始琢磨笔记的写法是在电脑上写笔记之后，笔记的电子化之后最直观的改善是便于检索了，但又远不止这一点好处。&lt;/p&gt;
 &lt;h2&gt;Evernote&lt;/h2&gt;
 &lt;p&gt;对于笔记软件的尝试始于Evernote。大约是2008年的时候从善用佳软的网站上看到推荐，记得那个时候还是个连中文搜索、笔记同步都还没有的很初步的软件，但出于尝鲜的想法，下载了一个试试，似乎挺不错，直观感觉是一个可以像word一样编辑的软件，写东西可以不用新建一个word，很方便。
@@ -358,20 +360,22 @@
 &lt;p&gt;非常火的一个在线笔记，首次提出了块的概念。我在第一时间搞了一个永久账号，但用下来不得要领，似乎更适合作为信息发布功能来使用。因为国内网络的问题，用起来也不流畅，先放着吧。
 &lt;figure class="pswp-item" style="flex: 57.00483091787439" data-width="708" data-height="621"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/e1bbb1e571b7bfed7e006ad622d6c0ce.png" alt="Notion Team plan" /&gt;&lt;figcaption&gt;Notion Team plan&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Notion大火之后，被一顿乱抄。国内的在线笔记几乎都有抄Notion的痕迹，比如某钉、某书。其中某书抄得还是很到位的，功能上更为丰富，协同很棒。如果是团队共同写笔记的话，此类在线应用是首选，便于分享、协同、评论等。我司用的某钉，钉盘上存了挺多文件，但是笔记部分还是偏弱。&lt;/p&gt;
+&lt;p&gt;Notion更多被我用来写一些想要发布在网上的内容，配合Vercel可以实现网站、博客的效果。&lt;/p&gt;
 &lt;h2&gt;Joplin&lt;/h2&gt;
 &lt;p&gt;个人笔记还是优先考虑本地，无网络也能用，而且响应速度也更快。由于有多终端使用的需求，同步功能也不能少。所以开始找可以自建同步服务的笔记软件，一开始试了为知的docker版，我在群晖上试了一下，确实可以同步，但这个自建方案还是有账号限制，蛋疼。&lt;/p&gt;
-&lt;p&gt;后来了解到Jolpin是一个开源的，且支持内置webdav同步的笔记软件，所见即所得编辑器，不错的剪藏插件，而且有手机端app，可以说是印象笔记的完美替代品。试用了一下挺不错，但同步起来似乎有些小问题，就没有深入使用。不过后来Joplin又提供了新的同步方案，有机会再试试。&lt;/p&gt;
+&lt;p&gt;后来了解到Jolpin是一个开源的，且支持内置webdav同步的笔记软件，所见即所得编辑器，不错的剪藏插件，而且有手机端app，可以说是印象笔记的完美替代品。试用了一下挺不错，但同步起来似乎有些小问题，就没有深入使用。不过后来Joplin又提供了新的同步方案，就没有这个问题了。但Joplin始终没有太吸引我的地方，最后还是删掉了。&lt;/p&gt;
 &lt;h2&gt;Obsidian&lt;/h2&gt;
 &lt;p&gt;2020年前后，笔记界迎来了跨时代的重大更新：反向链接。或称为双向链接，也就是在A笔记中插入B笔记的链接，同时在B笔记的阅读界面自动提示有A笔记及其它笔记引用了B笔记。&lt;/p&gt;
 &lt;p&gt;笔记内部链接其实很早就有，比如我早年用来写日的vimwiki，就有非常方便的wiki式内部链接，对于建立知识库非常有用。反向链接把这一好处进一步放大，能直接生成知识地图，这似乎是Roam Research的首创，我不太确定是否有更早的来源。&lt;/p&gt;
 &lt;p&gt;双链时代下我首先用的是obsidian，很直观也很好用，源文件全部markdown格式保存，非常友好。而且支持插件，各种花样功能，比如自动git pull和push很实用。比较遗憾的是缺少实时渲染的编辑器，还是编辑、预览分离模式，而且这个功能需求提了很久很久还是没更新，开发节奏偏慢。&lt;/p&gt;
+&lt;p&gt;update 20211223 更新到0.13.14版后，终于支持所见即所得模式了，挺不错。这大约是自主可控的笔记软件的，内容完全markdown存储，且文件本身非常干净，用起来很放心。&lt;/p&gt;
 &lt;h2&gt;思源笔记&lt;/h2&gt;
 &lt;p&gt;为了实时渲染的编辑器，又试了思源笔记，编辑器很好用，而且本土化很好，比如可以用中文【【来引导插入内链，非常方便。同步必须用官方服务，而且同步逻辑很蛋疼；但是也可以用其它同步软件同步本地文件后使用，所以也还可以接受。充值了一年的费用，作为支持，看看后面的发展吧。&lt;/p&gt;
 &lt;h2&gt;logseq&lt;/h2&gt;
 &lt;p&gt;偶然看到有人推荐logseq，就下载试用了一下，当时正在测试金丝雀版本，还有很多问题。但是logseq让人眼前一亮，让我意识到原来笔记软件也是可以用来GTD的。进一步深入用了一个多月时间，觉得logseq非常棒，可以说是一个集笔记与日程管理于一体的软件，兼有一定项目管理的效果。我喜欢这个工具是因为它与我的工作流非常匹配。&lt;/p&gt;
 &lt;p&gt;对于大部分打工人来说，搞个小便签记录一下工作事项是一种普适性工作流。每天的工作事项基本是客户或上级安排过来的，很少有基于项目管理的任务分解而形成的任务。这是大部分项目管理工具的误区，认为所有任务都是分解而来。流水账之外，还是有项目管理及时间管理的要求，需要记录自己有哪些项目在办，以及近期有哪些既定的日程安排。&lt;/p&gt;
 &lt;p&gt;logseq的默认界面，正好暗合了这一工作思路，左边是流水账，右边可设置为项目列表及日程表。当流水账与项目关联起来，就具备了项目管理的基础，即对工作事项的回顾，有无偏离，有无需要补正的。这是反链的好处。&lt;/p&gt;
-&lt;p&gt;不过logseq目前还处理比较前期阶段，还有很多功能待完善，比较急需的还是同步，目前借助git来实现同步总会有一些问题，需要经常re-index之后才能正常显示，有些头疼。&lt;/p&gt;
+&lt;p&gt;不过logseq目前还处理比较前期阶段，还有很多功能待完善，比较急需的还是同步，目前借助git来实现同步总会有一些问题，需要经常re-index之后才能正常显示，有些头疼。我不再将其作为工作使用，转而用来看PDF电子书，并作一些摘录，挺方便的。&lt;/p&gt;
 &lt;h2&gt;Trilium&lt;/h2&gt;
 &lt;p&gt;在试用了那么多笔记软件之后，大概是明白自己需要什么。总结一下就是：&lt;/p&gt;
 &lt;ul&gt;
