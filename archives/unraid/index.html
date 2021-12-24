@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/3a50f4cc4d44881c56329b11456d2f91.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/02b26633a48675e8b34048fe59e27de2.json"
         }
     </script>
     
@@ -101,9 +101,10 @@
 <figure class="pswp-item" style="flex: 176.39664804469274" data-width="1263" data-height="358"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/44a40d89cc55d45877f255a0f76622fa.png" alt="硬解" /><figcaption>硬解</figcaption></figure></p>
 <p>打开直通后，直通了一个网口给openwrt虚拟机作为wan，并把br0和bond0作为lan，从而实现op拨号并跑科学上网，unraid本机以及lan口接出来的ap均能科学上网。实测在op关掉的情况下，还是可以通过lan访问到unraid进行管理，从而方便调试管理，即便玩炸了也不怕。原本我还给unraid配了一个前置的路由器R2S，这下连这个也省了。
 <figure class="pswp-item" style="flex: 68.67298578199052" data-width="1449" data-height="1055"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/29f78e47432638a91558856f574813a9.png" alt="网口直通" /><figcaption>网口直通</figcaption></figure></p>
+<p>另跑了一个群晖的虚拟机，不过因为这个机器没什么扩展性，跑群晖也没太大意义。一台机器搞定所有需求，至少心理上很舒服。
+<figure class="pswp-item" style="flex: 76.68855534709193" data-width="1635" data-height="1066"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/98b2a4375ae64196288d319b7cd02b82.png" alt="All in one" /><figcaption>All in one</figcaption></figure></p>
 <hr>
-<p>尝试在家里的黑群上跑PLEX，由于J1900这块CPU太弱鸡，转码基本上都是转圈，暂通过在CoreElec上跑PLEX插件后直接播放，并设置插件自启动。实测整体启动时间和我小米电视的启动时间相当，体验还可以。什么时候安卓上有个Infuse就好了，PLEX真是个让人纠结的东西，但我试了一圈，对于个人影音管理，还是这个最靠谱。</p>
-<p>最终换了一台i3 8100T（带HD630集显）的机器，6SATA+nvme+双网口的主板，16G内存，蜗牛机箱，配置已然超过我的台式机了。
+<p>试验成功后就开始改造家里的NAS，原本是一台J1900的蜗牛，CPU不支持虚拟化。换了一台i3 8100T（带HD630集显）的机器，6SATA+nvme+双网口的主板，16G内存，还是蜗牛机箱，配置已然超过我的台式机了。
 <figure class="pswp-item" style="flex: 75.0" data-width="768" data-height="512"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/cd22b0321ba864b9db5ddfdee6e4ded0.jpg" alt="机箱" /><figcaption>机箱</figcaption></figure></p>
 <p>跑unraid后可以把老的小容量闲置硬盘都利用起来，组阵列。阵列之外，另有一块500G的nvme当缓存，一块新买的1T的ssd（三星evo860，600T写入）直通给群晖用。
 <figure class="pswp-item" style="flex: 47.9746835443038" data-width="758" data-height="790"><img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/075bfe025deaf3ba81b8d2b2e6abde92.jpg" alt="硬盘阵列" /><figcaption>硬盘阵列</figcaption></figure></p>
