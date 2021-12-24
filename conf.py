@@ -9,8 +9,8 @@ build_dir = "../dist/"
 index_page_size = 20
 archives_page_size = 20
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": "snipersteve/Blog@gh-pages"
+    "enabled": True,
+    "repo": "snipersteve/myblog@gh-pages"
 }
 
 # 站点设置
