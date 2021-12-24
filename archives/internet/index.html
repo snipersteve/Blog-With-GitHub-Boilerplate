@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/a5e85d9357d57b373ee251efa283064c.json"
+            api: "https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/d39e8ebd53c5e66c523df85d014f4431.json"
         }
     </script>
     
@@ -136,15 +136,7 @@
 <p>7月22日，clash作者合并了关于支持酸酸乳协议的<a href="https://github.com/Dreamacro/clash/pull/805">PR</a>，另人纠结的clashr正式退出历史舞台。不过这个PR最终被cherry-pick到premium分支，提这个PR的作者不但水平很高，而且挺无私。</p>
 <p>我现在属于拿来主义，只会拿开源社区的东西来用；希望以后也有能力可以去提pr甚至自己写个有用的程序，也为开源社区作点贡献。</p>
 <h2>家用简化</h2>
-<p>传说中最小的软路由R2S出了官方金属壳，赶紧买了一个，手感真的好，和Orange Pi摆一起，像一对艺术品。相比之下J1900真是庞然大物，换了。
-<figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/408e746e3cff69f5e00e6eaa3d957517.jpg" alt="R2S" /><figcaption>R2S</figcaption></figure></p>
-<p>利用Github Action自动编译了固件，烧到TF卡也十分简单。这大约是最简单的软路由方案了吧。
-<figure class="pswp-item" style="flex: 65.26181353767561" data-width="1022" data-height="783"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/f6ad0bf5b1c52a0b64d8cd9084726491.png" alt="OP" /><figcaption>OP</figcaption></figure></p>
-<p>AP方面，原本计划用Velop mesh ap，后来觉得实在是贵，消费降级，买了最便宜的水星mesh路由，两只的价格不到200，用起来效果也不错。参数上，wifi5略落后，2.5Ghz+5Ghz总共1200M的带宽也无法完全跑满千兆，TP的那款mesh路由其实更好，但我更想要白色的，好看些。这比当年用华硕的Aimesh强多了，回头看华硕的路由器实在是有些坑，但在那个时期人人奉为神器，人的局限性真的很大。
-<figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/87f1ae7e5f78b82e7c2354afae02490e.jpg" alt="Mesh AP" /><figcaption>Mesh AP</figcaption></figure></p>
-<p>基于以上经验，推荐一般家用（200M以上带宽且有网线布线的）可以考虑：R2S + 交换机 + <a href="https://www.tp-link.com.cn/product_1368.html">TL-WDR7650</a>的方案，500元以内的实惠选择。</p>
-<h2>进一步简化</h2>
-<p>使用下来Openwrt总体是稳的，但由于我手贱总会去升级下或者改个什么设置，最终导致出现问题，必须再次打开弱电箱处理。在第N次打开鞋柜里的弱电箱后，我终于放弃了折腾，决定进一步简化上网方案，改为普通路由器+旁路的方案。由于并不是家里所有设备都需要代理，个别设备指定旁路的网关的方式显得更为科学，对整体的影响最小。</p>
+<p>使用下来J1900跑Openwrt总体是稳的，但由于我手贱总会去升级下或者改个什么设置，最终导致出现问题，必须再次打开弱电箱处理。在第N次打开鞋柜里的弱电箱后，我终于放弃了折腾，决定进一步简化上网方案，改为普通路由器+旁路的方案。由于并不是家里所有设备都需要代理，个别设备指定旁路的网关的方式显得更为科学，对整体的影响最小。</p>
 <p>选了号称弱电箱神器的UBNT ER-X作为主路由，以小巧和稳定著称，确保以后再也不必打开弱电箱操作。这台机器到手后给我惊艳的感觉，真的只有巴掌大小。
 <figure class="pswp-item" style="flex: 68.96551724137932" data-width="960" data-height="696"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/3a0171589e2ea3d4639240d5084d14c3.jpg" alt="ERX" /><figcaption>ERX</figcaption></figure></p>
 <p>其复杂的功能界面让我研究了半天，而且这个机器竟然没有自带说明书，大约是太复杂以至于说明书印不下吧。最终都设置好了，但我其实并没有搞明白细节。
@@ -153,8 +145,17 @@
 <figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/1411e10d7f9ad07cf402c9ef52de51d5.jpg" alt="UNMS" /><figcaption>UNMS</figcaption></figure></p>
 <p>然后用N1跑了小钢炮系统，并虚拟出一个Openwrt，同时作为PT下载机和旁路由使用，性价比极高。用docker的方式安装op，确实很方便，更新固件只需要pull一下最新镜像，远程配置一下即可，而不必去动机器本身。
 <figure class="pswp-item" style="flex: 58.05714285714286" data-width="1016" data-height="875"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/60448a53ed36ea029f3fea60a955c4d1.png" alt="N1 OP" /><figcaption>N1 OP</figcaption></figure></p>
-<p>家里原先的J1900准备卖了，R2S则拿到单位用。R2S虽然温度并不高，夏天也就50度出头，但出于好玩，给它上了一个散热，同时当底座用。风扇无法取电，所以还是被动散热，大约降七八度的样子。
+<p>AP方面，原本计划用Velop mesh ap，后来觉得实在是贵，消费降级，买了最便宜的水星mesh路由，两只的价格不到200，用起来效果也不错。参数上，wifi5略落后，2.5Ghz+5Ghz总共1200M的带宽也无法完全跑满千兆，TP的那款mesh路由其实更好，但我更想要白色的，好看些。这比当年用华硕的Aimesh强多了，回头看华硕的路由器实在是有些坑，但在那个时期人人奉为神器，人的局限性真的很大。
+<figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/87f1ae7e5f78b82e7c2354afae02490e.jpg" alt="Mesh AP" /><figcaption>Mesh AP</figcaption></figure></p>
+<h2>进一步简化</h2>
+<p>传说中最小的软路由R2S出了官方金属壳，赶紧买了一个，手感真的好，和Orange Pi摆一起，像一对艺术品。
+<figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/408e746e3cff69f5e00e6eaa3d957517.jpg" alt="R2S" /><figcaption>R2S</figcaption></figure></p>
+<p>利用Github Action自动编译了固件，烧到TF卡也十分简单。这大约是最简单的软路由方案了吧。跑了一段时间也非常稳定。
+<figure class="pswp-item" style="flex: 65.26181353767561" data-width="1022" data-height="783"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/f6ad0bf5b1c52a0b64d8cd9084726491.png" alt="OP" /><figcaption>OP</figcaption></figure></p>
+<p>R2S虽然温度并不高，夏天也就50度出头，但出于好玩，给它上了一个散热，同时当底座用。风扇无法取电，所以还是被动散热，大约降七八度的样子。
 <figure class="pswp-item" style="flex: 66.66666666666667" data-width="1280" data-height="960"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/db1bd66c5987505355b8c9f8ac411713.jpg" alt="散热底座" /><figcaption>散热底座</figcaption></figure></p>
+<p>本来R2S是放在单位用的，某天家里的ERX突然电源烧坏了，索性给换了。考虑到放鞋柜还是不太放心，这次放到了电视柜处，两个网口，正好wan进lan出。lan接回弱电箱里的交换机，再接至房间各网口。AP也正好换了，换成红米AX6，双频WIFI6，跑有线回程，放在NAS大小正好。
+<figure class="pswp-item" style="flex: 37.49040675364543" data-width="977" data-height="1303"><img src="https://cdn.jsdelivr.net/gh/snipersteve/Blog@gh-pages/archives/assets/0cc40b643945a29131b670698074ebd3.jpg" alt="AP" /><figcaption>AP</figcaption></figure></p>
 <h2>结语</h2>
 <p>我感叹网络技术真是深不见底，越到底层我越搞不懂，这大约是我智商的极限了，如果有空我得去读一读TCP/IP，了解一下底层原理。不过这种软硬结合的玩法真的有趣，我已然将其视为一种乐趣，而超过实现科学上网功能这一初衷。</p>
 <p>这一感觉和网友<a href="https://twitter.com/i/web/status/1126165698978271232">@cxiaoji</a>说的很像：</p>
