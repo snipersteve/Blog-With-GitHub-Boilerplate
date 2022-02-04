@@ -64,3 +64,5 @@ update 20211212 给机器换了壳，一个6盘位的机箱，正好对应主板
 ![PCIE转NVME](./images/nvme.jpg)
 ![新的机箱](./images/newcase.jpg)
 ![webui](./images/unraid-webui.png)
+
+最终总结一下，unraid是家用nas的一个很好的选择，放弃raid带来的超高读写速度，来换取更低的功耗与噪音、更长的硬盘寿命、更灵活的硬盘管理，同时数据保护比起raid可能更为可靠。此外还有非常方便的docker市场，各种服务一键部署，非常舒服。
