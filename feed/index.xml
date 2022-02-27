@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 22 Feb 2022 09:34:48 +0806</lastBuildDate><pubDate>Tue, 22 Feb 2022 09:34:48 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 27 Feb 2022 13:03:07 +0806</lastBuildDate><pubDate>Sun, 27 Feb 2022 13:03:07 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/internet/</link><description>&lt;p&gt;我的智商极限大约就是折腾上网了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -379,7 +379,7 @@
 &lt;p&gt;2020年前后，笔记界迎来了跨时代的重大更新：反向链接。或称为双向链接，也就是在A笔记中插入B笔记的链接，同时在B笔记的阅读界面自动提示有A笔记及其它笔记引用了B笔记。&lt;/p&gt;
 &lt;p&gt;笔记内部链接其实很早就有，比如我早年用来写日的vimwiki，就有非常方便的wiki式内部链接，对于建立知识库非常有用。反向链接把这一好处进一步放大，能直接生成知识地图，这似乎是Roam Research的首创，我不太确定是否有更早的来源。&lt;/p&gt;
 &lt;p&gt;双链时代下我首先用的是obsidian，很直观也很好用，源文件全部markdown格式保存，非常友好。而且支持插件，各种花样功能，比如自动git pull和push很实用。比较遗憾的是缺少实时渲染的编辑器，还是编辑、预览分离模式，而且这个功能需求提了很久很久还是没更新，开发节奏偏慢。&lt;/p&gt;
-&lt;p&gt;update 20211223 更新到0.13.14版后，终于支持所见即所得模式了，挺不错。这大约是自主可控的笔记软件的，内容完全markdown存储，且文件本身非常干净，用起来很放心。&lt;/p&gt;
+&lt;p&gt;update 20211223 更新到0.13.14版后，终于支持所见即所得模式了，挺不错。这大约是自主可控的笔记软件的，内容完全markdown存储，且文件本身非常干净，用起来很放心。不过我实在没什么可以写的东西，就拿来写博客（就是这个博客），写完自动push到github，并用github-action编译为静态网页，挺顺手的。&lt;/p&gt;
 &lt;h2&gt;思源笔记&lt;/h2&gt;
 &lt;p&gt;为了实时渲染的编辑器，又试了思源笔记，编辑器很好用，而且本土化很好，比如可以用中文【【来引导插入内链，非常方便。同步必须用官方服务，而且只能手动同步有些蛋疼。不过也可以用其它同步软件同步本地文件后使用，所以也还可以接受。目前看摘录有些垃圾、手机APP很垃圾，其它还好。充值了一年的费用，作为支持，看看后面的发展吧。&lt;/p&gt;
 &lt;p&gt;对了，还有个官方的docker，我以为可以跑同步，其实只是个web版笔记，用用也还行，如果能同步就完美了。&lt;/p&gt;
