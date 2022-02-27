@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     </url>
 
     <url>
+        <loc>/archives/photo/</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>/archives/music/</loc>
         <lastmod>2020-01-22</lastmod>
         <changefreq>always</changefreq>
