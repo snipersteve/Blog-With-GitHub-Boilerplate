@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "ffdd3777f3446e3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fb348ab9ea64c28",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "src/note.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9d67800634d35231",
+    "type": "split",
+    "children": [
+      {
+        "id": "1166ffb2bcaebd03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d30bf625a90a2e67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "adf208e42a8c4584",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c85300eb353ca9da",
+    "type": "split",
+    "children": [
+      {
+        "id": "333457ffc9a2ea34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9316f7063de297d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/note.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3fb348ab9ea64c28",
+  "lastOpenFiles": [
+    "src/note.md",
+    "src/hello-world.md",
+    "src/download.md",
+    "src/images/笔记1.png",
+    "src/about.md",
+    "README.md"
+  ]
+}
