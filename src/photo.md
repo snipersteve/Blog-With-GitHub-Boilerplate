@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: post
 title: 科学拍照
 slug: photo
 date: 2020/1/28 19:32:00
@@ -11,4 +11,5 @@ author: ste
 
 镜头也买过多个，其中最喜欢是这个12-40焦段的2.8恒定光圈头。
 ![](1240.jpg)
+
 人脸识别
