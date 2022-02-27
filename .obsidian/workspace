@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "src/reading.md",
+            "file": "src/photo.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/reading.md",
+                "file": "src/photo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "3fb348ab9ea64c28",
   "lastOpenFiles": [
-    "src/reading.md",
     "src/photo.md",
+    "src/images/微信图片_20220227203243.jpg",
+    "src/about.md",
+    "src/reading.md",
     "src/download.md",
     "src/images/logseq.png",
     "src/images/KPW.jpg",
     "src/note.md",
     "src/hello-world.md",
-    "src/images/笔记1.png",
-    "src/about.md",
-    "README.md"
+    "src/images/笔记1.png"
   ]
 }
