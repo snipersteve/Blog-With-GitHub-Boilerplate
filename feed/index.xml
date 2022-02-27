@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 27 Feb 2022 13:21:01 +0806</lastBuildDate><pubDate>Sun, 27 Feb 2022 13:21:01 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>科学生活</title><link>/</link><description>做什么都得走点技术流</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}icon.png</url><title>科学生活</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 27 Feb 2022 13:25:42 +0806</lastBuildDate><pubDate>Sun, 27 Feb 2022 13:25:42 +0806</pubDate><item><title>Hello World!</title><link>/archives/first-post/</link><description>&lt;p&gt;暂时不知道要写什么。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="pswp-item" style="flex: 172.78617710583154" data-width="1600" data-height="463"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/cca364b0ddfd077d980613e7afc53f60.jpg" alt="hello" /&gt;&lt;figcaption&gt;hello&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/first-post/</guid><pubDate>Wed, 25 Dec 2019 11:50:00 +0806</pubDate></item><item><title>科学上网</title><link>/archives/internet/</link><description>&lt;p&gt;我的智商极限大约就是折腾上网了。&lt;/p&gt;
 &lt;p&gt;小时候家里没有电脑，跑去表哥家里玩游戏，那时候是拨号上网，联网之后电话就打不进来了，所以妈妈叫我回家吃饭却打不通电话，只能干着急。&lt;/p&gt;
@@ -281,11 +281,15 @@
 &lt;hr&gt;
 &lt;p&gt;最终回归本源还是在于听什么。年纪渐长，少女时代那种蹦蹦跳跳的再也不喜欢了，但是依然喜欢成员里独立发唱片的Taeyeon、Tiffany，每次出的歌还是质量很高。但是听多了会觉得心烦，慢慢开始听古典，常听巴赫&lt;a href="https://open.spotify.com/album/1aCpHSQE5ghxibsQ5gkBe0"&gt;哥德堡变奏&lt;/a&gt;，能够平复心情。&lt;/p&gt;
 &lt;p&gt;所谓科学听歌，其实没有任何需要科学的成份，只要听自己喜欢的，就行了。&lt;/p&gt;
-</description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/music/</guid><pubDate>Wed, 22 Jan 2020 20:36:00 +0806</pubDate></item><item><title>科学拍照</title><link>/archives/photo/</link><description>&lt;p&gt;拍照是一个很复杂的事情。买过多个相机。
+</description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/music/</guid><pubDate>Wed, 22 Jan 2020 20:36:00 +0806</pubDate></item><item><title>科学拍照</title><link>/archives/photo/</link><description>&lt;p&gt;拍照是一个很复杂的事情。&lt;/p&gt;
+&lt;h2&gt;器材&lt;/h2&gt;
+&lt;p&gt;买过多个相机。
 &lt;figure class="pswp-item" style="flex: 66.66666666666667" data-width="1600" data-height="1200"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/749d8d27e34ac6fed80856d6b7fb0410.jpg" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;镜头也买过多个，其中最喜欢是这个12-40焦段的2.8恒定光圈头。
 &lt;figure class="pswp-item" style="flex: 50.0" data-width="1080" data-height="1080"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/6028870fb09825acd18801675d28526f.jpg" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;人脸识别&lt;/p&gt;
+&lt;h2&gt;照片管理&lt;/h2&gt;
+&lt;p&gt;&lt;figure class="pswp-item"  data-width="-1" data-height="-1" size-undefined&gt;&lt;img src="images/Pasted%20image%2020220227212442.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;人脸识别&lt;/h2&gt;
 </description><author>sfl05@163.com (ste)</author><guid isPermaLink="true">/archives/photo/</guid><pubDate>Tue, 28 Jan 2020 19:32:00 +0806</pubDate></item><item><title>科学下载</title><link>/archives/download/</link><description>&lt;p&gt;记得第一次下载是在表哥家玩电脑，听别人说可以在网上下载mp3而不需要买磁带了，觉得很神奇，就去找了一首歌下载试试。点了下载，就看一张张纸从一个球飘向一个文件夹，飘了约莫有个把小时还没有下载好。我很着急，因为担心下载歌曲出错，又不敢打CS，傻傻盯着屏幕等。
 &lt;figure class="pswp-item" style="flex: 71.64750957854406" data-width="374" data-height="261"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/snipersteve/myblog@gh-pages/archives/assets/18f7b9cbc583fed63fc9201ef058c3e2.gif" alt="第一次下载" /&gt;&lt;figcaption&gt;第一次下载&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;实在等不住了就去找表哥，表哥说要用个工具下载，然后打开了一个软件，点下载，瞬间就下载好了。我觉得下载软件真是太神奇了，大大节省了时间。当时下载了什么歌曲已经忘记，但还记得那个软件，叫作Flashget。多年以后Flashget的作者似乎因为沉迷魔兽，没有再更新了，这软件也就废了。后来就有了迅雷，也挺好用，尤其是下载完成时叮的那一声，听着特别爽。只是迅雷这个软件越来越臃肿，下载速度也越来越慢，各种会员层出不穷，以至于最终变成卖理财产品。不知从什么时候起经常下载到99%就不动了，也就不再用了。当时还有个叫verycd的网站资源非常多，需要用电驴软件来下载。ed2k协议的机制不太清楚，应该也是类似BT吧，软件默认配置有一套比较合理的上传和下载机制，然而这种平衡被迅雷等吸血软件打破了，只下载不上传，把这个生态都搞坏了。后来PT应运而生，我听说养PT很麻烦，还要考核，就懒得研究了。&lt;/p&gt;
