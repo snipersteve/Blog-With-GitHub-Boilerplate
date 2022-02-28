@@ -16,6 +16,4 @@ author: ste
 ![](./images/1240.jpg)
 
 ## 照片管理
-![](./images/Pasted%20image%2020220227212442.png)
 
-## 人脸识别
